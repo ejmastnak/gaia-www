@@ -18,6 +18,24 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
           {{ $t("nav.about") }}
         </I18nRouterLink>
       </li>
+
+      <li>
+        <I18nRouterLink routeBasename="products">
+          {{ $t("nav.products") }}
+        </I18nRouterLink>
+      </li>
+
+      <li>
+        <I18nRouterLink routeBasename="wheretobuy">
+          {{ $t("nav.wheretobuy") }}
+        </I18nRouterLink>
+      </li>
+
+      <li>
+        <I18nRouterLink routeBasename="contact">
+          {{ $t("nav.contact") }}
+        </I18nRouterLink>
+      </li>
     </ul>
 
     <LanguageSwitcher />
