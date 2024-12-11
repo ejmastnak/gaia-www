@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import Translate from "@/i18n/translation"
-import HomeView from '@/Views/HomeView.vue'
-import AboutView from '@/Views/AboutView.vue'
-import PageNotFoundView from '@/Views/PageNotFoundView.vue'
+import Home from '@/Views/Home.vue'
+import About from '@/Views/About.vue'
+import PageNotFound from '@/Views/PageNotFound.vue'
 
 const routes = [
   // ------------------------------------------------------------------------- //
@@ -11,17 +11,17 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView,
+    component: Home,
   },
   {
     path: '/sl',
     name: 'home.sl',
-    component: HomeView,
+    component: Home,
   },
   {
     path: '/en',
     name: 'home.en',
-    component: HomeView,
+    component: Home,
   },
 
   // ------------------------------------------------------------------------- //
@@ -30,22 +30,22 @@ const routes = [
   { 
     path: '/about',
     name: 'about.EN',
-    component: AboutView,
+    component: About,
   },
   {
     path: '/en/about',
     name: 'about.en',
-    component: AboutView,
+    component: About,
   },
   {
     path: '/o-nas',
-    component: HomeView,
+    component: Home,
     name: 'about.SL',
   },
   {
     path: '/sl/o-nas',
     name: 'about.sl',
-    component: AboutView,
+    component: About,
   },
 
   // ------------------------------------------------------------------------- //
@@ -54,17 +54,17 @@ const routes = [
   {
     path: '/404',
     name: '404',
-    component: PageNotFoundView,
+    component: PageNotFound,
   },
   {
     path: '/en/404',
     name: '404.en',
-    component: PageNotFoundView,
+    component: PageNotFound,
   },
   {
     path: '/sl/404',
     name: '404.sl',
-    component: PageNotFoundView,
+    component: PageNotFound,
   },
   {
     path: '/:pathMatch(.*)*',
