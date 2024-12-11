@@ -1,0 +1,22 @@
+{
+  "locales": {
+    "en": "Angleško",
+    "sl": "Slovensko"
+  },
+  "nav": {
+    "home": "Domov",
+    "about": "O nas"
+  },
+  "home": {
+    "h1": "Slovensko",
+    "p": "Nekaj po Slovensko (Home)."
+  },
+  "about": {
+    "h1": "O nas",
+    "p": "Nekaj po Slovensko (About)."
+  },
+  "404": {
+    "h1": "404",
+    "p": "Stran ne obstaja."
+  }
+}

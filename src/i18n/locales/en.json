@@ -1,0 +1,22 @@
+{
+  "locales": {
+    "en": "English",
+    "sl": "Slovene"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "h1": "English",
+    "p": "Something in English (Home)."
+  },
+  "about": {
+    "h1": "About",
+    "p": "Something in English (About)."
+  },
+  "404": {
+    "h1": "404",
+    "p": "Page not found."
+  }
+}
