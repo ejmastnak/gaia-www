@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.2.0",
     "@intlify/unplugin-vue-i18n": "^6.0.0",
     "vue": "^3.5.12",
     "vue-i18n": "^10.0.4",
@@ -16,7 +17,10 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
-    "vite": "^5.4.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "vite": "^5.4.11",
     "vite-plugin-vue-devtools": "^7.5.4"
   }
 }
