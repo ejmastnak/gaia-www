@@ -1,7 +1,8 @@
 <script setup>
-import Nav from '@/Components/Nav.vue'
+import Nav from '@/Shared/Nav.vue';
 </script>
+
 <template>
-  <Nav />
+  <Nav class="mx-auto" />
   <RouterView />
 </template>
