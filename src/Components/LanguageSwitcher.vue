@@ -48,7 +48,7 @@ const switchLanguageTo = async (newLocale) => {
         <span class="ml-1 uppercase text-lg font-bold">{{ locale }}</span>
         <ChevronDownIcon class="translate-y-px ml-0.5 w-5 h-5 text-gray-500 shrink-0" />
       </ListboxButton>
-      <ListboxOptions class="absolute mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500">
+      <ListboxOptions class="absolute right-0 mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500">
         <ListboxOption
           v-for="option in supportedLocales"
           :key="`locale-${option}`"

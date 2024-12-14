@@ -10,15 +10,16 @@ const mobileMenuShowing = ref(false)
 </script>
 
 <template>
-  <div class="sticky top-0 bg-white border-b z-20">
+  <div class="sticky relative top-0 bg-white border-b z-20">
     <div class="max-w-5xl mx-auto">
 
       <!-- Desktop -->
       <div class="hidden md:flex md:place-items-center">
-        <div class="max-w-4xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
+        <!-- Large x margins make space for language switcher -->
+        <div class="mx-20 mr-24 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
           <NavLink routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
-          <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800">
+          <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800 -translate-y-0.5">
             <!-- font-normal to ensure no boldin on current route -->
             <p class="!font-normal text-center tracking-wider">Kmetija Gaia</p>
           </NavLink>
@@ -26,7 +27,6 @@ const mobileMenuShowing = ref(false)
           <NavLink routeBasename="contact">{{ $t("nav.contact") }}</NavLink>
 
         </div>
-        <LanguageSwitcher class="ml-1" />
       </div>
 
       <!-- Mobile -->
@@ -58,6 +58,7 @@ const mobileMenuShowing = ref(false)
       </div>
     </Transition>
 
+    <LanguageSwitcher class="ml-1 hidden md:block md:absolute top-2 right-2" />
   </div>
 </template>
 
