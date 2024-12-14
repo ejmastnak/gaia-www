@@ -15,8 +15,8 @@ const mobileMenuShowing = ref(false)
 
       <!-- Desktop -->
       <div class="hidden md:flex md:place-items-center">
-        <!-- Large x margins make space for language switcher -->
-        <div class="mx-20 mr-24 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
+        <!-- Large right margins make space for language switcher -->
+        <div class="mr-24 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
           <NavLink routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800 -translate-y-0.5">
@@ -31,7 +31,8 @@ const mobileMenuShowing = ref(false)
 
       <!-- Mobile -->
       <div class="relative flex md:hidden pt-3 pb-5 px-4">
-        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xxs:text-4xl xs:tracking-wide hover:text-blue-800">
+        <!-- font-normal to ensure no boldin on current route -->
+        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xxs:text-4xl xs:tracking-wide hover:text-blue-800 !font-normal">
           Kmetija Gaia
         </NavLink>
 
