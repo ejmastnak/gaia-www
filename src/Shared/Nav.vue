@@ -16,9 +16,9 @@ const mobileMenuShowing = ref(false)
       <!-- Desktop -->
       <div class="hidden md:flex md:place-items-center">
         <!-- Large right margins make space for language switcher -->
-        <div class="mr-24 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
-          <NavLink routeBasename="home">{{ $t("nav.home") }}</NavLink>
+        <div class="mr-28 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
+          <NavLink routeBasename="products">{{ $t("nav.products") }}</NavLink>
           <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800 -translate-y-0.5">
             <!-- font-normal to ensure no boldin on current route -->
             <p class="!font-normal text-center tracking-wider">Kmetija Gaia</p>
@@ -30,13 +30,14 @@ const mobileMenuShowing = ref(false)
       </div>
 
       <!-- Mobile -->
-      <div class="relative flex md:hidden pt-3 pb-5 px-4">
-        <!-- font-normal to ensure no boldin on current route -->
-        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] text-3xl xxs:text-4xl xs:tracking-wide hover:text-blue-800 !font-normal">
+      <div class="flex items-center md:hidden pt-3 pb-5 px-4">
+
+        <!-- font-normal to ensure no bolding on current route -->
+        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] !text-2xl xs:tracking-wide hover:text-blue-800 !font-normal">
           Kmetija Gaia
         </NavLink>
 
-        <button type="button" class="ml-auto" >
+        <button type="button" class="ml-auto translate-y-1" >
           <Bars3Icon v-show="!mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
           <XMarkIcon v-show="mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
         </button>
