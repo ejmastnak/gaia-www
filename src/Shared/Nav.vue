@@ -14,12 +14,12 @@ const mobileMenuShowing = ref(false)
     <div class="max-w-5xl mx-auto">
 
       <!-- Desktop -->
-      <div class="hidden md:flex md:place-items-center">
+      <div class="hidden md:flex">
         <!-- Large right margins make space for language switcher -->
-        <div class="mr-28 max-w-5xl mx-auto w-full flex justify-between items-center pt-3 pb-5 px-4">
+        <div class="mr-28 max-w-5xl mx-auto w-full flex justify-between items-baseline pt-3 pb-5 px-4">
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink routeBasename="products">{{ $t("nav.products") }}</NavLink>
-          <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800 -translate-y-0.5">
+          <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800">
             <!-- font-normal to ensure no boldin on current route -->
             <p class="!font-normal text-center tracking-wider">Kmetija Gaia</p>
           </NavLink>
