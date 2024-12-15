@@ -1,4 +1,12 @@
+<script setup>
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import PageWrapper from '@/Shared/PageWrapper.vue'
+</script>
+
 <template>
-  <h1>{{$t("wheretobuy.h1")}}</h1>
-  <p>{{$t("wheretobuy.p")}}</p>
+
+  <PageWrapper>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">Where to buy</h1>
+  </PageWrapper>
+
 </template>

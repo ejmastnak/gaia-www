@@ -5,7 +5,7 @@ import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About.vue'
 import WhereToBuy from '@/Views/WhereToBuy.vue'
 import Contact from '@/Views/Contact.vue'
-import ProductsIndex from '@/Views/Products/Index.vue'
+import Products from '@/Views/Products/Products.vue'
 import PageNotFound from '@/Views/PageNotFound.vue'
 
 const routes = [
@@ -106,22 +106,22 @@ const routes = [
   { 
     path: '/products',
     name: 'products.EN',
-    component: ProductsIndex,
+    component: Products,
   },
   {
     path: '/en/products',
     name: 'products.en',
-    component: ProductsIndex,
+    component: Products,
   },
   {
     path: '/izdelki',
     name: 'products.SL',
-    component: ProductsIndex,
+    component: Products,
   },
   {
     path: '/sl/izdelki',
     name: 'products.sl',
-    component: ProductsIndex,
+    component: Products,
   },
 
   // --------------------------------------------------------------- //
