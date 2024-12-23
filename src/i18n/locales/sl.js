@@ -1,8 +1,4 @@
 export default {
-  locales: {
-    en: "English",
-    sl: "Slovensko",
-  },
   nav: {
     home: "Domov",
     about: "O nas",

@@ -16,6 +16,10 @@ const Translate = {
     return import.meta.env.VITE_SUPPORTED_LOCALES.split(",")
   },
 
+  get supportedLocaleNames() {
+    return import.meta.env.VITE_SUPPORTED_LOCALE_NAMES.split(",")
+  },
+
   isLocaleSupported(locale) {
     return Translate.supportedLocales.includes(locale)
   },

@@ -10,6 +10,7 @@ const { t, locale } = useI18n()
 const router = useRouter()
 const currentRoute = useRoute()
 const supportedLocales = Translate.supportedLocales
+const supportedLocaleNames = Translate.supportedLocaleNames
 
 const switchLanguageTo = async (newLocale) => {
   if (newLocale === locale.value) return;
@@ -38,7 +39,7 @@ const switchLanguageTo = async (newLocale) => {
 </script>
 
 <template>
-  <div class="">
+  <div>
     <Listbox 
       :modelValue="locale"
       @update:modelValue="switchLanguageTo"
@@ -50,7 +51,7 @@ const switchLanguageTo = async (newLocale) => {
       </ListboxButton>
       <ListboxOptions class="absolute right-0 mt-0.5 text-sm bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500">
         <ListboxOption
-          v-for="option in supportedLocales"
+          v-for="(option, idx) in supportedLocales"
           :key="`locale-${option}`"
           :value="option"
           class="text-left cursor-pointer"
@@ -62,7 +63,7 @@ const switchLanguageTo = async (newLocale) => {
             'font-bold': selected,
           }"
           >
-            {{ t(`locales.${option}`) }}
+            {{ supportedLocaleNames[idx] }}
           </li>
         </ListboxOption>
       </ListboxOptions>
