@@ -1,31 +1,45 @@
 <script setup>
-import ProductPanel from './ProductPanel.vue'
+  import ProductPanel from './ProductPanel.vue'
 </script>
+
 <template>
 
-  <div class="">
-    <p class="text-center text-5xl font-['Latin_Modern_Roman']">Products</p>
+  <div>
+
+    <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">{{$t('home.partialTitles.products')}}</h2>
 
     <ProductPanel
-      class="mt-5 md:mt-12"
+      class="mt-8 md:mt-16"
       :reverse="true"
-      imgFile="sntolj.jpg"
-      imgAlt="Flowers"
-      titleText="BIO Hypericum perforatum"
-      linkText="Discover more"
+      :imgFile="null"
+      :imgAlt="null"
+      :title="$t('products.jabsok.name')"
+      routeBasename="products"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      {{$t("products.jabsok.summary")}}
     </ProductPanel>
 
     <ProductPanel
       class="mt-8 md:mt-16"
       :reverse="false"
-      imgFile="fog.jpg"
-      imgAlt="Flowers"
-      titleText="BIO Apple Juice and Vinegar"
-      linkText="Discover more"
+      :imgFile="null"
+      imgAlt="null"
+      :title="$t('products.jabkis.name')"
+      routeBasename="products"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      {{$t("products.jabkis.summary")}}
+    </ProductPanel>
+
+
+    <ProductPanel
+      class="mt-5 md:mt-16"
+      :reverse="true"
+      :imgFile="null"
+      imgAlt="null"
+      :title="$t('products.sntolj.name')"
+      routeBasename="products"
+    >
+      {{$t("products.sntolj.summary")}}
     </ProductPanel>
 
   </div>

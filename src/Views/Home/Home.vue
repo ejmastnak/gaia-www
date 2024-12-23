@@ -8,9 +8,9 @@
   <div class="mx-auto">
     <Hero class="w-screen" />
 
-    <div class="max-w-5xl mx-auto ">
+    <div class="max-w-5xl mx-auto">
       <About />
-      <Products class="mt-12" />
+      <Products class="mt-20" />
     </div>
 
   </div>
