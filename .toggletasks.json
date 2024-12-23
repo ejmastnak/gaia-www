@@ -11,6 +11,12 @@
       "cmd": "xdg-open http://localhost:5173",
       "tags": ["view"],
       "count": 2
+    },
+    {
+      "name": "Compile translations",
+      "cmd": "npm run compile-translations",
+      "tags": ["compile"],
+      "count": 3
     }
   ]
 }
