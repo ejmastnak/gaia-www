@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "compile-translations": "node src/i18n/compile-translations.js",
+    "build": "npm run compile-translations && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

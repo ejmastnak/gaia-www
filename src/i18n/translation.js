@@ -83,7 +83,7 @@ const Translate = {
   // Lazy-loads messages for the given locale
   async loadLocaleMessages(locale) {
     if(!i18n.global.availableLocales.includes(locale)) {
-      const messages = await import(`@/i18n/locales/${locale}.js`)
+      const messages = await import(`@/i18n/locales/${locale}.json`)
       i18n.global.setLocaleMessage(locale, messages.default)
     }
     return nextTick()
