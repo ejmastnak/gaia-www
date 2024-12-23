@@ -6,6 +6,9 @@ import About from '@/Views/About.vue'
 import WhereToBuy from '@/Views/WhereToBuy.vue'
 import Contact from '@/Views/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
+import JabSok from '@/Views/Products/JabSok.vue'
+import JabKis from '@/Views/Products/JabKis.vue'
+import SntOlj from '@/Views/Products/SntOlj.vue'
 import PageNotFound from '@/Views/PageNotFound.vue'
 
 const routes = [
@@ -122,6 +125,93 @@ const routes = [
     path: '/sl/izdelki',
     name: 'products.sl',
     component: Products,
+  },
+
+  // --------------------------------------------------------------- //
+  // Products/JabSok
+  // --------------------------------------------------------------- //
+  { 
+    path: '/jabsok',
+    name: 'jabsok',
+    component: JabSok,
+  },
+  {
+    path: '/products/apple-juice',
+    name: 'jabsok.EN',
+    component: JabSok,
+  },
+  {
+    path: '/en/products/apple-juice',
+    name: 'jabsok.en',
+    component: JabSok,
+  },
+  {
+    path: '/izdelki/jabolcni-sok',
+    name: 'jabsok.SL',
+    component: JabSok,
+  },
+  {
+    path: '/sl/izdelki/jabolcni-sok',
+    name: 'jabsok.sl',
+    component: JabSok,
+  },
+
+  // --------------------------------------------------------------- //
+  // Products/JabKis
+  // --------------------------------------------------------------- //
+  { 
+    path: '/jabkis',
+    name: 'jabkis',
+    component: JabKis,
+  },
+  {
+    path: '/products/apple-cider-vinegar',
+    name: 'jabkis.EN',
+    component: JabKis,
+  },
+  {
+    path: '/en/products/apple-cider-vinegar',
+    name: 'jabkis.en',
+    component: JabKis,
+  },
+  {
+    path: '/izdelki/jabolcni-kis',
+    name: 'jabkis.SL',
+    component: JabKis,
+  },
+  {
+    path: '/sl/izdelki/jabolcni-kis',
+    name: 'jabkis.sl',
+    component: JabKis,
+  },
+
+  // --------------------------------------------------------------- //
+  // Products/SntOlj
+  // --------------------------------------------------------------- //
+  { 
+    path: '/sntolj',
+    name: 'sntolj',
+    component: SntOlj,
+  },
+  {
+    path: '/products/st-johns-wort-oil',
+    name: 'sntolj.EN',
+    component: SntOlj,
+  },
+  {
+    path: '/en/products/st-johns-wort-oil',
+    name: 'sntolj.en',
+    component: SntOlj,
+  },
+  {
+    path: '/izdelki/sentjanzevo-olje',
+    name: 'sntolj.SL',
+    component: SntOlj,
+  },
+  {
+    path: '/sl/izdelki/sentjanzevo-olje',
+    name: 'sntolj.sl',
+    component: SntOlj,
   },
 
   // --------------------------------------------------------------- //

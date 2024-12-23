@@ -4,8 +4,10 @@ export default {
       en: "Products",
       sl: "Izdelki",
     },
-    p: {
-      en: "Something in English.",
+    summary: {
+      en: `We specialize in apple juice, apple cider vinegar, and herbal products made on our farm at small scale with home-grown ingredients.
+      Our products are free of pesticides, herbicides, and all other synthetic agrochemicals.
+      `,
       sl: "Nekaj po slovensko",
     },
   },
@@ -21,6 +23,10 @@ Diverse heirloom varietes.
 Hand-picked and hand pressed.
 Unfiltered—apple particles contribute flavor, body, and character.`,
       sl: "Nekaj po slovensko",
+    },
+    h1: {
+      en: "Apple Juice",
+      sl: "Jabolčni sok",
     },
   },
   jabkis: {
@@ -39,6 +45,10 @@ Unfiltered and unpasteurized, preserving active cultures.
 `,
       sl: "Nekaj po slovensko",
     },
+    h1: {
+      en: "Apple Cider Vinegar",
+      sl: "Jabolčni kis",
+    },
   },
   sntolj: {
     name: {
@@ -51,6 +61,10 @@ Traditional Slovene product used as a massage oil and to sooth and heal damaged 
 Produced by steeping St. John's Wort flowers—picked by hand from meadows on our mountain slopes—in cold-pressed olive oil over multiple weeks, and then filtering out the crimson-colored oil.
 `,
       sl: "Nekaj po slovensko",
+    },
+    h1: {
+      en: "St. John's Wort Oil",
+      sl: "Šentjanževo olje",
     },
   },
 }

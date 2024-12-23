@@ -30,11 +30,11 @@ const props = defineProps({
 
     <div class="px-4 md:px-8 lg:px-14 mt-2">
       <!-- Product title (desktop only) -->
-      <p class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
+      <p v-if="title" class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
         {{title}}
       </p>
       <!-- Paragraph description -->
-      <p class="text-lg lg:text-xl text-gray-600 leading-relaxed">
+      <p class="text-lg lg:text-xl text-gray-700 leading-relaxed">
         <slot/>
       </p>
 
