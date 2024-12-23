@@ -1,5 +1,5 @@
 <script setup>
-  import ProductPanel from './ProductPanel.vue'
+import ImagePanel from '@/Components/ImagePanel.vue'
 </script>
 
 <template>
@@ -8,8 +8,8 @@
 
     <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">{{$t('home.partialTitles.products')}}</h2>
 
-    <ProductPanel
-      class="mt-8 md:mt-16"
+    <ImagePanel
+      class="mt-5 md:mt-12"
       :reverse="true"
       :imgFile="null"
       :imgAlt="null"
@@ -17,9 +17,9 @@
       routeBasename="products"
     >
       {{$t("products.jabsok.summary")}}
-    </ProductPanel>
+    </ImagePanel>
 
-    <ProductPanel
+    <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
       :imgFile="null"
@@ -28,10 +28,10 @@
       routeBasename="products"
     >
       {{$t("products.jabkis.summary")}}
-    </ProductPanel>
+    </ImagePanel>
 
 
-    <ProductPanel
+    <ImagePanel
       class="mt-5 md:mt-16"
       :reverse="true"
       :imgFile="null"
@@ -40,7 +40,7 @@
       routeBasename="products"
     >
       {{$t("products.sntolj.summary")}}
-    </ProductPanel>
+    </ImagePanel>
 
   </div>
 
