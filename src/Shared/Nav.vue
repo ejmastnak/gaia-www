@@ -20,8 +20,7 @@ const mobileMenuShowing = ref(false)
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink routeBasename="products">{{ $t("nav.products") }}</NavLink>
           <NavLink routeBasename="home" class="font-['Latin_Modern_Roman'] !text-3xl tracking-wide hover:text-blue-800">
-            <!-- font-normal to ensure no boldin on current route -->
-            <p class="!font-normal text-center tracking-wider">Kmetija Gaia</p>
+            <p class="text-center tracking-wider">Kmetija Gaia</p>
           </NavLink>
           <NavLink routeBasename="wheretobuy">{{ $t("nav.wheretobuy") }}</NavLink>
           <NavLink routeBasename="contact">{{ $t("nav.contact") }}</NavLink>
@@ -32,8 +31,7 @@ const mobileMenuShowing = ref(false)
       <!-- Mobile -->
       <div class="flex items-center md:hidden pt-3 pb-5 px-4">
 
-        <!-- font-normal to ensure no bolding on current route -->
-        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] !text-2xl xs:tracking-wide hover:text-blue-800 !font-normal">
+        <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] !text-2xl xs:tracking-wide hover:text-blue-800">
           Kmetija Gaia
         </NavLink>
 

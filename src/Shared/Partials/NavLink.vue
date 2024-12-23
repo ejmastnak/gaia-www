@@ -15,9 +15,9 @@ const currentRoute = useRoute()
 
   <I18nRouterLink
     :routeBasename="routeBasename"
-    class="block text-lg hover:underline hover:text-blue-600"
+    class="block text-lg hover:underline hover:text-orange-800"
     :class="{
-    'font-bold': currentRoute && currentRoute.name && currentRoute.name.startsWith(routeBasename),
+    'underline': currentRoute && currentRoute.name && currentRoute.name.startsWith(routeBasename),
     }"
   >
     <slot />
