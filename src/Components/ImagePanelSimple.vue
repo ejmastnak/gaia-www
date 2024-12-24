@@ -6,8 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-
-  <div class="mt-6 md:mt-10 md:flex flex-row-reverse gap-x-8">
+  <div class="md:flex flex-row-reverse gap-x-8">
 
     <img 
     v-if="imgFile"
