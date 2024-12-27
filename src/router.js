@@ -4,7 +4,7 @@ import Translate from "@/i18n/translation"
 import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import WhereToBuy from '@/Views/WhereToBuy.vue'
-import Contact from '@/Views/Contact.vue'
+import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
 import JabSok from '@/Views/Products/JabSok.vue'
 import JabKis from '@/Views/Products/JabKis.vue'

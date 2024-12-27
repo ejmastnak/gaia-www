@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
   <Disclosure v-slot="{ open }">
     <DisclosureButton
-      class="flex items-center w-full max-w-sm rounded-lg px-4 py-2 text-base hover:bg-orange-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/75"
+      class="flex items-center w-full max-w-sm rounded-lg px-4 py-2 hover:bg-orange-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/75"
     >
       <ChevronRightIcon
       :class="open ? 'rotate-90 transform' : ''"
