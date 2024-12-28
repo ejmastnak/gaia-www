@@ -18,7 +18,7 @@ const props = defineProps({
     />
       <span class="ml-1">{{summary}}</span>
     </DisclosureButton>
-    <DisclosurePanel class="px-4 pb-1 pt-2 text-base text-gray-500 max-w-xl">
+    <DisclosurePanel class="mt- px-5 pb-2 pt-3 text-base text-gray-800 max-w-xl rounded-lg">
       <slot/>
     </DisclosurePanel>
   </Disclosure>
