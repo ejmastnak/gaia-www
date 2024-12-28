@@ -8,7 +8,7 @@ export default {
     sl: "Nekaj po slovensko",
   },
   summary: {
-    en: `We are a small farm in Slovenia's Koroška region, revived in 2023 by a father-son team after abandonment by previous owners. We specialize in apple juice, apple cider vinegar, and herbal products from our traditional tall-trunk meadow orchards.`,
+    en: `We are a small farm in Slovenia's Koroška region, revived in 2023 by a father-son team after abandonment by previous owners. We make apple juice, apple cider vinegar, and herbal products from our traditional tall-trunk meadow orchards.`,
     sl: "Nekaj po slovensko",
   },
   then: {

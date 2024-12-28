@@ -30,7 +30,6 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       {{$t("products.jabkis.summary")}}
     </ImagePanel>
 
-
     <ImagePanel
       class="mt-5 md:mt-16"
       :reverse="true"

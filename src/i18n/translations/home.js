@@ -1,7 +1,7 @@
 export default {
   partialHero: {
     text: {
-      en: "Fruit and herbal products from traditional tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
+      en: "Traditional fruit and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
       sl: "Pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem vrhu pri Mislinji",
     },
   },
