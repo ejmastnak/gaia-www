@@ -4,11 +4,12 @@ export default {
     sl: "Kontakt",
   },
   subheading: {
-    en: `Contact us!
-Ask questions!
-Order products!
-Arrange delivery or buy on our farm!`,
+    en: "Contact us to order products, arrange delivery, visit our farm, or ask questions.",
     sl: "Nekaj po slovensko",
+  },
+  h2: {
+    en: "Ways to contact us",
+    sl: "Kontakt",
   },
   waysToContact: {
     phone: {
@@ -16,35 +17,45 @@ Arrange delivery or buy on our farm!`,
         en: "By phone or WhatsApp",
         sl: "Nekaj po slovensko",
       },
-      details: {
-        callMeAt: {
-          en: "Call or message me at",
+      details: [
+        {
+          en: "Call or message us by phone or WhatsApp at",
           sl: "Nekaj po slovensko",
         },
-        phone: {
+        {
           en: "+386 31 230 167",
           sl: "+386 31 230 167",
         },
-        name: {
-          en: "(Elijan Jakob Mastnak)",
+        {
+          en: "(you will reach Elijan Jakob Mastnak, son of the father-son team running the farm).",
           sl: "(Elijan Jakob Mastnak)",
         }
-      }
+      ]
     },
     email: {
       summary: {
         en: "By email",
         sl: "Nekaj po slovensko",
       },
-      details: {
-        writeUsAt: {
+      details: [
+        {
           en: "Write us by email at",
           sl: "Nekaj po slovensko",
         },
-        email: {
+        {
           en: "info{'@'}gaia.si",
           sl: "info{'@'}gaia.si",
         },
+      ]
+    },
+    contactForm: {
+      summary: {
+        en: "By contact form",
+        sl: "Nekaj po slovensko",
+      },
+      details: {
+        en: "Send a message using the contact form below:",
+        sl: "Nekaj po slovensko",
       }
     },
   },
@@ -96,4 +107,8 @@ Arrange delivery or buy on our farm!`,
       sl: "Nekaj po slovensko",
     }
   },
+  youWillProbablyReachElijan: {
+    en: "In each case you will most likely reach Elijan (the son of the father-son team running the farm), who will happily step into contact with you to answer questions and arrange logistics.",
+    sl: "Nekaj po slovensko",
+  }
 }

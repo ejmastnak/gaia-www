@@ -12,43 +12,42 @@ import ContactForm from './Partials/ContactForm.vue'
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('contact.h1')}}</h1>
 
     <p class="mt-5 max-w-2xl">
-      <!-- {{$t('contact.subheading')}} -->
-      Contact us to order products, arrange delivery, visit our farm, or ask questions.
+      {{$t('contact.subheading')}}
     </p>
 
-    <h2 class="mt-5 text-2xl font-['Latin_Modern_Roman']">Ways to contact us</h2>
+    <h2 class="mt-5 text-2xl font-['Latin_Modern_Roman']">{{$t('contact.h2')}}</h2>
 
     <ul class="mt-3 space-y-2">
       <li>
         <Disclosure>
           <template #summary>
-            By phone or WhatsApp
+            <span class="font-bold">{{$t('contact.waysToContact.phone.summary')}}</span>
           </template>
           <template #details>
-            {{$t('contact.waysToContact.phone.details.callMeAt')}}
-            <a class="hover:text-blue-600" href="tel:+38631230167">{{$t('contact.waysToContact.phone.details.phone')}}</a>
-            {{$t('contact.waysToContact.phone.details.name')}}
+            {{$t('contact.waysToContact.phone.details[0]')}}
+            <a class="inline font-bold hover:text-blue-600" href="tel:+38631230167">{{$t('contact.waysToContact.phone.details[1]')}}</a>
+            {{$t('contact.waysToContact.phone.details[2]')}}
           </template>
         </Disclosure>
       </li>
       <li>
         <Disclosure>
           <template #summary>
-            By email
+            <span class="font-bold">{{$t('contact.waysToContact.email.summary')}}</span>
           </template>
           <template #details>
-            {{$t('contact.waysToContact.email.details.writeUsAt')}}
-            <a class="hover:text-blue-600" href="mailto:info@gaia.si">{{$t('contact.waysToContact.email.details.email')}}</a>
+            {{$t('contact.waysToContact.email.details[0]')}}
+            <a class="font-bold hover:text-blue-600" href="mailto:info@gaia.si">{{$t('contact.waysToContact.email.details[1]')}}</a>
           </template>
         </Disclosure>
       </li>
       <li>
         <Disclosure>
           <template #summary>
-            By contact form
+            <span class="font-bold">{{$t('contact.waysToContact.contactForm.summary')}}</span>
           </template>
           <template #details>
-            Send a message using the contact form:
+            <p>{{$t('contact.waysToContact.contactForm.details')}}</p>
             <ContactForm class="mt-4" />
           </template>
         </Disclosure>
@@ -56,14 +55,8 @@ import ContactForm from './Partials/ContactForm.vue'
 
     </ul>
 
-    <div class="hidden mt-5">
-      <h2 class="text-3xl font-['Latin_Modern_Roman']" id="contact-directly">Contact form</h2>
-      <p class="mt-3">You can also contact us using the form below:</p>
-      <ContactForm class="mt-5" />
-    </div>
-
     <p class="mt-5 max-w-2xl">
-      In each case you will most likely reach Elijan (the son of the father-son team), who will happily step into contact with you to answer questions or arrange logistics.
+      {{$t('contact.youWillProbablyReachElijan')}}
     </p>
 
   </PageWrapper>
