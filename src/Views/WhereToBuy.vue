@@ -15,36 +15,34 @@ import Disclosure from '@/Components/Disclosure.vue'
       <ul class="mt-3 space-y-2">
         <li>
           <Disclosure :summary="$t('wheretobuy.waystobuy.farm.summary')" >
-            <!-- {{$t('wheretobuy.waystobuy.farm.details')}} -->
             <p>
-              <span class="font-bold">How it works:</span> <I18nRouterLink class="inline" :colored="true" routeBasename="contact">Contact us by email, phone, or contact form</I18nRouterLink> to arrange a pick-up time, then visit us at Tolsti vrh pri Mislinji 47, Tolsti vrh pri Mislinji, 2382 Milsinja.
-            </p>
-
-            <p class="mt-1">
-              We'll be happy to show you around, offer samples of our products to try, and discount prices.
+              <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.farm.details[0]')}}</I18nRouterLink>
+              {{$t('wheretobuy.waystobuy.farm.details[1]')}}
+              <span class="font-bold">{{$t('wheretobuy.waystobuy.farm.details[2]')}}</span>
+              {{$t('wheretobuy.waystobuy.farm.details[3]')}}
             </p>
 
           </Disclosure>
         </li>
         <li>
           <Disclosure :summary="$t('wheretobuy.waystobuy.koroska.summary')" >
-            <!-- {{$t('wheretobuy.waystobuy.ljubljana.details')}} -->
-            <p>We are happy to deliver to Mislinja, Velenje, Slovenj Gradec and the surrounding areas.</p>
+            <p>{{$t('wheretobuy.waystobuy.koroska.details[0]')}}</p>
 
             <p class="mt-2">
-              <span class="font-bold">How it works:</span> <I18nRouterLink class="inline" :colored="true" routeBasename="contact">Contact us by email, phone, or contact form</I18nRouterLink> and tell us your location, availability, and the products you'd like to order.
-              We'll respond and arrange a suitable pick-up time.
+              <span class="font-bold">{{$t('wheretobuy.waystobuy.koroska.details[1]')}}</span>
+              <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.koroska.details[2]')}}</I18nRouterLink>
+              {{$t('wheretobuy.waystobuy.koroska.details[3]')}}
             </p>
           </Disclosure>
         </li>
         <li>
           <Disclosure :summary="$t('wheretobuy.waystobuy.ljubljana.summary')" >
-            <!-- {{$t('wheretobuy.waystobuy.ljubljana.details')}} -->
-            <p>Elijan—the son of the father-son team running the farm—works part-time in Ljubljana and can arrange delivery to Ljubljana on weekends (and possibly other days upon prior arrangement).</p>
+            <p>{{$t('wheretobuy.waystobuy.ljubljana.details[0]')}}</p>
 
             <p class="mt-2">
-              <span class="font-bold">How it works:</span> <I18nRouterLink class="inline" :colored="true" routeBasename="contact">Contact us by email, phone, or contact form</I18nRouterLink> and tell us your availability and the products you'd like to order.
-              We'll respond and arrange a suitable pick-up time and location.
+              <span class="font-bold">{{$t('wheretobuy.waystobuy.ljubljana.details[1]')}}</span>
+              <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.ljubljana.details[2]')}}</I18nRouterLink>
+              {{$t('wheretobuy.waystobuy.ljubljana.details[3]')}}
             </p>
           </Disclosure>
         </li>
@@ -52,7 +50,8 @@ import Disclosure from '@/Components/Disclosure.vue'
 
       <div class="mt-5 max-w-xl">
         <p>
-          <strong class="font-bold">{{$t('wheretobuy.waystobuy.largeOrders.summary')}}</strong> {{$t('wheretobuy.waystobuy.largeOrders.details')}}
+          <strong class="font-bold">{{$t('wheretobuy.waystobuy.largeOrders.summary')}}</strong>
+          {{$t('wheretobuy.waystobuy.largeOrders.details')}}
         </p>
       </div>
 

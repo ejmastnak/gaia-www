@@ -13,35 +13,75 @@ export default {
         en: "Visit our farm in Tolsti vrh pri Mislinji",
         sl: "Nekaj po slovensko",
       },
-      details: {
-        en: `Come to our farm in person.
-Tolsti vrh pri Mislinji 47, Tolsti vrh pri Mislinji, 2382 Milsinja.
-Contact us to arrange pick-up, and we'll have your order ready on location.
-Look around, get discounted prices, try samples of our products, etc.`,
-        sl: "Nekaj po slovensko",
-      }
+      // Broken up to accomodate links, bold spans, etc.
+      details: [
+        {
+          en: "Contact us by email, phone, or contact form",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "to arrange a pick-up time, then visit us at",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "Tolsti vrh pri Mislinji 47, Tolsti vrh pri Mislinji, 2382 Milsinja.",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "We'll be happy to show you around, offer samples of our products to try, and offer discounted prices.",
+          sl: "Nekaj po slovensko",
+        },
+      ],
     },
     koroska: {
       summary: {
         en: "Delivery to the greater Mislinja area",
         sl: "Nekaj po slovensko",
       },
-      details: {
-        en: `Something in English`,
-        sl: "Nekaj po slovensko",
-      }
+      // Broken up to accomodate links, bold spans, etc.
+      details: [
+        {
+          en: "We deliver to Mislinja, Velenje, Slovenj Gradec and the surrounding areas.",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "How it works: ",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "Contact us by email, phone, or contact form",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "and tell us your location, availability, and the products you'd like to order. We'll respond and arrange a suitable pick-up time",
+          sl: "Nekaj po slovensko",
+        },
+      ],
     },
     ljubljana: {
       summary: {
-        en: "Pick up in Ljubljana, Center on weekends",
+        en: "Pick up in Ljubljana on weekends",
         sl: "Nekaj po slovensko",
       },
-      details: {
-        en: `Elijan—the son of the father-son team running the farm—works part-time in Ljubljana and can arrange delivery to Ljubljana on weekends (and possibly weekdays upon prior arrangement).
-            Contact us to arrange an order and pick-up time.
-            You would pick up near Župančičeva ulica in Ljubljana, or we could arrange home delivery to locations in the Ljubljana area.`,
-        sl: "Nekaj po slovensko",
-      }
+      // Broken up to accomodate links, bold spans, etc.
+      details: [
+        {
+          en: "Elijan—the son of the father-son team running the farm—works part-time in Ljubljana and can arrange delivery to Ljubljana on weekends (and possibly other days upon prior arrangement).",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "How it works: ",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "Contact us by email, phone, or contact form",
+          sl: "Nekaj po slovensko",
+        },
+        {
+          en: "and tell us your availability and the products you'd like to order. We'll respond and arrange a suitable pick-up time and location.",
+          sl: "Nekaj po slovensko",
+        },
+      ]
     },
     largeOrders: {
       summary: {
