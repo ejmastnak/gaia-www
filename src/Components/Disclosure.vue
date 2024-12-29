@@ -1,10 +1,6 @@
 <script setup>
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-
-const props = defineProps({
-  summary: String,
-})
 </script>
 
 <template>
@@ -16,10 +12,10 @@ const props = defineProps({
       :class="open ? 'rotate-90 transform' : ''"
       class="h-5 w-5 text-orange-900"
     />
-      <span class="ml-1">{{summary}}</span>
+      <slot name="summary"></slot>
     </DisclosureButton>
     <DisclosurePanel class="px-5 pb-2 pt-2 text-base text-gray-800 max-w-xl rounded-lg">
-      <slot/>
+      <slot name="details"></slot>
     </DisclosurePanel>
   </Disclosure>
 </template>
