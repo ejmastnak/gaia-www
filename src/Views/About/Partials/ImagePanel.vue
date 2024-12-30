@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
   <div>
     <h2 class="text-4xl font-['Latin_Modern_Roman']">{{title}}</h2>
-    <div class="mt-4 sm:flex sm:gap-x-5 items-center">
+    <div class="mt-4 sm:flex sm:gap-x-5 items-start">
       <div class="ml-1 leading-relaxed max-w-2xl sm:max-w-xl">
         <slot />
       </div>
