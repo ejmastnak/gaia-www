@@ -5,8 +5,8 @@ export default {
       sl: "Izdelki",
     },
     summary: {
-      en: `We specialize in apple juice, apple cider vinegar, and herbal products made on our farm at small scale with home-grown ingredients.
-Our products are free of pesticides, herbicides, and all other synthetic agrochemicals.
+      en: `We specialize in apple juice, apple cider vinegar, and herbal products made on our farm at small scale with natural, home-grown ingredients.
+Although we don't have an official BIO certification, our farm is completely free of pesticides, herbicides, and all other synthetic agrochemicals, and our products are effectively organic all but in name.
 `,
       sl: "Nekaj po slovensko",
     },
