@@ -1,4 +1,4 @@
 <template>
-  <h1>{{$t("404.h1")}}</h1>
-  <p>{{$t("404.p")}}</p>
+  <h1>{{$t("pageNotFound.h1")}}</h1>
+  <p>{{$t("pageNotFound.p")}}</p>
 </template>
