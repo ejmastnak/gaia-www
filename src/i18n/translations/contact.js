@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   h1: {
     en: "Contact",
     sl: "Kontakt",
@@ -111,4 +111,4 @@ export default {
     en: "In each case you will most likely reach Elijan (the son of the father-son team running the farm), who will happily step into contact with you to answer questions and arrange logistics.",
     sl: "Nekaj po slovensko",
   }
-}
+};

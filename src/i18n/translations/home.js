@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   hero: {
     text: {
       en: "Traditional fruit and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
@@ -39,4 +39,4 @@ export default {
       }
     },
   },
-}
+};

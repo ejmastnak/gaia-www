@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   h1: {
     en: "Where to buy",
     sl: "Kje kupiti",

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   home: {
     en: "Home",
     sl: "Domov",
@@ -19,4 +19,4 @@ export default {
     en: "Contact",
     sl: "Kontakt",
   },
-}
+};

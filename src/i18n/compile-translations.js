@@ -1,6 +1,6 @@
 /**
   Compiles human-readable translation source files and converts them to the
-  JSON format expected by vue-i18n. (From ChatGPT.)
+  JSON format expected by vue-i18n.
 */
 
 const fs = require('fs');
@@ -48,7 +48,7 @@ function aggregateTranslations() {
   files.forEach(file => {
     if (path.extname(file) === '.js') {
       const filePath = path.join(sourceDir, file);
-      const fileContents = require(filePath)['default'];
+      const fileContents = require(filePath);
 
       // E.g. "home.js" produces root key "home"
       const rootKey = path.basename(file, '.js');

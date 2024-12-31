@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   h1: {
     en: "404",
     sl: "404",
@@ -7,4 +7,4 @@ export default {
     en: "Page not found.",
     sl: "Stran ne obstaja",
   },
-}
+};

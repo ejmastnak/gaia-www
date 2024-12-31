@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   title: {
     en: "Apple Cider Vinegar",
     sl: "Jabolčni kis",
@@ -79,5 +79,4 @@ The result is a gentle vinegar with superb flavor, free of the harshness of fast
 
     },
   ],
-}
-
+};

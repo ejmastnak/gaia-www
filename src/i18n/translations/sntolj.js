@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   title: {
     en: "Saint John's Wort Oil",
     sl: "Šentjanževo olje",
@@ -89,4 +89,4 @@ When massaged into the skin surface, purported—and in many cases scientificall
 
     },
   ],
-}
+};

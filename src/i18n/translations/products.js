@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   h1: {
     en: "Products",
     sl: "Izdelki",
@@ -13,4 +13,4 @@ export default {
 `,
     sl: "Nekaj po slovensko",
   },
-}
+};

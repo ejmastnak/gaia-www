@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   title: {
     en: "Apple Juice",
     sl: "Jabolčni sok",
@@ -61,4 +61,4 @@ The pressed juice is aged overnight at low temperature to mellow and develop fla
 
     },
   ],
-}
+};
