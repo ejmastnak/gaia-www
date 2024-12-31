@@ -9,11 +9,12 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 
   <PageWrapper>
 
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('products.index.h1')}}</h1>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('products.h1')}}</h1>
 
-    <p class="mt-10 max-w-xl text-lg lg:text-xl text-gray-800">
-      {{$t('products.index.summary')}}
-    </p>
+    <div class="mt-10 max-w-xl">
+      <p>{{$t('products.summary')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('products.bio')}} </p>
+    </div>
 
     <div>
 
@@ -22,10 +23,10 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         :reverse="true"
         :imgFile="null"
         :imgAlt="null"
-        :title="$t('products.jabsok.name')"
+        :title="$t('jabsok.title')"
         routeBasename="jabsok"
       >
-        {{$t("products.jabsok.summary")}}
+        {{$t("jabsok.summary")}}
       </ImagePanel>
 
       <ImagePanel
@@ -33,10 +34,10 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         :reverse="false"
         :imgFile="null"
         imgAlt="null"
-        :title="$t('products.jabkis.name')"
+        :title="$t('jabkis.title')"
         routeBasename="jabkis"
       >
-        {{$t("products.jabkis.summary")}}
+        {{$t("jabkis.summary")}}
       </ImagePanel>
 
       <ImagePanel
@@ -44,10 +45,10 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         :reverse="true"
         :imgFile="null"
         imgAlt="null"
-        :title="$t('products.sntolj.name')"
+        :title="$t('sntolj.title')"
         routeBasename="sntolj"
       >
-        {{$t("products.sntolj.summary")}}
+        {{$t("sntolj.summary")}}
       </ImagePanel>
 
     </div>

@@ -6,17 +6,17 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 
   <div>
 
-    <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">{{$t('home.partialTitles.products')}}</h2>
+    <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">{{$t('home.products.title')}}</h2>
 
     <ImagePanel
       class="mt-5 md:mt-12"
       :reverse="true"
       :imgFile="null"
       :imgAlt="null"
-      :title="$t('products.jabsok.name')"
-      routeBasename="products"
+      :title="$t('home.products.jabsok.title')"
+      routeBasename="jabsok"
     >
-      {{$t("products.jabsok.summary")}}
+      {{$t("jabsok.summary")}}
     </ImagePanel>
 
     <ImagePanel
@@ -24,10 +24,10 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       :reverse="false"
       :imgFile="null"
       imgAlt="null"
-      :title="$t('products.jabkis.name')"
-      routeBasename="products"
+      :title="$t('home.products.jabkis.title')"
+      routeBasename="jabkis"
     >
-      {{$t("products.jabkis.summary")}}
+      {{$t("jabkis.summary")}}
     </ImagePanel>
 
     <ImagePanel
@@ -35,10 +35,11 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       :reverse="true"
       :imgFile="null"
       imgAlt="null"
-      :title="$t('products.sntolj.name')"
-      routeBasename="products"
+      :title="$t('home.products.sntolj.title')"
+      routeBasename="sntolj"
     >
-      {{$t("products.sntolj.summary")}}
+      {{$t("sntolj.summary")}}
+      {{$t('home.products.sntolj.summaryAddendum')}}
     </ImagePanel>
 
   </div>

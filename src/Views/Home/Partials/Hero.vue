@@ -11,7 +11,7 @@ import HeroSvg from './HeroSvg.vue'
         <p class="text-3xl ml-2 font-bold text-gray-100">Kmetija</p>
         <p class="text-8xl -mt-3 font-bold">Gaia</p>
         <p class="text-xl mt-6 max-w-sm text-gray-50">
-          {{$t("home.partialHero.text")}}
+          {{$t("home.hero.text")}}
         </p>
       </div>
     </div>

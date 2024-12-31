@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="md:flex px-4" :class="reverse ? 'flex-row-reverse' : ''">
+  <div class="md:flex gap-x-4" :class="reverse ? 'flex-row-reverse' : ''">
 
     <!-- Product title (mobile only) -->
     <h3 v-if="title" class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
@@ -28,7 +28,7 @@ const props = defineProps({
   />
     <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
 
-    <div class="px-4 md:px-8 lg:px-14 mt-2">
+    <div class="px-4 md:px-8 lg:px-12 mt-2">
       <!-- Product title (desktop only) -->
       <p v-if="title" class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
         {{title}}

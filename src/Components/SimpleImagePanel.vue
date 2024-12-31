@@ -2,11 +2,17 @@
 const props = defineProps({
   imgFile: String,
   imgAlt: String,
+  reverse: {
+    type: Boolean,
+    default: true,
+  }
 })
 </script>
 
 <template>
-  <div class="md:flex flex-row-reverse gap-x-8">
+  <div class="md:flex gap-x-8" :class="{
+    'flex-row-reverse': reverse
+  }">
 
     <img 
     v-if="imgFile"
@@ -16,7 +22,7 @@ const props = defineProps({
   />
     <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
 
-    <div class="mt-2 text-lg lg:text-xl text-gray-800 leading-relaxed">
+    <div class="mt-5 md:mt-2 text-gray-800">
       <slot />
     </div>
   </div>

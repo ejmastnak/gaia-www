@@ -1,6 +1,6 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import SimpleImagePanel from '@/Components/ImagePanelSimple.vue'
+import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
 </script>
 
@@ -8,57 +8,60 @@ import SimpleImagePanel from '@/Components/ImagePanelSimple.vue'
 
   <PageWrapper>
 
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('products.jabkis.h1')}}</h1>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('jabkis.title')}}</h1>
 
+    <!-- Summary -->
     <SimpleImagePanel 
-      class="mt-6 md:mt-10"
+      class="mt-10"
       :imgFile="null"
       :imgAlt="null"
     >
-      <!-- {{$t('products.jabkis.summary')}} -->
-      <p class="">
-        Our production of apple cider vinegar goes hand in hand with the pressing of apple juice each fall—we make our vinegar from the pulp and residual juice left over from the pressing process.
-        Using pulp as a primary raw ingredient, together with diverse heirloom varieties and a slow fermentation all winter long, gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
-      </p>
-
-      <p class="mt-2">
-        Apples used to make our vinegar include Jonatan, Carjevič, Krivopecelj, Ovčji nos, Šampanjska reneta, Kanadka, Mošancelj, Zlata parmena, Gravenstein, Londonski peping, Bobovec, and other traditional varieties growing on our farm whose formal names we do not even know! 
-      </p>
-
-      <p class="mt-2">
-        Our farm, apples, and vinegar are completely free of pesticides, herbicides, and all other synthetic agrochemicals. Although we don't yet have an official certification, our vinegar is effectively BIO all but in name.
-      </p>
-
+      <p>{{$t('jabkis.summary')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('jabkis.bio')}}</p>
     </SimpleImagePanel>
 
-    <div class="mt-4 max-w-xl">
-      <p class="">
-        Apples are hand-picked in October and November; carefully washed; then ground, crushed, and pressed to extract the juice.
-        We then use the pulp and residual juice to make our vinegar.
+    <!-- Production 1 -->
+    <SimpleImagePanel 
+      class="mt-16"
+      :reverse="false"
+      :imgFile="null"
+      :imgAlt="null"
+    >
+      <p>
+        {{$t('jabkis.appleVarieties[0]')}}
+        <span class="font-bold">{{$t('jabkis.appleVarieties[1]')}}</span>
+        {{$t('jabkis.appleVarieties[2]')}}
       </p>
+      <p class="mt-5">{{$t('jabkis.production[0]')}}</p>
+    </SimpleImagePanel>
 
-      <p class="mt-2">
-        We make the vinegar with a multi-stage fermentation process.
-        First, an alchoholic fermentation converts the pulp and juice into apple cider.
-        We then mix the pulp and cider with spring water from our own wells, inoculate the mixture with mother from previous batches, and carry out a longer, lower-temperature acetic fermentation that converts the alcohol in the cider to acetic acid, producing vinegar.
-        In parallel, a malolactic fermentation converts the malic acid in the apples to gentler acetic acid, mellowing the vinegar's acidity and sharpness.
-      </p>
+    <!-- Production 2 -->
+    <SimpleImagePanel 
+      class="mt-16"
+      :imgFile="null"
+      :imgAlt="null"
+      :reverse="true"
+    >
+      <p>{{$t('jabkis.production[1]')}}</p>
+      <p class="mt-5">{{$t('jabkis.production[2]')}}</p>
+    </SimpleImagePanel>
 
-      <p class="mt-2">
-        After a gentle fermentation over 3-4 weeks, we then strain the liquid vinegar from the apple solids and set aside the fresh vinegar to slowly mature over the course of the winter, during which compounds and microorganisms in the vinegar continue to interact, developing complexity, flavor, and mellowing the fresh vinegar's sharpness.
+    <!-- Production 3 -->
+    <SimpleImagePanel 
+      class="mt-16"
+      :imgFile="null"
+      :imgAlt="null"
+      :reverse="false"
+    >
+      <p>{{$t('jabkis.production[3]')}}</p>
+    </SimpleImagePanel>
 
-        The result is a gentle vinegar with superb flavor, free of the harshness of fast-fermented industrial vinegars.
-      </p>
-
-      <p class="mt-2">
-        Our vinegar is unfiltered and unpasteurized to preserve flavor, body, and the activity of beneficial microorganisms.
-      </p>
-
-
-      <p class="mt-2">
-        Retail prices range from 2.00€ to 2.50€ per liter, depending on packaging and quantity.
-      </p>
-    </div>
+    <!-- Price -->
+    <p class="mt-12 max-w-xl">
+      {{$t('jabkis.price[0]')}}
+      <span class="font-bold">{{$t('jabkis.price[1]')}}</span>
+      {{$t('jabkis.price[2]')}}
+    </p>
 
   </PageWrapper>
 

@@ -1,6 +1,6 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import SimpleImagePanel from '@/Components/ImagePanelSimple.vue'
+import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
 </script>
 
@@ -8,53 +8,57 @@ import SimpleImagePanel from '@/Components/ImagePanelSimple.vue'
 
   <PageWrapper>
 
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('products.sntolj.h1')}}</h1>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('sntolj.title')}}</h1>
 
+    <!-- Summary -->
     <SimpleImagePanel 
-      class="mt-6 md:mt-10"
+      class="mt-10"
       :imgFile="null"
       :imgAlt="null"
     >
-      <!-- {{$t('products.sntolj.summary')}} -->
-      <p class="">
-        Saint John's Wort oil is an herbal product made by infusing the flowers of the Saint John's Wort plant in a carrier oil. It is traditionally used in Slovenia to sooth and heal damaged skin after minor burns and scrapes, to sooth aching joints, to relieve nerve pain, and as a luxurious massage oil.
-      </p>
-
-      <p class="mt-2">
-        We make our oil from St. John's Wort flowers hand-picked from meadows on our mountain pastures.
-        The flowers are steeped in organic extra-virgin olive oil and left to macerate over a period of 4-6 weeks, during which the hypericin in the St. John's Wort flowers infuses into the carrier oil, producing a distinctive, deeply crimson-colored oil rich with therapeutic compounds.
-
-        We then strain the oil to remove the plant solids, leaving behind the prepared St. John's Wort oil.
-      </p>
-
+      <p>{{$t('sntolj.summary')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('sntolj.bio')}}</p>
     </SimpleImagePanel>
 
-    <div class="mt-5 max-w-2xl">
+    <!-- Production -->
+    <SimpleImagePanel 
+      class="mt-16"
+      :reverse="false"
+      :imgFile="null"
+      :imgAlt="null"
+    >
+      <p class="mt-5">{{$t('sntolj.production[0]')}}</p>
+      <p class="mt-5">{{$t('sntolj.production[1]')}}</p>
+    </SimpleImagePanel>
 
-      <p>St. John's Wort oil has been used for centuries in traditional herbal medicine throughout Central Europe.
-        When massaged into the skin surface, purported—and in many cases scientifically-backed—benefits include:</p>
-
-      <ul class="mt-2 ml-5 list-disc">
-        <li>Relief of nerve pain</li>
-        <li>Relief of aching joints</li>
-        <li>Healing of burns, scrapes, and bruises</li>
-        <li>Improved circulation at the skin surface</li>
+    <!-- Uses -->
+    <SimpleImagePanel 
+      class="mt-16"
+      :reverse="true"
+      :imgFile="null"
+      :imgAlt="null"
+    >
+      <p>{{$t('sntolj.uses.header')}}</p>
+      <ul class="mt-3 ml-5 list-disc">
+        <li>{{$t('sntolj.uses.list[0]')}}</li>
+        <li>{{$t('sntolj.uses.list[1]')}}</li>
+        <li>{{$t('sntolj.uses.list[2]')}}</li>
+        <li>{{$t('sntolj.uses.list[3]')}}</li>
       </ul>
+      <p class="mt-3">{{$t('sntolj.uses.footer')}}</p>
+    </SimpleImagePanel>
 
-      <p class="mt-2">And, although conventional medicine might challenge some of its benefits, St. John's Wort oil is a luxurious and soothing massage oil regardless of its medicinal properties.</p>
+    <p class="mt-12 max-w-xl">
+      <span class="font-bold">{{$t('sntolj.contraindications[0]')}}</span>
+      {{$t('sntolj.contraindications[1]')}}
+    </p>
 
-      <p class="mt-2">
-        Our farm and St. John's Wort are completely free of pesticides, herbicides, and all other synthetic agrochemicals, and the flowers are steeped in organic extra virgin olive oil.
-        So although we don't yet have an official certification, our St. John's Wort oil is effectively BIO all but in name. 
-      </p>
-
-      <p class="mt-2">
-        <span class="font-bold">Contraindications:</span>
-        the hypericin in St. John's Wort can cause photosensitivity—increased sensitivity of the skin to sun exposure.
-        After using St. John's Wort oil, it is prudent to wait 12-24 hours after application before intense sun exposure.
-      </p>
-
-    </div>
+    <!-- Prices -->
+    <p class="mt-8 max-w-xl">
+      {{$t('sntolj.price[0]')}}
+      <span class="font-bold">{{$t('sntolj.price[1]')}}</span>
+      {{$t('sntolj.price[2]')}}
+    </p>
 
 
 
