@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <a :href="href" class="text-2xl hover:underline hover:text-orange-50">
+  <a :href="href" class="text-2xl hover:underline">
     <slot />
   </a>
 </template>
