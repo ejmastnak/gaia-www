@@ -1,5 +1,5 @@
 <script setup>
-import LearnMoreButton from '@/Components/LearnMoreButton.vue'
+import ReadMoreButton from '@/Components/ReadMoreButton.vue'
 
 const props = defineProps({
   reverse: Boolean,
@@ -38,7 +38,7 @@ const props = defineProps({
         <slot/>
       </p>
 
-      <LearnMoreButton class="mt-4 md:mt-8 mx-auto " :routeBasename="routeBasename" />
+      <ReadMoreButton class="mt-4 md:mt-8 mx-auto " :routeBasename="routeBasename" />
 
     </div>
   </div>

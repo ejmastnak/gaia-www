@@ -10,6 +10,6 @@ const props = defineProps({
 
 <template>
   <I18nRouterLink :routeBasename="routeBasename" class="w-fit block rounded-md border border-gray-500 px-4 py-2 text-xl hover:bg-orange-50">
-    {{text ?? $t("partials.learnMoreButton.text")}}
+    {{text ?? $t("partials.readMoreButton.text")}}
   </I18nRouterLink>
 </template>

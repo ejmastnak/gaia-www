@@ -1,5 +1,4 @@
 <script setup>
-import LearnMoreButton from '@/Components/LearnMoreButton.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 </script>
 

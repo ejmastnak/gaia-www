@@ -1,7 +1,7 @@
 export default {
-  learnMoreButton: {
+  readMoreButton: {
     text: {
-      en: "Learn more",
+      en: "Read more",
       sl: "Več",
     },
   },
