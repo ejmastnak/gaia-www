@@ -7,8 +7,8 @@ export default {
     en: "Contact us to order products, arrange delivery, visit our farm, or ask questions.",
     sl: "Nekaj po slovensko",
   },
-  h2: {
-    en: "Ways to contact us",
+  waysToContactUs: {
+    en: "You have three ways to contact us:",
     sl: "Kontakt",
   },
   waysToContact: {

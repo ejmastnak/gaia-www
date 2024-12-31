@@ -11,17 +11,19 @@ import ContactForm from './Partials/ContactForm.vue'
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('contact.h1')}}</h1>
 
-    <p class="mt-5 max-w-2xl">
+    <p class="mt-10 max-w-2xl">
       {{$t('contact.subheading')}}
     </p>
 
-    <h2 class="mt-5 text-2xl font-['Latin_Modern_Roman']">{{$t('contact.h2')}}</h2>
+    <p class="mt-5">
+      {{$t('contact.waysToContactUs')}}
+    </p>
 
     <ul class="mt-3 space-y-2">
       <li>
         <Disclosure>
           <template #summary>
-            <span class="font-bold">{{$t('contact.waysToContact.phone.summary')}}</span>
+            <span>{{$t('contact.waysToContact.phone.summary')}}</span>
           </template>
           <template #details>
             {{$t('contact.waysToContact.phone.details[0]')}}
@@ -33,7 +35,7 @@ import ContactForm from './Partials/ContactForm.vue'
       <li>
         <Disclosure>
           <template #summary>
-            <span class="font-bold">{{$t('contact.waysToContact.email.summary')}}</span>
+            <span>{{$t('contact.waysToContact.email.summary')}}</span>
           </template>
           <template #details>
             {{$t('contact.waysToContact.email.details[0]')}}
@@ -44,7 +46,7 @@ import ContactForm from './Partials/ContactForm.vue'
       <li>
         <Disclosure>
           <template #summary>
-            <span class="font-bold">{{$t('contact.waysToContact.contactForm.summary')}}</span>
+            <span>{{$t('contact.waysToContact.contactForm.summary')}}</span>
           </template>
           <template #details>
             <p>{{$t('contact.waysToContact.contactForm.details')}}</p>

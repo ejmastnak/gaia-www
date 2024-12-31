@@ -10,9 +10,9 @@ import Disclosure from '@/Components/Disclosure.vue'
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('wheretobuy.h1')}}</h1>
 
-    <div class="mt-8">
+    <div class="mt-10">
       {{$t('wheretobuy.intro')}}
-      <ul class="mt-3 space-y-2">
+      <ul class="mt-5 space-y-2">
         <li>
           <Disclosure>
             <template #summary>
