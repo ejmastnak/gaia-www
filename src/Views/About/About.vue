@@ -35,8 +35,8 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     >
       <AboutDisclosure :summary="$t('about.then.text[0]')">
         <template #details>
-          <p>{{$t('about.then.text[1]')}}</p>
-          <p class="mt-2">{{$t('about.then.text[2]')}}</p>
+          <p class="mt-4">{{$t('about.then.text[1]')}}</p>
+          <p class="mt-4">{{$t('about.then.text[2]')}}</p>
         </template>
       </AboutDisclosure>
 
@@ -51,9 +51,9 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     >
       <AboutDisclosure :summary="$t('about.now.text[0]')">
         <template #details>
-          <p>{{$t('about.now.text[1]')}}</p>
-          <p class="mt-2">{{$t('about.now.text[2]')}}</p>
-          <p class="mt-2">{{$t('about.now.text[3]')}}</p>
+          <p class="mt-4">{{$t('about.now.text[1]')}}</p>
+          <p class="mt-4">{{$t('about.now.text[2]')}}</p>
+          <p class="mt-4">{{$t('about.now.text[3]')}}</p>
         </template>
       </AboutDisclosure>
 
