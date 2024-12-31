@@ -22,10 +22,10 @@ const props = defineProps({
       </DisclosurePanel>
 
       <!-- More... button -->
-      <DisclosureButton class="hover:underline mt-1 text-left font-bold text-orange-800">
+      <DisclosureButton class="hover:underline mt-1 text-left font-bold text-blue-700">
         <div class="flex items-center">
-          <span>{{open ? 'Less' : 'More'}}</span>
-          <ChevronDownIcon  class="translate-y-0.5 ml-1 w-4 h-4 text-orange-900 shrink-0"  :class="open && 'rotate-180 transform'" />
+          <span>{{open ? $t('about.aboutDisclosure.less') : $t('about.aboutDisclosure.more')}}</span>
+          <ChevronDownIcon  class="translate-y-0.5 ml-1 w-4 h-4 text-blue-900 shrink-0"  :class="open && 'rotate-180 transform'" />
         </div>
       </DisclosureButton>
 

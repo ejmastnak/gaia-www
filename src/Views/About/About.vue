@@ -29,16 +29,14 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     <!-- Then -->
     <ImagePanel
       class="mt-8 sm:mt-10 "
-      title="Then"
+      :title="$t('about.then.title')"
       :imgFile="null"
       :imgAlt="null"
     >
-      <!-- <p>{{$t('about.then')}}</p> -->
-      <AboutDisclosure summary="The farm lies on the property of the former Ramšak family, who throughout 1800s and 1900s maintained a thriving and respected homestead, raising livestock, cultivating large crop fields in the unforgiving mountainous terrain, practicing forestry, and operating a grain mill and sawmill.">
+      <AboutDisclosure :summary="$t('about.then.text[0]')">
         <template #details>
-          <p>But for lack of a younger generation to take over, the once-thriving property gradually fell into abandonment in the 2000s, with only the old-growth orchards of tall-trunk fruit trees standing the test of time.</p>
-
-          <p class="mt-2">Dominik, the last remaining member of the once-strong family still living on the property, kept up small-scale farming while his health allowed, operating as Center Gaia d.o.o. and selling apple juice, cider vinegar, and herbal products. But worsening health problems forced him to scale down production and eventually sell the property in 2023, with production and business all but fallow.</p>
+          <p>{{$t('about.then.text[1]')}}</p>
+          <p class="mt-2">{{$t('about.then.text[2]')}}</p>
         </template>
       </AboutDisclosure>
 
@@ -47,19 +45,15 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     <!-- Now -->
     <ImagePanel
       class="mt-8 sm:mt-10 "
-      title="Now"
+      :title="$t('about.now.title')"
       :imgFile="null"
       :imgAlt="null"
     >
-      <!-- <p>{{$t('about.now')}}</p> -->
-      <AboutDisclosure summary="The property was purchased by the Mastnak family in 2023. Although having no pretense of becoming career farmers, father and son—Tomaž and Elijan—began reviving the farm and slowly re-planting fallow fields, repairing neglected buildings, and planting a new generation of fruit trees.">
+      <AboutDisclosure :summary="$t('about.now.text[0]')">
         <template #details>
-
-          <p>With the help of Dominik, the last remaining member of the Ramšak family to live on the property, we learned and now continue to make apple juice, cider vinegar, and related products from the produce grown on the farm.</p>
-
-          <p class="mt-2">In 2024, Elijan took over and revived the business side left by Dominik, preserving the Center Gaia d.o.o. company, under which we continue to do business. Although formally educated in physics and working primarily in software, Elijan took to learning the ropes of running a small business with enthusiasm, and currently manages the farm's sales, bookkeeping, graphic design, and website in-house.</p>
-
-          <p class="mt-2">We now run a small side business selling the products produced on the farm, and continue to maintain the tradition of small-scale, sustainable agriculture left behind by the generations before us.</p>
+          <p>{{$t('about.now.text[1]')}}</p>
+          <p class="mt-2">{{$t('about.now.text[2]')}}</p>
+          <p class="mt-2">{{$t('about.now.text[3]')}}</p>
         </template>
       </AboutDisclosure>
 
