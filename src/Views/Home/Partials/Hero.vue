@@ -4,7 +4,8 @@ import HeroSvg from './HeroSvg.vue'
 
 <template>
 
-  <div class="flex flex-col bg-[url('@/assets/img/hero.png')] bg-cover h-[42rem] border border-white">
+  <!-- <div class="flex flex-col bg-[url('@/assets/img/hero.png')] bg-cover h-[42rem] border border-white"> -->
+  <div class="flex flex-col h-[42rem] bg-stone-950 border border-white">
 
     <div class="max-w-4xl mx-auto h-full w-full">
       <div class="pt-36 pl-12 text-white font-['Latin_Modern_Roman']">
