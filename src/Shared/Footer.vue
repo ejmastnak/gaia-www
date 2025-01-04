@@ -33,10 +33,10 @@ import FooterSvg from './Partials/FooterSvg.vue'
 
         <!-- Links -->
         <div class="hidden lg:block ml-auto mt-3 flex justify-around space-x-12 h-fit">
-          <FooterLink href="#">About us</FooterLink>
-          <FooterLink href="#">Products</FooterLink>
-          <FooterLink href="#">Where to buy</FooterLink>
-          <FooterLink href="#">Contact</FooterLink>
+          <FooterLink routeBasename="about">About us</FooterLink>
+          <FooterLink routeBasename="products">Products</FooterLink>
+          <FooterLink routeBasename="wheretobuy">Where to buy</FooterLink>
+          <FooterLink routeBasename="contact">Contact</FooterLink>
         </div>
 
       </div>
