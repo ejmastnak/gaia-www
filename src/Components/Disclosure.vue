@@ -10,7 +10,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
     >
       <ChevronRightIcon
       :class="open ? 'rotate-90 transform' : ''"
-      class="h-5 w-5 text-orange-900 mr-1"
+      class="h-5 w-5 mr-1"
     />
       <slot name="summary"></slot>
     </DisclosureButton>
