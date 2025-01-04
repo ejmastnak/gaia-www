@@ -1,4 +1,5 @@
 <script setup>
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import ReadMoreButton from '@/Components/ReadMoreButton.vue'
 
 const props = defineProps({
@@ -8,6 +9,10 @@ const props = defineProps({
   title: String,
   linkText: String,
   routeBasename: String,
+  headingLink: {
+    type: Boolean,
+    default: false,
+  },
 })
 </script>
 
@@ -15,7 +20,12 @@ const props = defineProps({
   <div class="md:flex gap-x-4" :class="reverse ? 'flex-row-reverse' : ''">
 
     <!-- Product title (mobile only) -->
-    <h3 v-if="title" class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
+    <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="block md:hidden !text-orange-950">
+      <h3 v-if="title" class="text-center mb-5 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
+        {{title}}
+      </h3>
+    </I18nRouterLink>
+    <h3 v-else-if="title" class="md:hidden text-center mb-5 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
       {{title}}
     </h3>
 
@@ -29,10 +39,17 @@ const props = defineProps({
     <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
 
     <div class="px-4 md:px-8 lg:px-12 mt-2">
+
       <!-- Product title (desktop only) -->
-      <p v-if="title" class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
+      <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="hidden md:block mb-4 lg:mb-8 !text-orange-950">
+        <h3 v-if="title" class="hidden md:block text-3xl font-['Latin_Modern_Roman'] text-orange-950">
+          {{title}}
+        </h3>
+      </I18nRouterLink>
+      <p v-else-if="title" class="hidden md:block mb-4 lg:mb-8 text-3xl font-['Latin_Modern_Roman'] text-orange-950">
         {{title}}
       </p>
+
       <!-- Paragraph description -->
       <p class="text-lg lg:text-xl text-gray-700 leading-relaxed">
         <slot/>

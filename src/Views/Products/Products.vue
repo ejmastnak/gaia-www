@@ -25,6 +25,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         :imgAlt="null"
         :title="$t('jabsok.title')"
         routeBasename="jabsok"
+        :headingLink="true"
       >
         {{$t("jabsok.summary")}}
       </ImagePanel>
@@ -36,6 +37,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         imgAlt="null"
         :title="$t('jabkis.title')"
         routeBasename="jabkis"
+        :headingLink="true"
       >
         {{$t("jabkis.summary")}}
       </ImagePanel>
@@ -47,6 +49,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
         imgAlt="null"
         :title="$t('sntolj.title')"
         routeBasename="sntolj"
+        :headingLink="true"
       >
         {{$t("sntolj.summary")}}
       </ImagePanel>
