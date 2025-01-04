@@ -10,7 +10,7 @@
 
     <div class="max-w-5xl mx-auto">
       <About />
-      <Products class="mt-20" />
+      <Products class="mt-16 md:mt-20" />
     </div>
 
   </div>

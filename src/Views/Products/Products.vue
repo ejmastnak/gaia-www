@@ -16,10 +16,9 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('products.bio')}} </p>
     </div>
 
-    <div>
+    <div class="mt-10 md:mt-16 space-y-10 md:space-y-16">
 
       <ImagePanel
-        class="mt-5 md:mt-16"
         :reverse="true"
         :imgFile="null"
         :imgAlt="null"
@@ -31,7 +30,6 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       </ImagePanel>
 
       <ImagePanel
-        class="mt-8 md:mt-16"
         :reverse="false"
         :imgFile="null"
         imgAlt="null"
@@ -43,7 +41,6 @@ import ImagePanel from '@/Components/ImagePanel.vue'
       </ImagePanel>
 
       <ImagePanel
-        class="mt-5 md:mt-16"
         :reverse="true"
         :imgFile="null"
         imgAlt="null"

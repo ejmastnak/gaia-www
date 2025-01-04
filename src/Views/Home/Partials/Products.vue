@@ -9,7 +9,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <h2 class="text-center text-5xl font-['Latin_Modern_Roman']">{{$t('home.products.title')}}</h2>
 
     <ImagePanel
-      class="mt-5 md:mt-12"
+      class="mt-8 md:mt-12"
       :reverse="true"
       :imgFile="null"
       :imgAlt="null"
@@ -31,7 +31,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     </ImagePanel>
 
     <ImagePanel
-      class="mt-5 md:mt-16"
+      class="mt-8 md:mt-16"
       :reverse="true"
       :imgFile="null"
       imgAlt="null"

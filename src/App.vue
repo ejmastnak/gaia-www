@@ -8,5 +8,5 @@ import Footer from '@/Shared/Footer.vue'
   <main class="">
     <RouterView />
   </main>
-  <Footer />
+  <Footer class="mt-8" />
 </template>

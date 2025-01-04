@@ -55,7 +55,7 @@ const props = defineProps({
         <slot/>
       </p>
 
-      <ReadMoreButton class="mt-4 md:mt-8 mx-auto " :routeBasename="routeBasename" />
+      <ReadMoreButton class="mt-3 md:mt-8 mx-auto " :routeBasename="routeBasename" />
 
     </div>
   </div>
