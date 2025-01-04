@@ -1,7 +1,7 @@
 <script setup>
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import ImagePanel from './Partials/ImagePanel.vue'
+import AboutImagePanel from './Partials/AboutImagePanel.vue'
 import MobileImage from './Partials/MobileImage.vue'
 import AboutDisclosure from './Partials/AboutDisclosure.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
@@ -27,7 +27,7 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     />
 
     <!-- Then -->
-    <ImagePanel
+    <AboutImagePanel
       class="mt-8 sm:mt-10 "
       :title="$t('about.then.title')"
       :imgFile="null"
@@ -40,10 +40,10 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
         </template>
       </AboutDisclosure>
 
-    </ImagePanel>
+    </AboutImagePanel>
 
     <!-- Now -->
-    <ImagePanel
+    <AboutImagePanel
       class="mt-8 sm:mt-10 "
       :title="$t('about.now.title')"
       :imgFile="null"
@@ -57,7 +57,7 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
         </template>
       </AboutDisclosure>
 
-    </ImagePanel>
+    </AboutImagePanel>
 
   </PageWrapper>
 
