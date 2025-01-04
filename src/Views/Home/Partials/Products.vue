@@ -1,5 +1,6 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
+import sntoljImage from '@/assets/img/sntolj.jpg'
 </script>
 
 <template>
@@ -33,8 +34,8 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
-      :imgFile="null"
-      imgAlt="null"
+      :imgFile="sntoljImage"
+      :imgAlt="$t('imgAlts.sntolj')"
       :title="$t('home.products.sntolj.title')"
       routeBasename="sntolj"
     >

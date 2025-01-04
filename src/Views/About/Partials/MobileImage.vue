@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div>
+  <div class="mx-2">
     <img 
     v-if="imgFile"
     :src="'/src/assets/img/' + imgFile"

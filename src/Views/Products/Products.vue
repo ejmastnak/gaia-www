@@ -3,6 +3,8 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 
+import sntoljImage from '@/assets/img/sntolj.jpg'
+
 </script>
 
 <template>
@@ -42,7 +44,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 
       <ImagePanel
         :reverse="true"
-        :imgFile="null"
+        :imgFile="sntoljImage"
         imgAlt="null"
         :title="$t('sntolj.title')"
         routeBasename="sntolj"
