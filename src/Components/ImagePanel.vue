@@ -30,7 +30,7 @@ const props = defineProps({
     </h3>
 
     <!-- Product image -->
-    <div class="px-2">
+    <div class="px-2 shrink-0">
       <img 
       v-if="imgFile"
       :src="imgFile"
