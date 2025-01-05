@@ -19,7 +19,7 @@ const props = defineProps({
       v-if="imgFile"
       :src="'/src/assets/img/' + imgFile"
       :alt="imgAlt"
-      class="w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
+      class="shrink-0 w-full h-56 mx-auto md:w-96 md:h-96 object-cover rounded-md"
     />
       <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
     </div>

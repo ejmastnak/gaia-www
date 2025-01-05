@@ -15,7 +15,7 @@ const props = defineProps({
       </div>
 
       <!-- Image -->
-      <div class="hidden sm:block w-72 md:w-96 shrink-0 grid place-items-start">
+      <div class="hidden sm:block sm:shrink-0 w-72 md:w-96 shrink-0 grid place-items-start">
         <img 
         v-if="imgFile"
         :src="'/src/assets/img/' + imgFile"
