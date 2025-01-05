@@ -1,6 +1,8 @@
 // Source: https://lokalise.com/blog/vue-i18n/
+import { nextTick } from "vue";
 import i18n from "@/i18n"
-import { nextTick } from "vue"
+const { t } = i18n.global;
+
 
 const Translate = {
 
@@ -128,6 +130,11 @@ const Translate = {
     if (Translate.currentLocale !== toLocale) {
       await Translate.switchLanguage(toLocale)
     }
+
+    // Set page title
+    const defaultTitle = t('routeTitles.default');
+    const routeTitle = t('routeTitles.' + parsedRoute.basename);
+    document.title = routeTitle ? (routeTitle + " | " + defaultTitle) : defaultTitle;
 
     // For explicit-locale routes, continue to route.
     // For implicit-locale routes, redirect to explicit version of route.

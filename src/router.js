@@ -19,16 +19,25 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home,
+    meta: {
+      title: "Home",
+    },
   },
   {
     path: '/sl',
     name: 'home.sl',
     component: Home,
+    meta: {
+      title: "Home",
+    },
   },
   {
     path: '/en',
     name: 'home.en',
     component: Home,
+    meta: {
+      title: "Home",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -38,21 +47,33 @@ const routes = [
     path: '/about',
     name: 'about.EN',
     component: About,
+    meta: {
+      title: "About",
+    },
   },
   {
     path: '/en/about',
     name: 'about.en',
     component: About,
+    meta: {
+      title: "About",
+    },
   },
   {
     path: '/o-nas',
     name: 'about.SL',
-    component: Home,
+    component: About,
+    meta: {
+      title: "About",
+    },
   },
   {
     path: '/sl/o-nas',
     name: 'about.sl',
     component: About,
+    meta: {
+      title: "About",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -62,21 +83,33 @@ const routes = [
     path: '/where-to-buy',
     name: 'wheretobuy.EN',
     component: WhereToBuy,
+    meta: {
+      title: "WhereToBuy",
+    },
   },
   {
     path: '/en/where-to-buy',
     name: 'wheretobuy.en',
     component: WhereToBuy,
+    meta: {
+      title: "WhereToBuy",
+    },
   },
   {
     path: '/kje-kupiti',
     name: 'wheretobuy.SL',
     component: WhereToBuy,
+    meta: {
+      title: "WhereToBuy",
+    },
   },
   {
     path: '/sl/kje-kupiti',
     name: 'wheretobuy.sl',
     component: WhereToBuy,
+    meta: {
+      title: "WhereToBuy",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -86,21 +119,33 @@ const routes = [
     path: '/contact',
     name: 'contact.EN',
     component: Contact,
+    meta: {
+      title: "Contact",
+    },
   },
   {
     path: '/en/contact',
     name: 'contact.en',
     component: Contact,
+    meta: {
+      title: "Contact",
+    },
   },
   {
     path: '/kontakt',
     name: 'contact.SL',
     component: Contact,
+    meta: {
+      title: "Contact",
+    },
   },
   {
     path: '/sl/kontakt',
     name: 'contact.sl',
     component: Contact,
+    meta: {
+      title: "Contact",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -110,21 +155,33 @@ const routes = [
     path: '/products',
     name: 'products.EN',
     component: Products,
+    meta: {
+      title: "Products",
+    },
   },
   {
     path: '/en/products',
     name: 'products.en',
     component: Products,
+    meta: {
+      title: "Products",
+    },
   },
   {
     path: '/izdelki',
     name: 'products.SL',
     component: Products,
+    meta: {
+      title: "Products",
+    },
   },
   {
     path: '/sl/izdelki',
     name: 'products.sl',
     component: Products,
+    meta: {
+      title: "Products",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -134,26 +191,41 @@ const routes = [
     path: '/jabsok',
     name: 'jabsok',
     component: JabSok,
+    meta: {
+      title: "JabSok",
+    },
   },
   {
     path: '/products/apple-juice',
     name: 'jabsok.EN',
     component: JabSok,
+    meta: {
+      title: "JabSok",
+    },
   },
   {
     path: '/en/products/apple-juice',
     name: 'jabsok.en',
     component: JabSok,
+    meta: {
+      title: "JabSok",
+    },
   },
   {
     path: '/izdelki/jabolcni-sok',
     name: 'jabsok.SL',
     component: JabSok,
+    meta: {
+      title: "JabSok",
+    },
   },
   {
     path: '/sl/izdelki/jabolcni-sok',
     name: 'jabsok.sl',
     component: JabSok,
+    meta: {
+      title: "JabSok",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -163,26 +235,41 @@ const routes = [
     path: '/jabkis',
     name: 'jabkis',
     component: JabKis,
+    meta: {
+      title: "JabKis",
+    },
   },
   {
     path: '/products/apple-cider-vinegar',
     name: 'jabkis.EN',
     component: JabKis,
+    meta: {
+      title: "JabKis",
+    },
   },
   {
     path: '/en/products/apple-cider-vinegar',
     name: 'jabkis.en',
     component: JabKis,
+    meta: {
+      title: "JabKis",
+    },
   },
   {
     path: '/izdelki/jabolcni-kis',
     name: 'jabkis.SL',
     component: JabKis,
+    meta: {
+      title: "JabKis",
+    },
   },
   {
     path: '/sl/izdelki/jabolcni-kis',
     name: 'jabkis.sl',
     component: JabKis,
+    meta: {
+      title: "JabKis",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -192,26 +279,41 @@ const routes = [
     path: '/sntolj',
     name: 'sntolj',
     component: SntOlj,
+    meta: {
+      title: "SntOlj",
+    },
   },
   {
     path: '/products/st-johns-wort-oil',
     name: 'sntolj.EN',
     component: SntOlj,
+    meta: {
+      title: "SntOlj",
+    },
   },
   {
     path: '/en/products/st-johns-wort-oil',
     name: 'sntolj.en',
     component: SntOlj,
+    meta: {
+      title: "SntOlj",
+    },
   },
   {
     path: '/izdelki/sentjanzevo-olje',
     name: 'sntolj.SL',
     component: SntOlj,
+    meta: {
+      title: "SntOlj",
+    },
   },
   {
     path: '/sl/izdelki/sentjanzevo-olje',
     name: 'sntolj.sl',
     component: SntOlj,
+    meta: {
+      title: "SntOlj",
+    },
   },
 
   // --------------------------------------------------------------- //
@@ -221,16 +323,25 @@ const routes = [
     path: '/404',
     name: '404',
     component: PageNotFound,
+    meta: {
+      title: "PageNotFound",
+    },
   },
   {
     path: '/en/404',
     name: '404.en',
     component: PageNotFound,
+    meta: {
+      title: "PageNotFound",
+    },
   },
   {
     path: '/sl/404',
     name: '404.sl',
     component: PageNotFound,
+    meta: {
+      title: "PageNotFound",
+    },
   },
   {
     path: '/:pathMatch(.*)*',
