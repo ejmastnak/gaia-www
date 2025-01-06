@@ -5,6 +5,8 @@ import AboutImagePanel from './Partials/AboutImagePanel.vue'
 import MobileImage from './Partials/MobileImage.vue'
 import AboutDisclosure from './Partials/AboutDisclosure.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import fallLeavesImage from '@/assets/img/fall-leaves.jpg'
+import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
 </script>
 
 <template>
@@ -30,8 +32,8 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     <AboutImagePanel
       class="mt-8 sm:mt-10 "
       :title="$t('about.then.title')"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="fallLeavesImage"
+      :imgAlt="$t('imgAlts.fallLeaves')"
     >
       <AboutDisclosure :summary="$t('about.then.text[0]')">
         <template #details>
@@ -46,8 +48,8 @@ import { ChevronRightIcon } from '@heroicons/vue/24/outline'
     <AboutImagePanel
       class="mt-8 sm:mt-10 "
       :title="$t('about.now.title')"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="appleBlossomsImage"
+      :imgAlt="$t('imgAlts.appleBlossoms')"
     >
       <AboutDisclosure :summary="$t('about.now.text[0]')">
         <template #details>

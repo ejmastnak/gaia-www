@@ -10,7 +10,7 @@ const props = defineProps({
   <div>
     <h2 class="text-4xl font-['Latin_Modern_Roman']">{{title}}</h2>
     <div class="mt-6 sm:flex sm:gap-x-5 items-start">
-      <div class="ml-1 max-w-2xl sm:max-w-xl">
+      <div class="ml-1 max-w-2xl sm:max-w-xl text-lg">
         <slot />
       </div>
 
@@ -18,7 +18,7 @@ const props = defineProps({
       <div class="hidden sm:block sm:shrink-0 w-72 md:w-96 shrink-0 grid place-items-start">
         <img 
         v-if="imgFile"
-        :src="'/src/assets/img/' + imgFile"
+        :src="imgFile"
         :alt="imgAlt"
         class="mx-auto object-cover rounded-md"
       />

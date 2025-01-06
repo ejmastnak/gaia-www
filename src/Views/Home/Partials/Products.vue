@@ -1,6 +1,7 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
 import sntoljImage from '@/assets/img/sntolj.jpg'
+import applesImage from '@/assets/img/apples.jpg'
 </script>
 
 <template>
@@ -12,8 +13,8 @@ import sntoljImage from '@/assets/img/sntolj.jpg'
     <ImagePanel
       class="mt-8 md:mt-12"
       :reverse="true"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="applesImage"
+      :imgAlt="$t('imgAlts.apples')"
       :title="$t('home.products.jabsok.title')"
       routeBasename="jabsok"
     >
@@ -24,7 +25,7 @@ import sntoljImage from '@/assets/img/sntolj.jpg'
       class="mt-8 md:mt-16"
       :reverse="false"
       :imgFile="null"
-      imgAlt="null"
+      :imgAlt="null"
       :title="$t('home.products.jabkis.title')"
       routeBasename="jabkis"
     >

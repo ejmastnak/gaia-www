@@ -1,5 +1,6 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
+import travnikiFallImage from '@/assets/img/travniki-fall.jpg'
 </script>
 
 <template>
@@ -11,8 +12,8 @@ import ImagePanel from '@/Components/ImagePanel.vue'
     <ImagePanel
       class="mt-6 md:mt-12"
       :reverse="false"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="travnikiFallImage"
+      :imgAlt="$t('imgAlts.travnikiFall')"
       :title="null"
       routeBasename="about"
     >
