@@ -1,7 +1,8 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
-import sntoljImage from '@/assets/img/sntolj.jpg'
-import applesImage from '@/assets/img/apples.jpg'
+import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg'
+import applesCrateImage from '@/assets/img/apples-crate.jpg'
+import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
 </script>
 
 <template>
@@ -13,8 +14,8 @@ import applesImage from '@/assets/img/apples.jpg'
     <ImagePanel
       class="mt-8 md:mt-12"
       :reverse="true"
-      :imgFile="applesImage"
-      :imgAlt="$t('imgAlts.apples')"
+      :imgFile="applesCrateImage"
+      :imgAlt="$t('imgAlts.applesCrate')"
       :title="$t('home.products.jabsok.title')"
       routeBasename="jabsok"
     >
@@ -24,8 +25,8 @@ import applesImage from '@/assets/img/apples.jpg'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="false"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="kisCisternsImage"
+      :imgAlt="$t('imgAlts.kisCisterns')"
       :title="$t('home.products.jabkis.title')"
       routeBasename="jabkis"
     >
@@ -35,8 +36,8 @@ import applesImage from '@/assets/img/apples.jpg'
     <ImagePanel
       class="mt-8 md:mt-16"
       :reverse="true"
-      :imgFile="sntoljImage"
-      :imgAlt="$t('imgAlts.sntolj')"
+      :imgFile="sntoljJarsImage"
+      :imgAlt="$t('imgAlts.sntoljJars')"
       :title="$t('home.products.sntolj.title')"
       routeBasename="sntolj"
     >

@@ -12,6 +12,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('contact.h1')}}</h1>
 
+    <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
       <div>
         <p class="max-w-2xl">
@@ -68,7 +69,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
       <img 
       :src="appleBlossomsImage"
       :alt="$t('imgAlts.appleBlossoms')"
-      class="hidden lg:block w-full mx-auto w-96 h-80 object-cover rounded-md"
+      class="hidden lg:block mx-auto w-96 h-80 object-cover rounded-md"
     />
 
     </div>

@@ -1,7 +1,10 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
-
+import jabkisPropImage from '@/assets/img/jabkis-prop.jpg'
+import applesCrateImage from '@/assets/img/apples-crate.jpg'
+import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
+import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg'
 </script>
 
 <template>
@@ -13,8 +16,8 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
     <!-- Summary -->
     <SimpleImagePanel 
       class="mt-10"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="jabkisPropImage"
+      :imgAlt="$t('imgAlts.jabkisProp')"
     >
       <p>{{$t('jabkis.summary')}}</p>
       <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('jabkis.bio')}}</p>
@@ -22,10 +25,10 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
     <!-- Production 1 -->
     <SimpleImagePanel 
-      class="mt-16"
+      class="mt-5 md:mt-16"
       :reverse="false"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="applesCrateImage"
+      :imgAlt="$t('imgAlts.applesCrate')"
     >
       <p>
         {{$t('jabkis.appleVarieties[0]')}}
@@ -37,9 +40,9 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
     <!-- Production 2 -->
     <SimpleImagePanel 
-      class="mt-16"
-      :imgFile="null"
-      :imgAlt="null"
+      class="mt-5 md:mt-16"
+      :imgFile="presaBarrelImage"
+      :imgAlt="$t('imgAlts.presaBarrel')"
       :reverse="true"
     >
       <p>{{$t('jabkis.production[1]')}}</p>
@@ -48,16 +51,16 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 
     <!-- Production 3 -->
     <SimpleImagePanel 
-      class="mt-16"
-      :imgFile="null"
-      :imgAlt="null"
+      class="mt-5 md:mt-16"
+      :imgFile="kisCisternsImage"
+      :imgAlt="$t('imgAlts.kisCisterns')"
       :reverse="false"
     >
       <p>{{$t('jabkis.production[3]')}}</p>
     </SimpleImagePanel>
 
     <!-- Price -->
-    <p class="mt-12 max-w-xl">
+    <p class="mt-8 md:mt-12 max-w-xl">
       {{$t('jabkis.price[0]')}}
       <span class="font-bold">{{$t('jabkis.price[1]')}}</span>
       {{$t('jabkis.price[2]')}}

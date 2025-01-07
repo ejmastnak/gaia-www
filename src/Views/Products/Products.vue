@@ -3,6 +3,8 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 
+import jabsokPropImage from '@/assets/img/jabsok-prop.jpg'
+import jabkisPropImage from '@/assets/img/jabkis-prop.jpg'
 import sntoljImage from '@/assets/img/sntolj.jpg'
 
 </script>
@@ -22,8 +24,8 @@ import sntoljImage from '@/assets/img/sntolj.jpg'
 
       <ImagePanel
         :reverse="true"
-        :imgFile="null"
-        :imgAlt="null"
+        :imgFile="jabsokPropImage"
+        :imgAlt="$t('imgAlts.jabsokProp')"
         :title="$t('jabsok.title')"
         routeBasename="jabsok"
         :headingLink="true"
@@ -33,8 +35,8 @@ import sntoljImage from '@/assets/img/sntolj.jpg'
 
       <ImagePanel
         :reverse="false"
-        :imgFile="null"
-        imgAlt="null"
+        :imgFile="jabkisPropImage"
+        :imgAlt="$t('imgAlts.jabkisProp')"
         :title="$t('jabkis.title')"
         routeBasename="jabkis"
         :headingLink="true"
@@ -45,7 +47,7 @@ import sntoljImage from '@/assets/img/sntolj.jpg'
       <ImagePanel
         :reverse="true"
         :imgFile="sntoljImage"
-        imgAlt="null"
+        :imgAlt="$t('imgAlts.sntolj')"
         :title="$t('sntolj.title')"
         routeBasename="sntolj"
         :headingLink="true"
