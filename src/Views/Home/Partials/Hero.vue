@@ -5,13 +5,13 @@ import HeroSvg from './HeroSvg.vue'
 <template>
 
   <!-- <div class="flex flex-col bg-[url('@/assets/img/hero.png')] bg-cover h-[42rem] border border-white"> -->
-  <div class="flex flex-col h-[42rem] bg-stone-950 border border-white">
+  <div class="flex flex-col h-[30rem] xs:h-[36rem] sm:h-[42rem] bg-stone-950 border border-white">
 
     <div class="max-w-4xl mx-auto h-full w-full">
       <div class="pt-36 pl-12 text-white font-['Latin_Modern_Roman']">
-        <p class="text-3xl ml-2 font-bold text-gray-100">Kmetija</p>
-        <p class="text-8xl -mt-3 font-bold">Gaia</p>
-        <p class="text-xl mt-6 max-w-sm text-gray-50">
+        <p class="text-2xl sm:text-3xl ml-2 font-bold text-gray-100">Kmetija</p>
+        <p class="text-6xl xs:text-7xl sm:text-8xl -mt-2 xs:-mt-3 font-bold">Gaia</p>
+        <p class="text-lg xs:text-xl mt-6 max-w-sm text-gray-50">
           {{$t("home.hero.text")}}
         </p>
       </div>
