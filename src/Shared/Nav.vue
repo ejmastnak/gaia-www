@@ -47,7 +47,7 @@ const mobileMenuShowing = ref(false)
     <Transition>
       <div v-show="mobileMenuShowing" class="absolute right-0 w-fit bg-white border-x border-b border-gray-300">
         <div class="relative flex flex-col px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
-          <!-- <LanguageSwitcher class="-mt-4 -mx-2 ml-auto" /> -->
+          <LanguageSwitcher class="-mt-4 -mx-2 ml-auto" />
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="products">{{ $t("nav.products") }}</NavLink>
@@ -58,7 +58,7 @@ const mobileMenuShowing = ref(false)
       </div>
     </Transition>
 
-    <!-- <LanguageSwitcher class="ml-1 hidden md:block md:absolute top-2 right-2" /> -->
+    <LanguageSwitcher class="ml-1 hidden md:block md:absolute top-2 right-2" />
   </div>
 </template>
 

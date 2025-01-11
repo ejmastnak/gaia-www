@@ -66,6 +66,16 @@ const switchLanguageTo = async (newLocale) => {
             {{ supportedLocaleNames[idx] }}
           </li>
         </ListboxOption>
+        <ListboxOption
+          key="locale-sl"
+          value="sl"
+          class="text-left"
+          :disabled="true"
+        >
+          <li class="flex items-center px-4 py-1.5 text-nowrap" >
+            Slovensko (v pripravi)
+          </li>
+        </ListboxOption>
       </ListboxOptions>
     </Listbox>
   </div>
