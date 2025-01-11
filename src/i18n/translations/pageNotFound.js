@@ -4,7 +4,11 @@ module.exports = {
     sl: "404",
   },
   p: {
-    en: "Page not found.",
-    sl: "Stran ne obstaja",
+    en: "The requested page does not exist.",
+    sl: "Ta stran ne obstaja.",
   },
+  link: {
+    en: "Return to the home page",
+    sl: "Nazaj na domačo stran",
+  }
 };
