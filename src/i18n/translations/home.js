@@ -34,7 +34,7 @@ module.exports = {
         sl: "Šentjanževo olje",
       },
       summaryAddendum: {
-        en: "We make our oil from St. John's Wort flowers hand-picked from meadows on our mountain pastures and steeped in organic extra-virgin olive oil",
+        en: "We make our oil from St. John's Wort flowers hand-picked from meadows on our mountain pastures and steeped in organic extra-virgin olive oil.",
         sl: "Nekaj po slovensko"
       }
     },
