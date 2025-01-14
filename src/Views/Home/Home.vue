@@ -8,7 +8,8 @@
   <div class="mx-auto">
     <Hero class="w-screen" />
 
-    <div class="max-w-5xl mx-auto">
+    <!-- -mt accomodates wave SVG growing larger and pushing down About us heading -->
+    <div class="lg:-mt-8 xl:-mt-16 2xl:-mt-20 max-w-5xl mx-auto">
       <About />
       <Products class="mt-16 md:mt-20" />
     </div>
