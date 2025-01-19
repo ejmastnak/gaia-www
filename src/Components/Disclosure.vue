@@ -6,7 +6,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 <template>
   <Disclosure v-slot="{ open }">
     <DisclosureButton
-      class="flex items-center text-lg w-full max-w-sm rounded-lg px-4 py-2 hover:bg-orange-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/75"
+      class="flex items-center w-full max-w-sm rounded-lg px-4 py-2 hover:bg-orange-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500/75"
     >
       <ChevronRightIcon
       :class="open ? 'rotate-90 transform' : ''"
@@ -14,7 +14,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
     />
       <slot name="summary"></slot>
     </DisclosureButton>
-    <DisclosurePanel class="px-5 pb-2 pt-1 text-base text-gray-800 max-w-xl rounded-lg">
+    <DisclosurePanel class="px-5 pb-2 pt-1 text-lg text-gray-700 max-w-xl rounded-lg">
       <slot name="details"></slot>
     </DisclosurePanel>
   </Disclosure>
