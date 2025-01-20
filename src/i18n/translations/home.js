@@ -35,7 +35,7 @@ module.exports = {
       },
       summaryAddendum: {
         en: "We make our oil from St. John's Wort flowers hand-picked from meadows on our mountain pastures and steeped in organic extra-virgin olive oil.",
-        sl: "We make our oil from St. John's Wort flowers hand-picked from meadows on our mountain pastures and steeped in organic extra-virgin olive oil."
+        sl: "Šentjanževo olje pridelujemo iz cvetov šentjanževke, ki jih ročno naberemo na naših sončnih hribovskih travnikih. Cvetovi so macerirani izključno v ekološkem ekstra deviškem oljčnem olju."
       }
     },
   },
