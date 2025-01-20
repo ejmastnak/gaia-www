@@ -5,29 +5,29 @@ module.exports = {
   },
   subheading: {
     en: "Contact us to order products, arrange delivery, visit our farm, or ask questions.",
-    sl: "Nekaj po slovensko",
+    sl: "Če želite naročiti izdelke, se dogovoriti o dostavi, obiskati našo kmetijo ali kaj vprašati, nas lahko dosežete na tri načine:",
   },
   waysToContactUs: {
-    en: "You have three ways to contact us:",
-    sl: "Kontakt",
+    en: "You have three ways to reach us:",
+    sl: "",  // intentionally blank
   },
   waysToContact: {
     phone: {
       summary: {
         en: "By phone or WhatsApp",
-        sl: "Nekaj po slovensko",
+        sl: "Preko telefona ali WhatsApp-a",
       },
       details: [
         {
           en: "Call or message us by phone or WhatsApp at",
-          sl: "Nekaj po slovensko",
+          sl: "Pokličite ali pošljite sporočilo po telefonu ali na WhatsApp na številko",
         },
         {
           en: "+386 31 230 167",
           sl: "+386 31 230 167",
         },
         {
-          en: "(you will reach Elijan Jakob Mastnak, son of the father-son team running the farm).",
+          en: "(you will reach Elijan, son of the father-son team running the farm).",
           sl: "(Elijan Jakob Mastnak)",
         }
       ]
@@ -35,12 +35,12 @@ module.exports = {
     email: {
       summary: {
         en: "By email",
-        sl: "Nekaj po slovensko",
+        sl: "Z elektronsko pošto",
       },
       details: [
         {
           en: "Write us by email at",
-          sl: "Nekaj po slovensko",
+          sl: "Pošljite sporočilo na naslov",
         },
         {
           en: "info{'@'}gaia.si",
@@ -51,51 +51,47 @@ module.exports = {
     contactForm: {
       summary: {
         en: "By contact form",
-        sl: "Nekaj po slovensko",
+        sl: "S kontaktnim obrazcem",
       },
       details: {
         en: "Send a message using the contact form below:",
-        sl: "Nekaj po slovensko",
+        sl: "Pošljite sporočilo s kontaktnim obrazcem:",
       }
     },
   },
   contactForm: {
     h2: {
       en: "Contact form",
-      sl: "Nekaj po slovensko",
-    },
-    subheading: {
-      en: "You can also contact us using the form below:",
-      sl: "Nekaj po slovensko:",
+      sl: "Kontaktni obrazec",
     },
     nameInput: {
       label: {
         en: "Name (optional)",
-        sl: "Nekaj po slovensko",
+        sl: "Ime (neobvezno)",
       },
       placeholder: {
         en: "Your name",
-        sl: "Nekaj po slovensko",
+        sl: "Vaše ime",
       },
     },
     emailInput: {
       label: {
         en: "Email",
-        sl: "Nekaj po slovensko",
+        sl: "Email",
       },
       placeholder: {
         en: "Your email",
-        sl: "Nekaj po slovensko",
+        sl: "Vaš email",
       },
     },
     messageInput: {
       label: {
         en: "Message",
-        sl: "Nekaj po slovensko",
+        sl: "Sporočilo",
       },
       placeholder: {
         en: "Your message",
-        sl: "Nekaj po slovensko",
+        sl: "Vaše sporočilo",
       },
     },
     submitButton: {
@@ -104,11 +100,11 @@ module.exports = {
     },
     emailRequiredMessage: {
       en: "Input an email at which we can respond to you (otherwise we have no way to respond to you).",
-      sl: "Nekaj po slovensko",
+      sl: "Potrebujemo vaš email, da vam lahko odgovorimo na sporočilo.",
     }
   },
   youWillProbablyReachElijan: {
-    en: "In each case you will most likely reach Elijan (the son of the father-son team running the farm), who will happily step into contact with you to answer questions and arrange logistics.",
-    sl: "Nekaj po slovensko",
+    en: "In each case you will most likely reach Elijan, who will happily answer questions and arrange logistics.",
+    sl: "Katero koli izmed teh možnosti boste izbrali, boste najverjetneje dosegli Elijana, ki bo stopil v stik z vami ter rade volje odgovoril na vaša vprašanja ali se dogovoril za praktične detajle naročil.",
   }
 };

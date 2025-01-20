@@ -1,7 +1,7 @@
 module.exports = {
   home: {
     en: "Home",
-    sl: "Domov",
+    sl: "Glavna stran",
   },
   about: {
     en: "About",

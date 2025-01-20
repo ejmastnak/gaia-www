@@ -41,7 +41,6 @@ import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
       :title="$t('home.products.sntolj.title')"
       routeBasename="sntolj"
     >
-      {{$t("sntolj.summary")}}
       {{$t('home.products.sntolj.summaryAddendum')}}
     </ImagePanel>
 

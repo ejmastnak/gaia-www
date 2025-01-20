@@ -19,7 +19,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
           {{$t('contact.subheading')}}
         </p>
 
-        <p class="mt-5">
+        <p v-if="$t('contact.waysToContactUs')" class="mt-5">
           {{$t('contact.waysToContactUs')}}
         </p>
 
