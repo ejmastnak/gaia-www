@@ -59,7 +59,7 @@ When massaged into the skin surface, purported—and in many cases scientificall
     ],
     footer: {
       en: "And, although conventional medicine might challenge some of its benefits, St. John's Wort oil is a luxurious and soothing massage oil regardless of any medicinal properties.",
-      sl: "In ne glede na morebitne zdravilne učinke šentjanževo olje nedvomno ostane blagodejno in dragoceno masažno olje.",
+      sl: "In ne glede na to, kaj si kdo misli o njegovih zdravilnih učinkih, pa je šentjanževo olje nedvomno blagodejno in dragoceno masažno olje.",
     },
   },
   contraindications: [

@@ -41,12 +41,8 @@ module.exports = {
       // Broken up to accomodate links, bold spans, etc.
       details: [
         {
-          en: "We deliver to Mislinja, Velenje, Slovenj Gradec and the surrounding areas.",
+          en: "We can deliver to Mislinja, Velenje, Slovenj Gradec and the surrounding areas.",
           sl: "V Mislinji, Slovenj Gradcu in Velenju ter bližnjih krajih lahko dostavimo blago.",
-        },
-        {
-          en: "How it works: ",
-          sl: "Postopek: ",
         },
         {
           en: "Contact us by email, phone, or contact form",
@@ -70,10 +66,6 @@ module.exports = {
           sl: "Ob koncu tedna, izjemoma pa tudi med tednom, lahko dostavimo blago v Ljubljano, kjer ima Elijan občasne delovne obveznosti.",
         },
         {
-          en: "How it works: ",
-          sl: "Postopek: ",
-        },
-        {
           en: "Contact us by email, phone, or contact form",
           sl: "Oglasite se po telefonu, elektronski pošti ali s pomočjo kontaktnega obrazca",
         },
@@ -90,7 +82,7 @@ module.exports = {
       },
       details: {
         en: `for larger orders we can in principle deliver to locations around Slovenia. Contact us to arrange details. `,
-        sl: "Za večja naročila se lahko načeloma dogovorimo za dostavo kjerkoli v Sloveniji. Kontaktirajte nas, da dorečemo praktične detalje.",
+        sl: "Pri večjih naročilih se lahko dogovorimo za dostavo kjerkoli v Sloveniji. Kontaktirajte nas, da dorečemo praktične detalje.",
       }
     },
   }

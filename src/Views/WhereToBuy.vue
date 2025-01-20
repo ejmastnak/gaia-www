@@ -40,9 +40,8 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg'
               <template #details>
                 <p>{{$t('wheretobuy.waystobuy.koroska.details[0]')}}</p>
                 <p class="mt-1">
-                  <span class="font-bold">{{$t('wheretobuy.waystobuy.koroska.details[1]')}}</span>
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.koroska.details[2]')}}</I18nRouterLink>
-                  {{$t('wheretobuy.waystobuy.koroska.details[3]')}}
+                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.koroska.details[1]')}}</I18nRouterLink>
+                  {{$t('wheretobuy.waystobuy.koroska.details[2]')}}
                 </p>
               </template>
             </Disclosure>
@@ -55,9 +54,8 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg'
               <template #details>
                 <p>{{$t('wheretobuy.waystobuy.ljubljana.details[0]')}}</p>
                 <p class="mt-2">
-                  <span class="font-bold">{{$t('wheretobuy.waystobuy.ljubljana.details[1]')}}</span>
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.ljubljana.details[2]')}}</I18nRouterLink>
-                  {{$t('wheretobuy.waystobuy.ljubljana.details[3]')}}
+                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('wheretobuy.waystobuy.ljubljana.details[1]')}}</I18nRouterLink>
+                  {{$t('wheretobuy.waystobuy.ljubljana.details[2]')}}
                 </p>
               </template>
             </Disclosure>

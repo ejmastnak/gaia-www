@@ -8,7 +8,7 @@ module.exports = {
 Our production of apple cider vinegar goes hand in hand with the pressing of apple juice each fall—we make our vinegar from the pulp and residual juice left over from the pressing process.
 Using pulp as a primary raw ingredient, together with diverse heirloom varieties and a slow fermentation all winter long, gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
 `,
-    sl: "Naša proizvodnja jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, nerejenem iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
+    sl: "Naša proizvodnja jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, narejen iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
   },
   bio: {
     en: `
@@ -59,7 +59,7 @@ The result is a gentle vinegar with superb flavor, free of the harshness of fast
       en: `Our vinegar is unfiltered and unpasteurized to preserve flavor, body, and the activity of beneficial microorganisms.
           As such, the vinegar may contain a small film of "mother of vinegar," a natural byproduct of fermentation, along with some sediment. These are harmless and full of beneficial enzymes and probiotics. If preferred, simply strain the vinegar to remove these particles before use.
 `,
-      sl: "Naš kis je nefiltriran in nepasteriziran. Tako ohranimo okus, polnost, obenem pa ohranimo pri življenju blagodejne mikroorganizme. Takšen kis lahko vsebuje manjšo plast droži in nekaj usedline. Ti ne le, da nista škodljivi, temveč vsebujeta blagodejne encime in probiotike. Če želite, lahko odstranite te primesi tako, da kis preprosto precedite.",
+      sl: "Naš kis je nefiltriran in nepasteriziran. Tako ohranimo poln okus, obenem pa obdržimo pri življenju blagodejne mikroorganizme. Takšen kis lahko vsebuje manjšo plast droži in nekaj usedline. Ti ne le, da nista škodljivi, temveč vsebujeta blagodejne encime in probiotike. Če želite, lahko odstranite te primesi tako, da kis preprosto precedite.",
     },
   ],
   price: [

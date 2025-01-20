@@ -15,7 +15,7 @@ module.exports = {
     phone: {
       summary: {
         en: "By phone or WhatsApp",
-        sl: "Preko telefona ali WhatsApp-a",
+        sl: "Telefona ali WhatsApp",
       },
       details: [
         {
@@ -35,7 +35,7 @@ module.exports = {
     email: {
       summary: {
         en: "By email",
-        sl: "Z elektronsko pošto",
+        sl: "Elektronska pošta",
       },
       details: [
         {
@@ -51,7 +51,7 @@ module.exports = {
     contactForm: {
       summary: {
         en: "By contact form",
-        sl: "S kontaktnim obrazcem",
+        sl: "Kontaktni obrazec",
       },
       details: {
         en: "Send a message using the contact form below:",
@@ -105,6 +105,6 @@ module.exports = {
   },
   youWillProbablyReachElijan: {
     en: "In each case you will most likely reach Elijan, who will happily answer questions and arrange logistics.",
-    sl: "Katero koli izmed teh možnosti boste izbrali, boste najverjetneje dosegli Elijana, ki bo stopil v stik z vami ter rade volje odgovoril na vaša vprašanja ali se dogovoril za praktične detajle naročil.",
+    sl: "Katero koli izmed teh možnosti boste izbrali, boste najverjetneje dosegli Elijana, ki bo rade volje odgovoril na vaša vprašanja ali se dogovoril za realizacijo naročil.",
   }
 };
