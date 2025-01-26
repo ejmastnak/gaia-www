@@ -1,8 +1,8 @@
 module.exports = {
 
   default: {
-    en: "Kmetija Gaia",
-    sl: "Kmetija Gaia",
+    en: "Center Gaia",
+    sl: "Center Gaia",
   },
 
   // Keyed by route basename
