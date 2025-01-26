@@ -38,7 +38,6 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
       <AboutDisclosure :summary="$t('about.then.text[0]')">
         <template #details>
           <p class="mt-4">{{$t('about.then.text[1]')}}</p>
-          <p class="mt-4">{{$t('about.then.text[2]')}}</p>
         </template>
       </AboutDisclosure>
 
