@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import Translate from "@/i18n/translation"
-// import Home from '@/Views/Home.vue'
 import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import WhereToBuy from '@/Views/WhereToBuy.vue'
