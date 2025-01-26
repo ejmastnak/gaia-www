@@ -24,8 +24,8 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
     <!-- Mobile image -->
     <MobileImage
       class="sm:hidden mt-8"
-      :imgFile="null"
-      :imgAlt="null"
+      :imgFile="fallLeavesImage"
+      :imgAlt="$t('imgAlts.fallLeaves')"
     />
 
     <!-- Then -->
@@ -42,6 +42,13 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
       </AboutDisclosure>
 
     </AboutImagePanel>
+
+    <!-- Mobile image -->
+    <MobileImage
+      class="sm:hidden mt-6"
+      :imgFile="appleBlossomsImage"
+      :imgAlt="$t('imgAlts.appleBlossoms')"
+    />
 
     <!-- Now -->
     <AboutImagePanel

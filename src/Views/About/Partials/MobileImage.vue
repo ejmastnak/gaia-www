@@ -9,11 +9,11 @@ const props = defineProps({
   <div class="mx-2">
     <img 
     v-if="imgFile"
-    :src="'/src/assets/img/' + imgFile"
+    :src="imgFile"
     :alt="imgAlt"
     class="h-60 w-full max-w-md mx-auto object-cover rounded-md"
   />
-    <div class="bg-orange-100 h-60 w-full max-w-md mx-auto object-cover rounded-md"/>
+    <div v-else class="bg-orange-100 h-60 w-full max-w-md mx-auto object-cover rounded-md"/>
   </div>
 
 
