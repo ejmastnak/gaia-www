@@ -20,7 +20,7 @@ But age and lack of a younger generation to take over began to catch up with the
       },
       {
         en: `Dominik, the owner before us, kept up small-scale farming for as long as he lived on the property. Operating as Center Gaia d.o.o., he produced and sold apple juice, cider vinegar, and herbal products throughout Slovenia, but slowly scaled down production and eventually sold the property in 2023.`,
-        sl: "Zadnji lastnik pred nami je sadje predeloval v sok in kis, pripravljal zeliščne čaje in delal šentjanževo olje. Za prodajo teh izdelkov je ustanovil Center Gaia d.o.o. in prodajal izdelke v trgovinah po celi Sloveniji.",
+        sl: "Zadnji lastnik pred nami je predeloval sadje v sok in kis, pripravljal zeliščne čaje in delal šentjanževo olje. Za trženje teh izdelkov je ustanovil Center Gaia d.o.o. in prodajal izdelke v trgovinah po celi Sloveniji.",
       }
     ]
   },
@@ -32,21 +32,14 @@ But age and lack of a younger generation to take over began to catch up with the
     text: [
       {
         en: `The property was purchased by the Mastnak family in 2023. Simultaneously with renewing the aging buildings, replanting fallow fields, and planting a new generation of fruit trees, we are doing our best to continue the activities and business passed on to us by the previous owner, Dominik.`,
-
-// we began reviving the farm and slowly re-planting overgrown fields, repairing old buildings, and planting a new generation of fruit trees. Time and again, we were helped along the way by our wonderful neighbors, who stepped in with their knowledge, experience, and machinery to lend a hand whenever we needed it.`,
-        sl: `Kmetijo je leta 2023 kupila družina Mastnak. Medtem ko obnavljamo gospopdarska poslopja in oživljamo vrt in sadovnjak, nadaljujemo z dejavnostmi, ki jih je opravljal prejšni lastnik. Prijazno nas je naučil delati jabolčni sok brez vseh dodatkov in jabolčni kis, ter z nasveti pomagal našemu najstarejšemu sinu, Elijanu, ki je prevzel Center Gaia d.o.o.
+        sl: `Kmetijo je leta 2023 kupila družina Mastnak. Medtem ko obnavljamo gospopdarska poslopja in oživljamo vrt in sadovnjak, nadaljujemo z dejavnostmi, ki jih je opravljal prejšjni lastnik. Prijazno nas je naučil delati jabolčni sok brez vseh dodatkov in jabolčni kis ter z nasveti pomagal našemu najstarejšemu sinu, Elijanu, ki je prevzel Center Gaia d.o.o.
 `
       },
-
-      // Elijan, sicer fizik po izobrazbi in brez formalnega znanja podjetništva, se je zagnal v pridobivanje novih znanj o tem, kako voditi posle majhne kmetije in zdaj skrbi za prodajo, finance, in spletno stran.
-
-      // Začeli smo prenavljati hišo in gospopdarska poslopja, obudili vrt, preorali s koprivami zaraščeno njivo v bregu nad skednjem in začeli saditi novo generacijo sadnjega drevja, grmovnice in divjeplodnice. Ko je bilo treba, so z znanjem, izkušnjami in kmetijskimi stroji priskočili na pomoč sosedje.`,
-
       {
         en: `With the kind help and instruction of Dominik, we learned and now continue to make apple juice, cider vinegar, and related products from the produce grown on the farm. 
             Dominik also helped guide our eldest son, Elijan, in the process of taking over the business and administrative sides of running the farm.
-            Although formally educated in physics without a business background, Elijan enthusiastically took on the challenge and now manages the farm's sales, finances, and website.`,
-        sl: "Tako hribovska kmetija, ki jo je postavilo delo mnogih generacij, živi naprej. Ohranjamo in razvijamo okolju prijazno kmetovanje in dragocen habitat travniškega visokodebelnega sadovnjaka. Vodimo malo podjetje za prodajo izdelkov, ki jih pridelamo na kmetiji, in skrbimo tudi za Ramšakovo kapelico, vpisano v register slovenske kulturne dediščine.",
+            Although formally educated in physics without a business background, Elijan enthusiastically took on the challenge and now manages the farm's sales, finances, and website as a side job.`,
+        sl: "Tako hribovska kmetija, ki jo je postavilo delo mnogih generacij, živi naprej. Ohranjamo in razvijamo okolju prijazno kmetovanje in dragoceni habitat travniškega visokodebelnega sadovnjaka. Vodimo malo podjetje za prodajo izdelkov, ki jih pridelamo na kmetiji, in skrbimo tudi za Ramšakovo kapelico, vpisano v register slovenske kulturne dediščine.",
       },
       {
         en: `Every step of the way, we have been indebted to the kind help of our neighbors, who have lent their knowledge, experience, and equipment whenever we have needed help, and have warmly accepted us into the new surroundings.`,
@@ -55,7 +48,7 @@ But age and lack of a younger generation to take over began to catch up with the
       {
         en: `And so the farm lives on, continuing the efforts and traditions of those before us and preserving the ecologically-valuable extensive meadow orchard habitat slowly disappearing from Slovenia.
             We continue to run the small-scale business of selling the products produced on the farm and maintain the tradition of small-scale, sustainable agriculture passed on from the generations before us.`,
-        sl: "Pri vseh opravilih so nam s svojim znanjem in izkušnjami (in tudi s kmetijskimi stroji) v oporo in pomoč sosedje, ki so nas prijazno sprejeli v svojo okolje.",
+        sl: "Pri vseh opravilih so nam s svojim znanjem in izkušnjami (in tudi s kmetijskimi stroji) v oporo in pomoč sosedje, ki so nas lepo sprejeli v svojo okolje.",
       },
     ]
   },
