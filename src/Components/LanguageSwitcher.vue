@@ -39,7 +39,7 @@ const switchLanguageTo = async (newLocale) => {
 </script>
 
 <template>
-  <div>
+  <div class="relative">
     <Listbox 
       :modelValue="locale"
       @update:modelValue="switchLanguageTo"
