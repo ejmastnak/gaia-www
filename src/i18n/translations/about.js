@@ -19,7 +19,7 @@ But age and lack of a younger generation to take over began to catch up with the
         sl: "Ramšakova kmetija je dobila ime po družini, ki je okrog leta 1800 postavila kmečko hišo, ki še vedno stoji, obdelovala polja na strmih prisojnih bregovih, gojila živino in delala v gozdu. Še pred dobrega pol stoletja je bila kmetija samooskrbna, imela žago, mlin in kovačijo, trla lan in kuhala oglje. Oče zadnjega lastnika pred nami je lovil korak z modernizacijo kmetijstva in bil med prvimi v teh krajih, ki so pridelovali mleko za oddajo.",
       },
       {
-        en: `Dominik, the owner before us, kept up small-scale farming for as long as he lived on the property. Operating as Center Gaia d.o.o., he produced and sold apple juice, cider vinegar, and herbal products throughout Slovenia, but slowly scaled down production and eventually sold the property in 2023.`,
+        en: `The owner before us kept up small-scale farming for as long as he lived on the property. Operating as Center Gaia d.o.o., he produced and sold apple juice, cider vinegar, and herbal products throughout Slovenia, but slowly scaled down production and eventually sold the property in 2023.`,
         sl: "Zadnji lastnik pred nami je predeloval sadje v sok in kis, pripravljal zeliščne čaje in delal šentjanževo olje. Za trženje teh izdelkov je ustanovil Center Gaia d.o.o. in prodajal izdelke v trgovinah po celi Sloveniji.",
       }
     ]
@@ -31,13 +31,15 @@ But age and lack of a younger generation to take over began to catch up with the
     },
     text: [
       {
-        en: `The property was purchased by the Mastnak family in 2023. Simultaneously with renewing the aging buildings, replanting fallow fields, and planting a new generation of fruit trees, we are doing our best to continue the activities and business passed on to us by the previous owner, Dominik.`,
+        en: `The property was purchased by the Mastnak family in 2023. Simultaneously with renewing the aging buildings, replanting old fields, and planting a new generation of fruit trees, we are doing our best to continue the activities and business passed on to us by the previous owner.`,
         sl: `Kmetijo je leta 2023 kupila družina Mastnak. Medtem ko obnavljamo gospopdarska poslopja in oživljamo vrt in sadovnjak, nadaljujemo z dejavnostmi, ki jih je opravljal prejšjni lastnik. Prijazno nas je naučil delati jabolčni sok brez vseh dodatkov in jabolčni kis ter z nasveti pomagal našemu najstarejšemu sinu, Elijanu, ki je prevzel Center Gaia d.o.o.
 `
       },
+
+            // The owner before us (who would prefer to remain anonymous) also helped guide our eldest son, Elijan, in the process of taking over the business and administrative sides of running the farm.
       {
-        en: `With the kind help and instruction of Dominik, we learned and now continue to make apple juice, cider vinegar, and related products from the produce grown on the farm. 
-            Dominik also helped guide our eldest son, Elijan, in the process of taking over the business and administrative sides of running the farm.
+        en: `With the kind help and instruction of the owner before us, we learned and now continue to make apple juice, cider vinegar, and related products from the produce grown on the farm. 
+            The owner before us also helped guide our eldest son, Elijan, in the process of taking over the business and administrative sides of running the farm.
             Although formally educated in physics without a business background, Elijan enthusiastically took on the challenge and now manages the farm's sales, finances, and website as a side job.`,
         sl: "Tako hribovska kmetija, ki jo je postavilo delo mnogih generacij, živi naprej. Ohranjamo in razvijamo okolju prijazno kmetovanje in dragoceni habitat travniškega visokodebelnega sadovnjaka. Vodimo malo podjetje za prodajo izdelkov, ki jih pridelamo na kmetiji, in skrbimo tudi za Ramšakovo kapelico, vpisano v register slovenske kulturne dediščine.",
       },
