@@ -80,7 +80,7 @@ const routes = [
   // --------------------------------------------------------------- //
   { 
     path: '/where-to-buy',
-    name: 'wheretobuy.EN',
+    name: 'whereToBuy.EN',
     component: WhereToBuy,
     meta: {
       title: "WhereToBuy",
@@ -88,7 +88,7 @@ const routes = [
   },
   {
     path: '/en/where-to-buy',
-    name: 'wheretobuy.en',
+    name: 'whereToBuy.en',
     component: WhereToBuy,
     meta: {
       title: "WhereToBuy",
@@ -96,7 +96,7 @@ const routes = [
   },
   {
     path: '/kje-kupiti',
-    name: 'wheretobuy.SL',
+    name: 'whereToBuy.SL',
     component: WhereToBuy,
     meta: {
       title: "WhereToBuy",
@@ -104,7 +104,7 @@ const routes = [
   },
   {
     path: '/sl/kje-kupiti',
-    name: 'wheretobuy.sl',
+    name: 'whereToBuy.sl',
     component: WhereToBuy,
     meta: {
       title: "WhereToBuy",

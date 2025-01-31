@@ -20,7 +20,7 @@ const mobileMenuShowing = ref(false)
           <NavLink routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink routeBasename="products">{{ $t("nav.products") }}</NavLink>
-          <NavLink routeBasename="wheretobuy">{{ $t("nav.wheretobuy") }}</NavLink>
+          <NavLink routeBasename="whereToBuy">{{ $t("nav.whereToBuy") }}</NavLink>
           <NavLink routeBasename="contact">{{ $t("nav.contact") }}</NavLink>
 
         </div>
@@ -49,7 +49,7 @@ const mobileMenuShowing = ref(false)
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="products">{{ $t("nav.products") }}</NavLink>
-          <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="wheretobuy">{{ $t("nav.wheretobuy") }}</NavLink>
+          <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="whereToBuy">{{ $t("nav.whereToBuy") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="contact">{{ $t("nav.contact") }}</NavLink>
 
         </div>
