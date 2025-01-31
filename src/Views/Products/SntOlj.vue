@@ -1,6 +1,7 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import sntoljImage from '@/assets/img/sntolj.jpg'
 import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg'
 import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg'
@@ -11,6 +12,13 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg'
   <PageWrapper>
 
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('sntolj.title')}}</h1>
+
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-2 text-base text-gray-600">
+      <I18nRouterLink routeBasename="products">{{$t('products.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="sntolj">{{$t('sntolj.title')}}</I18nRouterLink>
+    </p>
 
     <!-- Summary -->
     <SimpleImagePanel 

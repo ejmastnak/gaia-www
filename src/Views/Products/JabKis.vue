@@ -1,6 +1,7 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg'
 import applesCrateImage from '@/assets/img/apples-crate.jpg'
 import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
@@ -12,6 +13,13 @@ import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg'
   <PageWrapper>
 
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('jabkis.title')}}</h1>
+
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-2 text-base text-gray-600">
+      <I18nRouterLink routeBasename="products">{{$t('products.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="jabkis">{{$t('jabkis.title')}}</I18nRouterLink>
+    </p>
 
     <!-- Summary -->
     <SimpleImagePanel 

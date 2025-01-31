@@ -1,6 +1,7 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg'
 import applesCrateImage from '@/assets/img/apples-crate.jpg'
 </script>
@@ -10,6 +11,13 @@ import applesCrateImage from '@/assets/img/apples-crate.jpg'
   <PageWrapper>
 
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('jabsok.title')}}</h1>
+
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-1.5 text-base text-gray-600">
+      <I18nRouterLink routeBasename="products">{{$t('products.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="jabsok">{{$t('jabsok.title')}}</I18nRouterLink>
+    </p>
 
     <!-- Summary -->
     <SimpleImagePanel 
@@ -26,7 +34,7 @@ import applesCrateImage from '@/assets/img/apples-crate.jpg'
       class="mt-5 md:mt-16"
       :reverse="false"
       :imgFile="applesCrateImage"
-      :imgAlt="$t('imgAlts.appleCrate')"
+      :imgAlt="$t('imgAlts.applesCrate')"
     >
       <p>
         {{$t('jabsok.appleVarieties[0]')}}

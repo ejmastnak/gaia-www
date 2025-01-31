@@ -1,5 +1,4 @@
 <script setup>
-import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 
