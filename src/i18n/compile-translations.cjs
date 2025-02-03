@@ -46,12 +46,12 @@ function aggregateTranslations() {
   const files = fs.readdirSync(sourceDir);
 
   files.forEach(file => {
-    if (path.extname(file) === '.js') {
+    if (path.extname(file) === '.cjs') {
       const filePath = path.join(sourceDir, file);
       const fileContents = require(filePath);
 
       // E.g. "home.js" produces root key "home"
-      const rootKey = path.basename(file, '.js');
+      const rootKey = path.basename(file, '.cjs');
 
       // Recursively copy the translations for each key in the source object
       function addTranslations(srcObj, parentKey) {

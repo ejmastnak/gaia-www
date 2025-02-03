@@ -2,11 +2,12 @@
   "name": "Gaia",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "compile-translations": "node src/i18n/compile-translations.js",
     "build": "npm run compile-translations && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "compile-translations": "node src/i18n/compile-translations.cjs"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
