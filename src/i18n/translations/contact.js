@@ -5,10 +5,10 @@ module.exports = {
   },
   subheading: {
     en: "Contact us to order products, arrange delivery, visit our farm, or ask questions.",
-    sl: "Če želite naročiti izdelke, se dogovoriti o dostavi, obiskati našo kmetijo ali kaj vprašati, nas lahko dosežete na tri načine:",
+    sl: "Če želite naročiti izdelke, se dogovoriti o dostavi, obiskati našo kmetijo ali kaj vprašati, nas lahko dosežete na sledeče načine:",
   },
   waysToContactUs: {
-    en: "You have three ways to reach us:",
+    en: "You can reach us:",
     sl: "",  // intentionally blank
   },
   waysToContact: {

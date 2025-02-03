@@ -47,7 +47,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
               </template>
             </Disclosure>
           </li>
-          <li>
+          <li class="hidden">
             <Disclosure>
               <template #summary>
                 <span>{{$t('contact.waysToContact.contactForm.summary')}}</span>
