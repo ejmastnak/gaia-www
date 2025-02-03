@@ -1,6 +1,6 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
-import travnikiFallImage from '@/assets/img/travniki-fall.jpg'
+import travnikiFallImage from '@/assets/img/travniki-fall.jpg?w=700'
 </script>
 
 <template>

@@ -2,9 +2,9 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import sntoljImage from '@/assets/img/sntolj.jpg'
-import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg'
-import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg'
+import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
+import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg?w=700'
+import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
 </script>
 
 <template>

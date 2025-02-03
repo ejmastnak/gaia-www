@@ -5,8 +5,8 @@ import AboutImagePanel from './Partials/AboutImagePanel.vue'
 import MobileImage from './Partials/MobileImage.vue'
 import AboutDisclosure from './Partials/AboutDisclosure.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
-import fallLeavesImage from '@/assets/img/fall-leaves.jpg'
-import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg'
+import fallLeavesImage from '@/assets/img/fall-leaves.jpg?w=600'
+import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 </script>
 
 <template>

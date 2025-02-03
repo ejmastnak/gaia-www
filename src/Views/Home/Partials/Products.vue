@@ -1,8 +1,8 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
-import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg'
-import applesCrateImage from '@/assets/img/apples-crate.jpg'
-import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
+import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=600'
+import applesCrateImage from '@/assets/img/apples-crate.jpg?w=600'
+import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=600'
 </script>
 
 <template>

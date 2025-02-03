@@ -3,7 +3,7 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import { ChevronRightIcon } from '@heroicons/vue/24/outline'
 import Disclosure from '@/Components/Disclosure.vue'
-import orehTreeImage from '@/assets/img/oreh-tree.jpg'
+import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
 </script>
 
 <template>

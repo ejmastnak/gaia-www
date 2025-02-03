@@ -2,10 +2,10 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import jabkisPropImage from '@/assets/img/jabkis-prop.jpg'
-import applesCrateImage from '@/assets/img/apples-crate.jpg'
-import kisCisternsImage from '@/assets/img/kis-cisterns.jpg'
-import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg'
+import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
+import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
+import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=800'
+import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg?w=800'
 </script>
 
 <template>

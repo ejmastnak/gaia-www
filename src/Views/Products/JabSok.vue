@@ -2,8 +2,8 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import jabsokPropImage from '@/assets/img/jabsok-prop.jpg'
-import applesCrateImage from '@/assets/img/apples-crate.jpg'
+import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
+import applesCrateImage from '@/assets/img/apples-crate.jpg?w=800'
 </script>
 
 <template>
