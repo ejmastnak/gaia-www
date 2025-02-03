@@ -17,7 +17,7 @@ import travnikiFallImage from '@/assets/img/travniki-fall.jpg'
       :title="null"
       routeBasename="about"
     >
-      {{$t("about.summary")}}
+      {{$t("home.about.text")}}
     </ImagePanel>
 
   </div>

@@ -5,10 +5,11 @@ module.exports = {
   },
   summary: {
     en: `
-Our apple juice is pressed in small batches each fall from apples grown in our tall-trunk meadow orchards.
-Our juice is intentionally unfiltered to preserve body and flavor, which, together with the diverse combination of heirloom varieties that go into our juice, gives it a depth of flavor and richness not found in commercial products.
+We press our apple juice in small batches each fall using a vibrant selection of heirloom varieties grown in our tall-trunk meadow orchards.
+The juice is minimally processed to preserve its flavor and nutritional content, which, together with the richness and character of the heirloom apples, gives our juice a depth of flavor and body not found in commercial products.
 `,
-    sl: "Naš jabolčni sok je stiskan v majhnih količinah vsako jesen, ko obrodijo jablane v našem visokodebelnem travniškem sadovnjaku. Sok je nefiltriran, da obdrži bogat, poln okus, ki ga dajejo stare sorte jabolk.",
+    sl: `Jabolčni sok stiskamo vsako jesen, ko obrodijo jablane v našem visokodebelnem travniškem sadovnjaku.
+    Jabolka stiskamo v stari preši in minimalno procesiramo, da sok obdrži bogat, poln okus, ki ga dajejo stare sorte jabolk.`,
   },
   bio: {
     en: `
@@ -46,8 +47,8 @@ The pressed juice is aged overnight at low temperature to mellow and develop fla
   ],
   price: [
     {
-      en: "Retail prices range from",
-      sl: "Cene se gibljejo med",
+      en: "Prices when buying directly from us range from",
+      sl: "Cene pri naročilu ali nakupu direktno pri nas se gibljejo med",
     },
     {
       en: "2.00€ to 3.00€ per liter,",

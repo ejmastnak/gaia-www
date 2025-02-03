@@ -74,8 +74,8 @@ When massaged into the skin surface, purported—and in many cases scientificall
   ],
   price: [
     {
-      en: "Retail prices range from",
-      sl: "Cene se giblejo",
+      en: "Prices when buying directly from us range from",
+      sl: "Cene pri naročilu ali nakupu direktno pri nas se gibljejo med",
     },
     {
       en: "5.0€ to 7.50€ per 100 ml,",

@@ -6,9 +6,10 @@ module.exports = {
   summary: {
     en: `
 Our production of apple cider vinegar goes hand in hand with the pressing of apple juice each fall—we make our vinegar from the pulp and residual juice left over from the pressing process.
-Using pulp as a primary raw ingredient, together with diverse heirloom varieties and a slow fermentation all winter long, gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
+Our vinegar is special in using apple pulp as a primary raw ingredient (most vinegars use pure juice).
+Together with the heirloom varieties' vibrant flavor and a slow fermentation all winter long, this gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
 `,
-    sl: "Naša proizvodnja jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, narejen iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
+    sl: "Proizvodnja našega jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, narejen iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
   },
   bio: {
     en: `
@@ -64,8 +65,8 @@ The result is a gentle vinegar with superb flavor, free of the harshness of fast
   ],
   price: [
     {
-      en: "Retail prices range from",
-      sl: "Cene se gibljejo med",
+      en: "Prices when buying directly from us range from",
+      sl: "Cene pri naročilu ali nakupu direktno pri nas se gibljejo med",
     },
     {
       en: "1.50€ to 2.50€ per liter,",
