@@ -2,7 +2,6 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 import OrderLink from '@/Components/OrderLink.vue'
-import { ShoppingCartIcon } from '@heroicons/vue/24/outline'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'

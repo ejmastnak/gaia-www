@@ -2,6 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import OrderLink from '@/Components/OrderLink.vue'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
 import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
 import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=800'
@@ -12,7 +13,11 @@ import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg?w=800'
 
   <PageWrapper>
 
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('jabkis.title')}}</h1>
+    <div class="w-full flex items-center pr-2">
+      <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('jabkis.title')}}</h1>
+      <OrderLink class="ml-auto"/>
+    </div>
+
 
     <!-- Breadcrumb -->
     <p class="ml-px mt-2 text-base text-gray-600">

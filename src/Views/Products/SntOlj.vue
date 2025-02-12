@@ -2,6 +2,7 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import OrderLink from '@/Components/OrderLink.vue'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
 import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg?w=700'
 import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
@@ -11,7 +12,10 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
 
   <PageWrapper>
 
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('sntolj.title')}}</h1>
+    <div class="w-full flex items-center pr-2">
+      <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('sntolj.title')}}</h1>
+      <OrderLink class="ml-auto"/>
+    </div>
 
     <!-- Breadcrumb -->
     <p class="ml-px mt-2 text-base text-gray-600">
