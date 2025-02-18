@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <I18nRouterLink :routeBasename="routeBasename" class="block w-fit rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+  <I18nRouterLink :routeBasename="routeBasename" class="block w-fit rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 focus-visible:outline-orange-600">
     <slot />
   </I18nRouterLink>
 </template>

@@ -13,7 +13,7 @@ const currentRoute = useRoute()
 <template>
   <I18nRouterLink
     :routeBasename="routeBasename"
-    class="block font-['Latin_Modern_Roman'] text-xl hover:underline hover:text-orange-900 rounded-lg px-2 py-1"
+    class="block font-['Latin_Modern_Roman'] text-xl hover:underline hover:text-orange-900 rounded-lg px-2 py-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 focus-visible:outline-orange-600"
     :class="{
     'underline': currentRoute && currentRoute.name && currentRoute.name.startsWith(routeBasename),
     }"

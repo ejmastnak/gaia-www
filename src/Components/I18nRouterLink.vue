@@ -8,7 +8,7 @@ const props = defineProps({
 
 <template>
   <RouterLink
-    class="p-px rounded-md hover:underline focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-orange-600"
+    class="p-px rounded-md hover:underline"
     :to="{name: routeBasename + '.' + Translate.currentLocale}"
   >
     <slot />

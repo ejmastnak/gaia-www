@@ -20,7 +20,7 @@ const props = defineProps({
   <div class="md:flex gap-x-4" :class="reverse ? 'flex-row-reverse' : ''">
 
     <!-- Product title (mobile only) -->
-    <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="block md:hidden">
+    <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="block md:hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 focus-visible:outline-orange-600">
       <h3 v-if="title" class="text-center mb-5 text-3xl font-['Latin_Modern_Roman']">
         {{title}}
       </h3>
@@ -43,7 +43,7 @@ const props = defineProps({
     <div class="px-4 md:px-8 mt-2">
 
       <!-- Product title (desktop only) -->
-      <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="hidden md:block mb-4 lg:mb-6">
+      <I18nRouterLink v-if="headingLink && title" :routeBasename="routeBasename" class="hidden md:block mb-4 lg:mb-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 focus-visible:outline-orange-600">
         <h3 v-if="title" class="hidden md:block text-3xl font-['Latin_Modern_Roman']">
           {{title}}
         </h3>

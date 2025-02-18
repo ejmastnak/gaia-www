@@ -43,12 +43,12 @@ const switchLanguageTo = async (newLocale) => {
     <Listbox as="div" :modelValue="locale" @update:modelValue="switchLanguageTo">
       <ListboxLabel class="sr-only">Change language</ListboxLabel>
       <div class="relative">
-        <ListboxButton class="inline-flex divide-x divide-orange-600 rounded-md focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-orange-600">
-          <div class="inline-flex items-center gap-x-1.5 rounded-l-md bg-orange-600 px-3 py-2 text-white">
+        <ListboxButton class="inline-flex divide-x divide-orange-600 rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 bg-orange-600 hover:bg-orange-500 ">
+          <div class="inline-flex items-center gap-x-1.5 rounded-l-md px-3 py-2 text-white">
             <GlobeAltIcon class="-ml-0.5 size-5" aria-hidden="true" />
             <p class="text-sm font-semibold">{{locale}}</p>
           </div>
-          <div class="inline-flex items-center rounded-l-none rounded-r-md bg-orange-600 p-2 outline-none hover:bg-orange-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-orange-400">
+          <div class="inline-flex items-center rounded-l-none rounded-r-md p-2 outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-orange-400">
             <span class="sr-only">Change language</span>
             <ChevronDownIcon class="size-5 text-white forced-colors:text-[Highlight]" aria-hidden="true" />
           </div>
