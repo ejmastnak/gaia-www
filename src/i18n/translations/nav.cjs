@@ -13,7 +13,7 @@ module.exports = {
   },
   whereToBuy: {
     en: "Where to buy",
-    sl: "Kje kupiti",
+    sl: "Nakup izdelkov",
   },
   contact: {
     en: "Contact",

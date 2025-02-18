@@ -1,8 +1,10 @@
 module.exports = {
   readMoreButton: {
-    text: {
-      en: "Read more",
-      sl: "Več",
-    },
+    en: "Read more...",
+    sl: "Več...",
+  },
+  orderLink: {
+    en: "Order products",
+    sl: "Nakup izdelkov",
   },
 };
