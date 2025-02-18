@@ -6,7 +6,7 @@ module.exports = {
     },
     text: {
       en: "Delicious traditionally-made fruit and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
-      sl: "Tradicionalna pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem vrhu pri Mislinji",
+      sl: "Tradicionalna pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem Vrhu pri Mislinji",
     },
   },
   about: {
