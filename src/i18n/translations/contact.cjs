@@ -15,7 +15,7 @@ module.exports = {
     phone: {
       summary: {
         en: "By phone or WhatsApp",
-        sl: "Telefona ali WhatsApp",
+        sl: "Telefon ali WhatsApp",
       },
       details: [
         {
