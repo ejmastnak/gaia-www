@@ -23,7 +23,7 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
               </template>
               <template #details>
                 <p>
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.farm.details[0]')}}</I18nRouterLink>
+                  <I18nRouterLink class="inline text-blue-600" routeBasename="contact">{{$t('buy.waystobuy.farm.details[0]')}}</I18nRouterLink>
                   {{$t('buy.waystobuy.farm.details[1]')}}
                   <span class="font-bold">{{$t('buy.waystobuy.farm.details[2]')}}</span>
                   <span v-if="$t('buy.waystobuy.farm.details[3]')" class="">{{$t('buy.waystobuy.farm.details[3]')}}</span>
@@ -40,7 +40,7 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
               <template #details>
                 <p>{{$t('buy.waystobuy.koroska.details[0]')}}</p>
                 <p class="mt-1">
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.koroska.details[1]')}}</I18nRouterLink>
+                  <I18nRouterLink class="inline text-blue-600" routeBasename="contact">{{$t('buy.waystobuy.koroska.details[1]')}}</I18nRouterLink>
                   {{$t('buy.waystobuy.koroska.details[2]')}}
                 </p>
               </template>
@@ -54,7 +54,7 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
               <template #details>
                 <p>{{$t('buy.waystobuy.ljubljana.details[0]')}}</p>
                 <p class="mt-2">
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.ljubljana.details[1]')}}</I18nRouterLink>
+                  <I18nRouterLink class="inline text-blue-600" routeBasename="contact">{{$t('buy.waystobuy.ljubljana.details[1]')}}</I18nRouterLink>
                   {{$t('buy.waystobuy.ljubljana.details[2]')}}
                 </p>
               </template>
