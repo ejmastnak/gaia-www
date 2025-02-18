@@ -11,7 +11,7 @@ module.exports = {
     en: "Products",
     sl: "Izdelki",
   },
-  whereToBuy: {
+  buy: {
     en: "Where to buy",
     sl: "Nakup izdelkov",
   },

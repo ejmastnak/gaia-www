@@ -9,24 +9,24 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
 <template>
 
   <PageWrapper>
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('whereToBuy.h1')}}</h1>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('buy.h1')}}</h1>
 
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
       <div class="">
-        {{$t('whereToBuy.intro')}}
+        {{$t('buy.intro')}}
         <ul class="mt-5 space-y-2">
           <li>
             <Disclosure>
               <template #summary>
-                {{$t('whereToBuy.waystobuy.farm.summary')}}
+                {{$t('buy.waystobuy.farm.summary')}}
               </template>
               <template #details>
                 <p>
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('whereToBuy.waystobuy.farm.details[0]')}}</I18nRouterLink>
-                  {{$t('whereToBuy.waystobuy.farm.details[1]')}}
-                  <span class="font-bold">{{$t('whereToBuy.waystobuy.farm.details[2]')}}</span>
-                  <span v-if="$t('whereToBuy.waystobuy.farm.details[3]')" class="">{{$t('whereToBuy.waystobuy.farm.details[3]')}}</span>
+                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.farm.details[0]')}}</I18nRouterLink>
+                  {{$t('buy.waystobuy.farm.details[1]')}}
+                  <span class="font-bold">{{$t('buy.waystobuy.farm.details[2]')}}</span>
+                  <span v-if="$t('buy.waystobuy.farm.details[3]')" class="">{{$t('buy.waystobuy.farm.details[3]')}}</span>
                 </p>
 
               </template>
@@ -35,13 +35,13 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                {{$t('whereToBuy.waystobuy.koroska.summary')}}
+                {{$t('buy.waystobuy.koroska.summary')}}
               </template>
               <template #details>
-                <p>{{$t('whereToBuy.waystobuy.koroska.details[0]')}}</p>
+                <p>{{$t('buy.waystobuy.koroska.details[0]')}}</p>
                 <p class="mt-1">
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('whereToBuy.waystobuy.koroska.details[1]')}}</I18nRouterLink>
-                  {{$t('whereToBuy.waystobuy.koroska.details[2]')}}
+                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.koroska.details[1]')}}</I18nRouterLink>
+                  {{$t('buy.waystobuy.koroska.details[2]')}}
                 </p>
               </template>
             </Disclosure>
@@ -49,13 +49,13 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                {{$t('whereToBuy.waystobuy.ljubljana.summary')}}
+                {{$t('buy.waystobuy.ljubljana.summary')}}
               </template>
               <template #details>
-                <p>{{$t('whereToBuy.waystobuy.ljubljana.details[0]')}}</p>
+                <p>{{$t('buy.waystobuy.ljubljana.details[0]')}}</p>
                 <p class="mt-2">
-                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('whereToBuy.waystobuy.ljubljana.details[1]')}}</I18nRouterLink>
-                  {{$t('whereToBuy.waystobuy.ljubljana.details[2]')}}
+                  <I18nRouterLink class="inline" :colored="true" routeBasename="contact">{{$t('buy.waystobuy.ljubljana.details[1]')}}</I18nRouterLink>
+                  {{$t('buy.waystobuy.ljubljana.details[2]')}}
                 </p>
               </template>
             </Disclosure>
@@ -64,8 +64,8 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
 
         <div class="mt-5 max-w-xl">
           <p>
-            <strong class="font-bold">{{$t('whereToBuy.waystobuy.largeOrders.summary')}}</strong>
-            {{$t('whereToBuy.waystobuy.largeOrders.details')}}
+            <strong class="font-bold">{{$t('buy.waystobuy.largeOrders.summary')}}</strong>
+            {{$t('buy.waystobuy.largeOrders.details')}}
           </p>
         </div>
 

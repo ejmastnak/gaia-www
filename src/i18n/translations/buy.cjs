@@ -1,7 +1,7 @@
 module.exports = {
   h1: {
     en: "Where to buy",
-    sl: "Kje kupiti",
+    sl: "Nakup izdelkov",
   },
   intro: {
     en: "There are currently three ways to get our products:",

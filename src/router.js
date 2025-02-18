@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import Translate from "@/i18n/translation"
 import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
-import WhereToBuy from '@/Views/WhereToBuy.vue'
+import Buy from '@/Views/Buy.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
 import JabSok from '@/Views/Products/JabSok.vue'
@@ -79,33 +79,33 @@ const routes = [
   // Where to buy
   // --------------------------------------------------------------- //
   { 
-    path: '/where-to-buy',
-    name: 'whereToBuy.EN',
-    component: WhereToBuy,
+    path: '/buy',
+    name: 'buy.EN',
+    component: Buy,
     meta: {
       title: "WhereToBuy",
     },
   },
   {
-    path: '/en/where-to-buy',
-    name: 'whereToBuy.en',
-    component: WhereToBuy,
+    path: '/en/buy',
+    name: 'buy.en',
+    component: Buy,
     meta: {
       title: "WhereToBuy",
     },
   },
   {
-    path: '/kje-kupiti',
-    name: 'whereToBuy.SL',
-    component: WhereToBuy,
+    path: '/nakup',
+    name: 'buy.SL',
+    component: Buy,
     meta: {
       title: "WhereToBuy",
     },
   },
   {
     path: '/sl/kje-kupiti',
-    name: 'whereToBuy.sl',
-    component: WhereToBuy,
+    name: 'buy.sl',
+    component: Buy,
     meta: {
       title: "WhereToBuy",
     },
