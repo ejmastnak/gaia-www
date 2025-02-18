@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <I18nRouterLink :routeBasename="routeBasename" class="w-fit block rounded-md border border-gray-500 px-4 py-2 text-xl hover:bg-orange-50">
-    {{text ?? $t("partials.readMoreButton.text")}}
+  <I18nRouterLink :routeBasename="routeBasename" class="block w-fit rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+    {{text ?? $t("partials.readMoreButton")}}
   </I18nRouterLink>
 </template>
