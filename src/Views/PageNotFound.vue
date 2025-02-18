@@ -12,7 +12,7 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
       <p class="text-xl">{{$t("pageNotFound.p")}}</p>
 
       <I18nRouterLink
-        class="inline-flex mt-4 px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-900 focus:bg-gray-900 active:bg-gray-900 p-px rounded-md hover:underline focus:outline-gray-900"
+        class="inline-flex mt-4 px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-900 focus:bg-gray-900 active:bg-gray-900 p-px rounded-md hover:underline focus-visible:outline-gray-900"
         routeBasename="home"
       >
         {{$t("pageNotFound.link")}}
