@@ -2,7 +2,8 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import OrderLink from '@/Components/OrderLink.vue'
+import PrimaryLink from '@/Components/PrimaryLink.vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
 import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
 import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=800'
@@ -15,7 +16,12 @@ import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg?w=800'
 
     <div class="w-full flex items-center pr-2">
       <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('jabkis.title')}}</h1>
-      <OrderLink class="ml-auto"/>
+      <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
+        <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
+        <p class="whitespace-nowrap">
+          <span>{{$t('jabkis.order[0]')}}</span> <span class="hidden sm:inline">{{$t('jabkis.orderLink[1]')}}</span>
+        </p>
+      </PrimaryLink>
     </div>
 
 

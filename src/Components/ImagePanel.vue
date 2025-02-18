@@ -1,6 +1,6 @@
 <script setup>
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import ReadMoreButton from '@/Components/ReadMoreButton.vue'
+import SecondaryLink from '@/Components/SecondaryLink.vue'
 
 const props = defineProps({
   reverse: Boolean,
@@ -58,7 +58,10 @@ const props = defineProps({
       </p>
 
       <div>
-        <ReadMoreButton class="mt-3 md:mt-6 mx-auto" :routeBasename="routeBasename" />
+        <SecondaryLink class="mt-3 md:mt-6 mx-auto" :routeBasename="routeBasename">
+          {{$t("partials.readMore")}}
+          <span aria-hidden="true"> &rarr;</span>
+        </SecondaryLink>
       </div>
 
     </div>

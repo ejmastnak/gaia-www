@@ -3,6 +3,16 @@ module.exports = {
     en: "Saint John's Wort Oil",
     sl: "Šentjanževo olje",
   },
+  order: [
+    {
+      en: "Order",
+      sl: "Nakup",
+    },
+    {
+      en: "St. John's wort oil",
+      sl: "šentjanževega olja",
+    },
+  ],
   summary: {
     en: `
 Saint John's Wort oil is an herbal product made by infusing the flowers of the Saint John's Wort plant in a carrier oil. It is traditionally used in Slovenia to sooth and heal damaged skin after minor burns and scrapes, to sooth aching joints, to relieve nerve pain, and as a luxurious massage oil.

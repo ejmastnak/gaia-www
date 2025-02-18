@@ -1,7 +1,8 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
-import OrderLink from '@/Components/OrderLink.vue'
+import PrimaryLink from '@/Components/PrimaryLink.vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
@@ -14,7 +15,10 @@ import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
 
     <div class="w-full flex items-center pr-2">
       <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('products.h1')}}</h1>
-      <OrderLink class="ml-auto"/>
+      <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
+        <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
+        <p class="whitespace-nowrap">{{$t('products.order')}}</p>
+      </PrimaryLink>
     </div>
 
     <div class="mt-10 max-w-xl">

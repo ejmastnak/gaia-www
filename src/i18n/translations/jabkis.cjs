@@ -3,6 +3,16 @@ module.exports = {
     en: "Apple Cider Vinegar",
     sl: "Jabolčni kis",
   },
+  order: [
+    {
+      en: "Order",
+      sl: "Nakup",
+    },
+    {
+      en: "apple cider vinegar",
+      sl: "jabolčnega kisa",
+    },
+  ],
   summary: {
     en: `
 Our production of apple cider vinegar goes hand in hand with the pressing of apple juice each fall—we make our vinegar from the pulp and residual juice left over from the pressing process.

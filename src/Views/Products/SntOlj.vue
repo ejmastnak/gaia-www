@@ -2,7 +2,8 @@
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
-import OrderLink from '@/Components/OrderLink.vue'
+import PrimaryLink from '@/Components/PrimaryLink.vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
 import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg?w=700'
 import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
@@ -14,7 +15,10 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
 
     <div class="w-full flex items-center pr-2">
       <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('sntolj.title')}}</h1>
-      <OrderLink class="ml-auto"/>
+      <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
+        <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
+          <span>{{$t('sntolj.order[0]')}}</span> <span class="hidden sm:inline">{{$t('sntolj.orderLink[1]')}}</span>
+      </PrimaryLink>
     </div>
 
     <!-- Breadcrumb -->

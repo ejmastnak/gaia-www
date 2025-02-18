@@ -3,6 +3,10 @@ module.exports = {
     en: "Products",
     sl: "Izdelki",
   },
+  order: {
+    en: "Order products",
+    sl: "Nakup izdelkov",
+  },
   summary: {
     en: `We specialize in apple juice, apple cider vinegar, and herbal products made on our farm at small scale with natural, home-grown ingredients.
 `,

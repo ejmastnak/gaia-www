@@ -3,6 +3,16 @@ module.exports = {
     en: "Apple Juice",
     sl: "Jabolčni sok",
   },
+  order: [
+    {
+      en: "Order",
+      sl: "Nakup",
+    },
+    {
+      en: "apple juice",
+      sl: "jabolčnega soka",
+    },
+  ],
   summary: {
     en: `
 We press our apple juice in small batches each fall using a vibrant selection of heirloom varieties grown in our tall-trunk meadow orchards.
