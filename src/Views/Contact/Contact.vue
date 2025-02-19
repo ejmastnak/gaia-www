@@ -4,7 +4,7 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import Disclosure from '@/Components/Disclosure.vue'
 import ContactForm from './Partials/ContactForm.vue'
-import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
+import appleBlossomsImage from '@/assets/img/apple-blossoms-2.jpg?w=600'
 </script>
 
 <template>

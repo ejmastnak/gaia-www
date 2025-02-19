@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import Translate from "@/i18n/translation"
 import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
+import Bio from '@/Views/Bio.vue'
 import Buy from '@/Views/Buy.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
@@ -52,6 +53,25 @@ const routes = [
     path: '/sl/o-nas',
     name: 'about.sl',
     component: About,
+  },
+
+  // --------------------------------------------------------------- //
+  // Bio
+  // --------------------------------------------------------------- //
+  {
+    path: '/bio',
+    name: 'bio',
+    component: Bio,
+  },
+  {
+    path: '/sl/bio',
+    name: 'bio.sl',
+    component: Bio,
+  },
+  {
+    path: '/en/bio',
+    name: 'bio.en',
+    component: Bio,
   },
 
   // --------------------------------------------------------------- //

@@ -14,6 +14,10 @@ module.exports = {
     en: "About",
     sl: "O nas",
   },
+  bio: {
+    en: "Bio",
+    sl: "Bio",
+  },
   buy: {
     en: "Where to buy",
     sl: "Nakup izdelkov",
