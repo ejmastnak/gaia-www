@@ -3,6 +3,10 @@ module.exports = {
     en: "Products",
     sl: "Izdelki",
   },
+  bioButton: {
+    en: "More",
+    sl: "Več",
+  },
   order: {
     en: "Order products",
     sl: "Nakup izdelkov",

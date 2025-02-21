@@ -39,7 +39,10 @@ import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg?w=800'
       :imgAlt="$t('imgAlts.jabkisProp')"
     >
       <p>{{$t('jabkis.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('jabkis.bio')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
+        {{$t('jabkis.bio')}}
+        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('jabkis.bioButton')}} &rarr;</I18nRouterLink>
+      </p>
     </SimpleImagePanel>
 
     <!-- Production 1 -->

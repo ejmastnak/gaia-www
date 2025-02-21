@@ -35,7 +35,10 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
       :imgAlt="$t('imgAlts.sntolj')"
     >
       <p>{{$t('sntolj.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('sntolj.bio')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
+        {{$t('sntolj.bio')}}
+        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('sntolj.bioButton')}} &rarr;</I18nRouterLink>
+      </p>
     </SimpleImagePanel>
 
     <!-- Production -->

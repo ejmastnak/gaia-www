@@ -1,6 +1,6 @@
 module.exports = {
   h1: {
-    en: "Bio",
-    sl: "Bio",
+    en: "Organic status",
+    sl: "Ekološki status",
   },
 }

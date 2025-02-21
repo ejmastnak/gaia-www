@@ -3,6 +3,10 @@ module.exports = {
     en: "Apple Cider Vinegar",
     sl: "Jabolčni kis",
   },
+  bioButton: {
+    en: "More",
+    sl: "Več",
+  },
   order: [
     {
       en: "Order",

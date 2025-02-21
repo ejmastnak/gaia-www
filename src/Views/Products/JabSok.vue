@@ -36,7 +36,10 @@ import applesCrateImage from '@/assets/img/apples-crate.jpg?w=800'
       :imgAlt="$t('imgAlts.jabsokProp')"
     >
       <p>{{$t('jabsok.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('jabsok.bio')}}</p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
+        {{$t('jabsok.bio')}}
+        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('jabsok.bioButton')}} &rarr;</I18nRouterLink>
+      </p>
     </SimpleImagePanel>
 
     <!-- Production -->

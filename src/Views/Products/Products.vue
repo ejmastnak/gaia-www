@@ -1,6 +1,7 @@
 <script setup>
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
 import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
@@ -23,7 +24,9 @@ import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
 
     <div class="mt-10 max-w-xl">
       <p>{{$t('products.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('products.bio')}} </p>
+      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('products.bio')}}
+        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('products.bioButton')}} &rarr;</I18nRouterLink>
+      </p>
     </div>
 
     <div class="mt-10 md:mt-16 space-y-10 md:space-y-16">

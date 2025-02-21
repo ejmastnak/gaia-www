@@ -58,19 +58,24 @@ const routes = [
   // --------------------------------------------------------------- //
   // Bio
   // --------------------------------------------------------------- //
+  { 
+    path: '/organic',
+    name: 'bio.EN',
+    component: Bio,
+  },
   {
+    path: '/en/organic',
+    name: 'bio.en',
+    component: Bio,
+  },
+  { 
     path: '/bio',
-    name: 'bio',
+    name: 'bio.SL',
     component: Bio,
   },
   {
     path: '/sl/bio',
     name: 'bio.sl',
-    component: Bio,
-  },
-  {
-    path: '/en/bio',
-    name: 'bio.en',
     component: Bio,
   },
 

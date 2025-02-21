@@ -3,6 +3,10 @@ module.exports = {
     en: "Saint John's Wort Oil",
     sl: "Šentjanževo olje",
   },
+  bioButton: {
+    en: "More",
+    sl: "Več",
+  },
   order: [
     {
       en: "Order",

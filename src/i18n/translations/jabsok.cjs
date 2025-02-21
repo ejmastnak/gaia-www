@@ -3,6 +3,10 @@ module.exports = {
     en: "Apple Juice",
     sl: "Jabolčni sok",
   },
+  bioButton: {
+    en: "More",
+    sl: "Več",
+  },
   order: [
     {
       en: "Order",
