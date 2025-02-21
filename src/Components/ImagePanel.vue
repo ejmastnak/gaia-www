@@ -31,13 +31,24 @@ const props = defineProps({
 
     <!-- Product image -->
     <div class="px-2 shrink-0">
-      <img 
-      v-if="imgFile"
-      :src="imgFile"
-      :alt="imgAlt"
-      class="w-full h-64 mx-auto md:w-96 md:h-96 object-cover rounded-md"
-    />
-      <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
+      <I18nRouterLink v-if="headingLink" :routeBasename="routeBasename" class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 focus-visible:outline-orange-600">
+        <img 
+        v-if="imgFile"
+        :src="imgFile"
+        :alt="imgAlt"
+        class="w-full h-64 mx-auto md:w-96 md:h-96 object-cover rounded-md hover:shadow-lg hover:outline hover:outline-1 hover:outline-orange-300 "
+      />
+        <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
+      </I18nRouterLink>
+      <div v-else>
+        <img 
+        v-if="imgFile"
+        :src="imgFile"
+        :alt="imgAlt"
+        class="w-full h-64 mx-auto md:w-96 md:h-96 object-cover rounded-md"
+      />
+        <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
+      </div>
     </div>
 
     <div class="px-4 md:px-8 mt-2">
