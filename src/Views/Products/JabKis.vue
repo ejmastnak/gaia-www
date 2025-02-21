@@ -19,7 +19,7 @@ import presaBarrelImage from '@/assets/img/presa-barrel-2.jpg?w=800'
       <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
         <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
         <p class="whitespace-nowrap">
-          <span>{{$t('jabkis.order[0]')}}</span> <span class="hidden sm:inline">{{$t('jabkis.orderLink[1]')}}</span>
+          <span class="sm:hidden">{{$t('jabkis.order[0]')}}</span><span class="hidden sm:inline">{{$t('jabkis.order[0]')}} {{$t('jabkis.order[1]')}}</span>
         </p>
       </PrimaryLink>
     </div>

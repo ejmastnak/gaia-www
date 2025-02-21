@@ -17,7 +17,7 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
       <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('sntolj.title')}}</h1>
       <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
         <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
-          <span>{{$t('sntolj.order[0]')}}</span> <span class="hidden sm:inline">{{$t('sntolj.orderLink[1]')}}</span>
+          <span class="sm:hidden">{{$t('sntolj.order[0]')}}</span><span class="hidden sm:inline">{{$t('sntolj.order[0]')}} {{$t('sntolj.order[1]')}}</span>
       </PrimaryLink>
     </div>
 

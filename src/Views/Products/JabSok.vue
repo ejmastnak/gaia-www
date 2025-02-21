@@ -17,7 +17,7 @@ import applesCrateImage from '@/assets/img/apples-crate.jpg?w=800'
       <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
         <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
         <p class="whitespace-nowrap">
-          <span>{{$t('jabsok.order[0]')}}</span> <span class="hidden sm:inline">{{$t('jabsok.orderLink[1]')}}</span>
+          <span class="sm:hidden">{{$t('jabsok.order[0]')}}</span><span class="hidden sm:inline">{{$t('jabsok.order[0]')}} {{$t('jabsok.order[1]')}}</span>
         </p>
       </PrimaryLink>
     </div>
