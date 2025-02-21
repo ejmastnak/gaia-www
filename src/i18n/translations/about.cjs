@@ -6,14 +6,12 @@ module.exports = {
   summary: {
     en: `We are a family farm in Slovenia's Koroška region, specializing in small-scale, all-natural production of apple juice, apple cider vinegar, and herbal products from our traditional tall-trunk meadow orchards.
       We use heirloom varieties and non-commercial production methods to create delicious products with full nutrient content and exceptional flavor.`,
-    // Smo manjša družinska kmetija na slovenskem Koroškem. Staro kmetijo smo začeli obnavljati in oživljati po prevzetju leta 2023. Iz jabolk, dozorelih v našem visokodebelnem travniškem sadovnjaku, pridelujemo jabolčni sok in jabolčni kis, iz zelišč, ki rastejo na negnojenem travniku in v gozdu, pa različne zeliščne izdelke.
-    sl: `Smo manjša družinska kmetija na slovenskem Koroškem.
-Po načelih ekološkega kmetovanja pridelujemo sokove, kis, in zeliščne izdelke na majnši skali iz starih, nekomercialnih sort, kar se odraža v bogatem okusu in polni hranilni vrednosti naših izdelkov.`,
+    sl: `Smo manjša kmetija in družinsko podjetje na slovenskem Koroškem. Po načelih ekološkega kmetovanja pridelujemo sokove, kis, in zeliščne izdelke s poudarkom na uporabo starih, nekomercialnih sort ter ročno predelavo na manjši skali, kar da našim izdelkom bogat okus in polno hranilno vrednost.`,
   },
   then: {
     title: {
-      en: "Then",
-      sl: "Prej"
+      en: "History",
+      sl: "Zgodovina"
     },
     text: [
       {
