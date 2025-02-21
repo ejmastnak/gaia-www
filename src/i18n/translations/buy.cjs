@@ -13,16 +13,16 @@ module.exports = {
   },
   contactUsInstead: [
     {
-      en: "If you prefer, you can of course also order products by",
-      sl: "Če vam bolj odgovarja, nas seveda lahko tudi ",
+      en: "You can, of course, also order products by",
+      sl: "Izdelka lahko, seveda,",
     },
     {
-      en: "contacting us directly by email or phone.",
-      sl: "direktno kontaktirate prek telefona ali e-pošte",
+      en: "contacting us directly by email or phone",
+      sl: "naročite tudi po telefonu ali e-pošti",
     },
     {
-      en: "",  // intentionally blank
-      sl: ", in se bomo dogovorili za naročilo izdelkov.",
+      en: ".",
+      sl: ". Skupaj se dogovorimo za praktične detalje naročila.",
     },
   ],
   delivery: [

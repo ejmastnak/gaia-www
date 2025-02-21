@@ -24,18 +24,12 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
           </PrimaryLink>
         </div>
 
+        <!-- ...or you can contact us directly to order... -->
         <p class="mt-5">
           {{$t('buy.contactUsInstead[0]')}}
           <I18nRouterLink class="inline text-blue-600" routeBasename="contact">{{$t('buy.contactUsInstead[1]')}}</I18nRouterLink>
           <span>{{$t('buy.contactUsInstead[2]')}}</span>
         </p>
-
-        <div class="mt-5 max-w-xl">
-          <p>
-            <span class="font-bold">{{$t('buy.delivery[0]')}}</span>
-            {{$t('buy.delivery[1]')}}
-          </p>
-        </div>
 
       </div>
 
@@ -46,6 +40,15 @@ import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
     />
 
     </div>
+
+        <!-- Delivery -->
+        <div class="mt-8 max-w-2xl">
+          <p>
+            <span class="font-bold">{{$t('buy.delivery[0]')}}</span>
+            {{$t('buy.delivery[1]')}}
+          </p>
+        </div>
+
 
   </PageWrapper>
 
