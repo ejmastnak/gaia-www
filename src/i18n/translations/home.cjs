@@ -5,8 +5,8 @@ module.exports = {
       sl: "na Kmetiji Ramšak",
     },
     text: {
-      en: "Delicious traditionally-made fruit and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
-      sl: "Tradicionalna pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem Vrhu pri Mislinji",
+      en: "Traditional apple juice, vinegar, and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
+      sl: "Družinska pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem Vrhu pri Mislinji",
     },
   },
   about: {
@@ -15,10 +15,9 @@ module.exports = {
       sl: "O nas",
     },
     text: {
-      en: `We are a family farm in Slovenia's Koroška region, specializing in small-scale, all-natural production of apple juice, apple cider vinegar, and herbal products from our traditional tall-trunk meadow orchards.
-      We use heirloom varieties and non-commercial production methods to create delicious products with full nutrient content and exceptional flavor.`,
-      sl: `Smo manjša družinska kmetija na slovenskem Koroškem.
-Po načelih ekološkega kmetovanja pridelujemo sokove, kis, in zeliščne izdelke na majnši skali iz starih, nekomercialnih sort, kar da našim izdelkom bogat okus in polno hranilno vrednost.`,
+      en: `We are a small farm and family business in Slovenia's Koroška region, specializing in traditional apple juice, apple cider vinegar, and herbal products from our traditional tall-trunk meadow orchards.
+      We follow organic farming principles, use non-commercial heirloom varieties, and prioritize small-scale, hands-on production to create quality products with excellent flavor.`,
+      sl: `Smo manjša kmetija in družinsko podjetje na slovenskem Koroškem. Po načelih ekološkega kmetovanja pridelujemo sokove, kis, in zeliščne izdelke s poudarkom na uporabo starih, nekomercialnih sort ter ročno predelavo na manjši skali, kar da našim izdelkom bogat okus in polno hranilno vrednost.`,
     },
   },
   products: {
