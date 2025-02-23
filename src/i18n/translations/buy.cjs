@@ -31,7 +31,7 @@ module.exports = {
       sl: "Dostava:",
     },
     {
-      en: "We generally deliver to the greater Mislinja region and to Ljubljana. If you are located elsewhere in Slovenia and are interested in our products, we are happy to discuss delivery on a case-by-case basis. Contact use to arrange details.",
+      en: "We deliver to the greater Mislinja region and to Ljubljana. If you are located elsewhere in Slovenia and are interested in our products, we are happy to discuss delivery on a case-by-case basis. Please contact us to arrange details.",
       sl: "Načeloma dostavljamo v širši mislinjski regiji in v Ljubljani. Pri večjih naročilih se lahko tudi dogovorimo za dostavo kjerkoli v Sloveniji. Kontaktirajte nas, da dorečemo praktične detalje.",
     },
   ],

@@ -19,7 +19,7 @@ module.exports = {
   ],
   summary: {
     en: `
-We press our apple juice in small batches each fall using a vibrant selection of heirloom varieties grown in our tall-trunk meadow orchards.
+We press our apple juice in small batches each fall from a diverse selection of heirloom varieties grown in our tall-trunk meadow orchards.
 The juice is minimally processed to preserve its flavor and nutritional content, which, together with the richness and character of the heirloom apples, gives our juice a depth of flavor and body not found in commercial products.
 `,
     sl: `Jabolčni sok stiskamo vsako jesen, ko obrodijo jablane v našem visokodebelnem travniškem sadovnjaku.
@@ -48,13 +48,13 @@ Our farm, apples, and juice are completely free of pesticides, herbicides, and a
   production: [
     {
       en: `
-Apples are hand-picked in October and November; carefully washed; then ground, crushed, and pressed to extract the juice—we still press our apples manually in traditional wood-barrel presses. 
+We hand-pick our apples in October and November, carefully wash them, then grind, crush, and press them to extract the juice, working in small batches using traditional wood-barrel presses. 
 `,
       sl: "Jabolka so ročno obrana, ko dozorijo, in skrbno oprana. Sledi mletje in stiskanje s staro tradicionalno stikalnico.",
     },
     {
       en: `
-The pressed juice is aged overnight at low temperature to mellow and develop flavor, then low-temperature pasteurized in a coil-and-tube heat exchanger and immediately bottled and hermetically sealed, ready for consumption. 
+Next, the pressed juice is aged overnight at low temperature to mellow and develop flavor, then low-temperature pasteurized in a coil-and-tube heat exchanger and immediately bottled and hermetically sealed, ready for consumption. 
 `,
       sl: "Iztisnjeni sok počiva čez noč pri nizki jesenski temperaturi, da se omehča in razvije okus, nakar ga pasteriziramo pri 70-80º C, takoj ustekleničimo in hermetično zapremo. Sok je tako pripravljen za uživanje.",
     },

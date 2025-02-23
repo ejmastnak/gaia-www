@@ -20,7 +20,7 @@ module.exports = {
   summary: {
     en: `
 Our production of apple cider vinegar goes hand in hand with the pressing of apple juice each fall—we make our vinegar from the pulp and residual juice left over from the pressing process.
-Our vinegar is special in using apple pulp as a primary raw ingredient (most vinegars use pure juice).
+Our vinegar is special in that we use apple pulp as a primary raw ingredient (most vinegars use pure juice).
 Together with the heirloom varieties' vibrant flavor and a slow fermentation all winter long, this gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
 `,
     sl: "Proizvodnja našega jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, narejen iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
@@ -55,16 +55,16 @@ We then use the pulp and residual juice to make our vinegar.
     },
     {
       en: `
-We make the vinegar with a multi-stage fermentation process.
-First, an alchoholic fermentation converts the pulp and juice into apple cider.
+We make our vinegar with a multi-stage fermentation process.
+First, an alcoholic fermentation converts the pulp and juice into apple cider.
 We then mix the pulp and cider with spring water from our own wells, inoculate the mixture with mother from previous batches, and carry out a longer, lower-temperature acetic fermentation that converts the alcohol in the cider to acetic acid, producing vinegar.
-In parallel, a malolactic fermentation converts the malic acid in the apples to gentler acetic acid, mellowing the vinegar's acidity and sharpness.
+In parallel, malolactic fermentation converts the malic acid in the apples to gentler acetic acid, mellowing the vinegar's acidity and sharpness.
 `,
       sl: "Proces fermentacije je večstopenjski. Najprej alkoholno vrenje spremeni tropino in sok v jabolčnik. Ko se ta proces zaključi, primešamo v tropino in jabolčnik vodo iz našega izvira in mešanico cepimo z nekaj droži iz lanskoletnega kisa. Sledi daljša kislinska fermentacija pri nižji temperaturi, v kateri nastane kis. Vzporedno s pretvarjanjem jabolčnikovega alkohola v ocetno kislino poteka malolaktična fermentacija, ki pretvori maleinsko kislino jabolk v nežnejšo ocetno kislino, kar omehča kislost in ostrino kisa.",
     },
     {
       en: `
-After a gentle fermentation over 3-4 weeks, we then strain the liquid vinegar from the apple solids and set aside the fresh vinegar to slowly mature over the course of the winter, during which compounds and microorganisms in the vinegar continue to interact, developing complexity, flavor, and mellowing the fresh vinegar's sharpness.
+After gentle fermentation over the course of 3-4 weeks, we then strain the fresh liquid vinegar from the apple solids and set it aside to slowly mature over the course of the winter, during which time compounds and microorganisms in the vinegar continue to interact, developing complexity, flavor, and mellowing the fresh vinegar's sharpness.
 
 The result is a gentle vinegar with superb flavor, free of the harshness of fast-fermented industrial vinegars.
 `,
@@ -72,7 +72,7 @@ The result is a gentle vinegar with superb flavor, free of the harshness of fast
     },
     {
       en: `Our vinegar is unfiltered and unpasteurized to preserve flavor, body, and the activity of beneficial microorganisms.
-          As such, the vinegar may contain a small film of "mother of vinegar," a natural byproduct of fermentation, along with some sediment. These are harmless and full of beneficial enzymes and probiotics. If preferred, simply strain the vinegar to remove these particles before use.
+          As such, our vinegar may contain a small film of "mother of vinegar," a natural byproduct of fermentation, along with some sediment. These are harmless and full of beneficial enzymes and probiotics. If preferred, simply strain the vinegar to remove these particles before use.
 `,
       sl: "Naš kis je nefiltriran in nepasteriziran. Tako ohranimo poln okus, obenem pa obdržimo pri življenju blagodejne mikroorganizme. Takšen kis lahko vsebuje manjšo plast droži in nekaj usedline. Ti ne le, da nista škodljivi, temveč vsebujeta blagodejne encime in probiotike. Če želite, lahko odstranite te primesi tako, da kis preprosto precedite.",
     },
