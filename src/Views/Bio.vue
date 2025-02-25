@@ -47,17 +47,8 @@ function carouselPrev() {
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
       <div>
-        <p>At the moment we are not officially certified, but our farm both currently follows and has a previous history of organic farming.</p>
-
-        <p class="mt-2">The farm was officially certified organic by the KON-CERT Institute in Maribor, the leading organic agriculture certification body in Slovenia, during the previous owner's tenure.
-          You can view our certificates <a href="#certificates" class="text-blue-500 hover:text-blue-600 hover:underline">below</a>.
-        </p>
-
-        <p class="mt-2">
-          During the whirlwind of administrative and physical work involved in buying and taking over the property, we failed to renew our certification and let our official organic status slip.
-          But we haven't changed a thing—we remain just as committed as the previous owner to the principles of organic farming, and run our farm strictly free of pesticides, herbicides, and all other synthetic agrochemicals.
-        </p>
-
+        <p>{{$t('bio.p1')}}</p>
+        <p class="mt-2">{{$t('bio.p2')}}</p>
       </div>
 
       <img 
@@ -92,7 +83,6 @@ function carouselPrev() {
           <ChevronRightIcon class="size-5" aria-hidden="true" />
         </button>
       </div>
-
 
     </div>
 
