@@ -5,17 +5,28 @@ import PageWrapper from '@/Shared/PageWrapper.vue'
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/24/outline'
 import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 
+import certEko2015Image from '@/assets/img/certs/2015-eko.jpg'
+import certEko2016Image from '@/assets/img/certs/2016-eko.jpg'
+import certEko2017Image from '@/assets/img/certs/2017-eko.jpg'
+import certEko2018Image from '@/assets/img/certs/2018-eko.jpg'
+import certEko2019Image from '@/assets/img/certs/2019-eko.jpg'
+import certEko2020Image from '@/assets/img/certs/2020-eko.jpg'
+import certEko2021Image from '@/assets/img/certs/2021-eko.jpg'
+import certBiokozmetika2020Image from '@/assets/img/certs/2020-biokozmetika.jpg'
+import certBiokozmetika2021Image from '@/assets/img/certs/2021-biokozmetika.jpg'
+
 const certs = [
-  "2015-eko.jpg",
-  "2016-eko.jpg",
-  "2017-eko.jpg",
-  "2018-eko.jpg",
-  "2019-eko.jpg",
-  "2020-biokozmetika.jpg",
-  "2020-eko.jpg",
-  "2021-biokozmetika.jpg",
-  "2021-eko.jpg",
+  certEko2015Image,
+  certEko2016Image,
+  certEko2017Image,
+  certEko2018Image,
+  certEko2019Image,
+  certBiokozmetika2020Image,
+  certEko2020Image,
+  certBiokozmetika2021Image,
+  certEko2021Image,
 ]
+
 const carouselIdx = ref(certs.length - 1)
 
 function carouselNext() {
@@ -62,7 +73,7 @@ function carouselPrev() {
 
       <h2 class="text-3xl -mt-10 pt-20 font-['Latin_Modern_Roman']" id="certificates">Certificates</h2>
 
-      <img class="mt-6 w-80 mx-auto" :src="'/src/assets/img/certificates/' + certs[carouselIdx]" />
+      <img class="mt-6 w-80 mx-auto" :src="certs[carouselIdx]" />
 
       <!-- Carousel controls -->
       <div class="mt-2 mx-auto w-fit flex items-center gap-x-4">
@@ -73,7 +84,7 @@ function carouselPrev() {
         </button>
 
         <div class="flex gap-x-1.5">
-          <div v-for="(num, i) in certs.length" :key="i" class="h-2 w-6 rounded-xl" :class="i === carouselIdx ? 'bg-orange-500' : 'bg-gray-200'" />
+          <div v-for="(num, i) in certs.length" :key="i" class="h-2 w-6 rounded-xl" :class="i === carouselIdx ? 'bg-lime-600' : 'bg-gray-200'" />
         </div>
 
         <!-- Next -->

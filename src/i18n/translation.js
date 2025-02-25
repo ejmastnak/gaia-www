@@ -57,7 +57,7 @@ const Translate = {
   //   - Translate.defaultLocale
   guessDefaultLocale() {
     const userPersistedLocale = Translate.getPersistedLocale()
-    if(userPersistedLocale) {
+    if (userPersistedLocale) {
       return userPersistedLocale
     }
 
