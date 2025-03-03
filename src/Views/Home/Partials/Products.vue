@@ -1,7 +1,7 @@
 <script setup>
 import ImagePanel from '@/Components/ImagePanel.vue'
 import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=600'
-import applesCrateImage from '@/assets/img/apples-crate.jpg?w=600'
+import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=600'
 import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=600'
 </script>
 
@@ -14,8 +14,8 @@ import kisCisternsImage from '@/assets/img/kis-cisterns.jpg?w=600'
     <ImagePanel
       class="mt-8 md:mt-12"
       :reverse="true"
-      :imgFile="applesCrateImage"
-      :imgAlt="$t('imgAlts.applesCrate')"
+      :imgFile="jabsokPropImage"
+      :imgAlt="$t('imgAlts.jabsokProp')"
       :title="$t('home.products.jabsok.title')"
       routeBasename="jabsok"
     >
