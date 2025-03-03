@@ -22,7 +22,6 @@ const mobileMenuShowing = ref(false)
           <NavLink routeBasename="products">{{ $t("nav.products") }}</NavLink>
           <NavLink routeBasename="buy">{{ $t("nav.buy") }}</NavLink>
           <NavLink routeBasename="contact">{{ $t("nav.contact") }}</NavLink>
-
         </div>
       </div>
 
@@ -33,7 +32,9 @@ const mobileMenuShowing = ref(false)
           Center Gaia
         </NavLink>
 
-        <button type="button" class="ml-auto translate-y-1" >
+        <LanguageSwitcher class="ml-auto translate-y-1" />
+
+        <button type="button" class="ml-5 translate-y-1" >
           <Bars3Icon v-show="!mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
           <XMarkIcon v-show="mobileMenuShowing" class="text-gray-600 h-[1.75rem] w-[1.75rem] xs:h-[2rem] xs:w-[2rem]" @click="mobileMenuShowing = !mobileMenuShowing" />
         </button>
@@ -45,9 +46,6 @@ const mobileMenuShowing = ref(false)
     <Transition>
       <div v-show="mobileMenuShowing" class="absolute right-0 w-fit bg-white border-x border-b border-gray-300">
         <div class="relative flex flex-col px-8 pt-6 pb-8 text-left w-fit mx-auto space-y-4">
-          <div class="border-b border-gray-300 pb-4">
-            <LanguageSwitcher class="ml-auto" />
-          </div>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="home">{{ $t("nav.home") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="about">{{ $t("nav.about") }}</NavLink>
           <NavLink @click="mobileMenuShowing = false" class="border-b" routeBasename="products">{{ $t("nav.products") }}</NavLink>
@@ -65,11 +63,11 @@ const mobileMenuShowing = ref(false)
 <style>
 .v-enter-active,
 .v-leave-active {
-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
 }
 
 .v-enter-from,
 .v-leave-to {
-opacity: 0;
+  opacity: 0;
 }
 </style>
