@@ -33,7 +33,7 @@ But age and lack of a younger generation to take over began to catch up with the
     text: [
       {
         en: `The property was purchased by the Mastnak family in 2023. Simultaneously with renewing the aging buildings, replanting old fields, and planting a new generation of fruit trees, we are doing our best to continue the activities and business passed on to us by the previous owner.`,
-        sl: `Kmetijo je leta 2023 kupila družina Mastnak. Medtem ko obnavljamo gospopdarska poslopja in oživljamo vrt in sadovnjak, nadaljujemo z dejavnostmi, ki jih je opravljal prejšjni lastnik. Prijazno nas je naučil delati jabolčni sok brez vseh dodatkov in jabolčni kis ter z nasveti pomagal našemu najstarejšemu sinu, ki je prevzel Center Gaia d.o.o.
+        sl: `Kmetijo je leta 2023 kupila družina Mastnak. Medtem ko obnavljamo gospodarska poslopja in oživljamo vrt in sadovnjak, nadaljujemo z dejavnostmi, ki jih je opravljal prejšjni lastnik. Prijazno nas je naučil delati jabolčni sok brez vseh dodatkov in jabolčni kis ter z nasveti pomagal našemu najstarejšemu sinu, ki je prevzel Center Gaia d.o.o.
 `
       },
       // The owner before us (who would prefer to remain anonymous) also helped guide our eldest son, Elijan, in the process of taking over the business and administrative sides of running the farm.
