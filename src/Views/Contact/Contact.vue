@@ -27,23 +27,33 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms-2.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                <span>{{$t('contact.waysToContact.phone.summary')}}</span>
+                <span class="font-bold">{{$t('contact.waysToContact.phone.summary')}}</span>
               </template>
               <template #details>
                 {{$t('contact.waysToContact.phone.details[0]')}}
                 <a class="inline font-bold hover:text-blue-600" href="tel:+38631230167">{{$t('contact.waysToContact.phone.details[1]')}}</a>
-                {{$t('contact.waysToContact.phone.details[2]')}}
               </template>
             </Disclosure>
           </li>
           <li>
             <Disclosure>
               <template #summary>
-                <span>{{$t('contact.waysToContact.email.summary')}}</span>
+                <span class="font-bold">{{$t('contact.waysToContact.email.summary')}}</span>
               </template>
               <template #details>
                 {{$t('contact.waysToContact.email.details[0]')}}
                 <a class="font-bold hover:text-blue-600" href="mailto:info@gaia.si">{{$t('contact.waysToContact.email.details[1]')}}</a>
+              </template>
+            </Disclosure>
+          </li>
+          <li>
+            <Disclosure>
+              <template #summary>
+                <span class="font-bold">{{$t('contact.waysToContact.whatsapp.summary')}}</span>
+              </template>
+              <template #details>
+                {{$t('contact.waysToContact.whatsapp.details[0]')}}
+                <a class="inline font-bold hover:text-blue-600" href="tel:+38631230167">{{$t('contact.waysToContact.whatsapp.details[1]')}}</a>
               </template>
             </Disclosure>
           </li>

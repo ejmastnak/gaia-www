@@ -14,22 +14,18 @@ module.exports = {
   waysToContact: {
     phone: {
       summary: {
-        en: "By phone or WhatsApp",
-        sl: "Telefon ali WhatsApp",
+        en: "By phone",
+        sl: "Klic ali SMS",
       },
       details: [
         {
-          en: "Call or message us by phone or WhatsApp at",
-          sl: "Pokličite ali pošljite sporočilo po telefonu ali na WhatsApp na številko",
+          en: "Call or message us at",
+          sl: "Pokličite ali pošljite SMS sporočilo na številko",
         },
         {
           en: "+386 31 230 167",
           sl: "+386 31 230 167",
         },
-        {
-          en: "(you will reach Elijan, son of the father-son team running the farm).",
-          sl: "(Elijan Jakob Mastnak)",
-        }
       ]
     },
     email: {
@@ -48,6 +44,23 @@ module.exports = {
         },
       ]
     },
+    whatsapp: {
+      summary: {
+        en: "By WhatsApp",
+        sl: "WhatsApp",
+      },
+      details: [
+        {
+          en: "Call or message us on WhatsApp at",
+          sl: "Pokličite ali pošljite sporočilo na WhatsApp številko",
+        },
+        {
+          en: "+386 31 230 167",
+          sl: "+386 31 230 167",
+        },
+      ]
+    },
+
     contactForm: {
       summary: {
         en: "By contact form",
@@ -104,7 +117,7 @@ module.exports = {
     }
   },
   youWillProbablyReachElijan: {
-    en: "In each case you will most likely reach Elijan, who will happily answer questions and arrange logistics.",
+    en: "In each case you will most likely reach Elijan, the son of the father-son team running the farm, who will happily answer questions and arrange logistics.",
     sl: "Katero koli izmed teh možnosti boste izbrali, boste najverjetneje dosegli Elijana, ki bo rade volje odgovoril na vaša vprašanja ali se dogovoril za realizacijo naročil.",
   }
 };
