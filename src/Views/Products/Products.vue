@@ -1,12 +1,16 @@
 <script setup>
+import { inject } from 'vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
-import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
 import jabkisPropImage from '@/assets/img/jabkis-prop.jpg?w=800'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
+
+const products = inject('products')
 
 </script>
 
@@ -63,6 +67,8 @@ import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
       >
         {{$t("sntolj.summary")}}
       </ImagePanel>
+
+      <PriceList class="mt-5" :products="products" />
 
     </div>
 

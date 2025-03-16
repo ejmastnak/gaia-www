@@ -1,4 +1,6 @@
 <script setup>
+import { inject } from 'vue'
+import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
@@ -7,6 +9,8 @@ import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import sntoljImage from '@/assets/img/sntolj.jpg?w=800'
 import sentjanzevkaFlowersImage from '@/assets/img/sentjanzevka-flowers.jpg?w=700'
 import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
+
+const products = inject('products')
 </script>
 
 <template>
@@ -74,12 +78,7 @@ import sntoljJarsImage from '@/assets/img/sntolj-jars.jpg?w=700'
       {{$t('sntolj.contraindications[1]')}}
     </p>
 
-    <!-- Prices -->
-    <p class="mt-5 md:mt-8 max-w-xl">
-      {{$t('sntolj.price[0]')}}
-      <span class="font-bold">{{$t('sntolj.price[1]')}}</span>
-      {{$t('sntolj.price[2]')}}
-    </p>
+    <PriceList class="mt-8" :products="products.filter((p) => p.code.startsWith('sntolj'))" />
 
   </PageWrapper>
 

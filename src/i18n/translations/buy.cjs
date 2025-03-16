@@ -36,7 +36,7 @@ module.exports = {
   priceList: {
     heading: {
       en: "Our products and prices",
-      sl: "Okvirni cenik izdelkov",
+      sl: "Otvoritveni akcijski cenik izdelkov",
     },
     product: {
       en: "Product",

@@ -1,15 +1,13 @@
 <script setup>
 import { inject } from 'vue'
-import { useI18n } from 'vue-i18n'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/vue/24/outline'
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import PriceList from '@/Shared/PriceList.vue'
 import Disclosure from '@/Components/Disclosure.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline'
 import orehTreeImage from '@/assets/img/oreh-tree.jpg?w=600'
 
-const { t, locale } = useI18n()
 const products = inject('products')
 
 </script>
@@ -45,25 +43,7 @@ const products = inject('products')
           </div>
         </div>
 
-        <!-- Table of products -->
-        <div class="mt-8">
-          <p class="font-bold">{{$t('buy.priceList.heading')}}</p>
-          <div class="mt-3">
-            <div class="grid grid-cols-12">
-              <p class="col-span-7 px-3 py-2 bg-orange-100">{{$t('buy.priceList.product')}}</p>
-              <p class="col-span-5 px-3 py-2 bg-orange-200">{{$t('buy.priceList.price')}}</p>
-            </div>
-            <div class="grid grid-cols-12 border-b py-1 !text-left text-nowrap" >
-
-              <!-- Names -->
-              <template v-for="product in products" :key="product.name">
-                <p class="col-span-7 px-3 py-1">{{product.name[locale]}}</p>
-                <span class="col-span-5 px-3 py-1">{{(product.eur_cents/100).toFixed(2)}} €</span>
-              </template>
-
-            </div>
-          </div>
-        </div>
+        <PriceList class="mt-8" :products="products" />
 
         <p class="mt-5">{{$t('buy.bottleToOrder[0]')}} <span class="font-bold">{{$t('buy.bottleToOrder[1]')}}</span> {{$t('buy.bottleToOrder[2]')}}</p>
 

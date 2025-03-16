@@ -1,11 +1,15 @@
 <script setup>
+import { inject } from 'vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
-import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import jabsokPropImage from '@/assets/img/jabsok-prop.jpg?w=800'
 import applesCrateImage from '@/assets/img/apples-crate.jpg?w=800'
+
+const products = inject('products')
 </script>
 
 <template>
@@ -58,13 +62,7 @@ import applesCrateImage from '@/assets/img/apples-crate.jpg?w=800'
       <p class="mt-5">{{$t('jabsok.production[1]')}}</p>
     </SimpleImagePanel>
 
-    <!-- Prices -->
-    <p class="mt-8 md:mt-12 max-w-xl">
-      {{$t('jabsok.price[0]')}}
-      <span class="font-bold">{{$t('jabsok.price[1]')}}</span>
-      {{$t('jabsok.price[2]')}}
-    </p>
-
+    <PriceList class="mt-8" :products="products.filter((p) => p.code.startsWith('jabsok'))" />
 
   </PageWrapper>
 
