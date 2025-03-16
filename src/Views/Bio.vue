@@ -62,7 +62,7 @@ function carouselPrev() {
     <!-- Certificates -->
     <div class="w-fit">
 
-      <h2 class="text-3xl -mt-10 pt-20 font-['Latin_Modern_Roman']" id="certificates">Certificates</h2>
+      <h2 class="text-3xl -mt-10 pt-20 font-['Latin_Modern_Roman']" id="certificates">{{$t('bio.certificates')}}</h2>
 
       <img class="mt-6 w-80 mx-auto" :src="certs[carouselIdx]" />
 

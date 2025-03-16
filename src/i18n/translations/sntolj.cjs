@@ -28,7 +28,7 @@ Saint John's Wort oil is an herbal product made by infusing the flowers of the S
 Our farm and St. John's Wort are completely free of pesticides, herbicides, and all other synthetic agrochemicals, and the flowers are then steeped in organic extra virgin olive oil.
 So although we don't yet have an official certification, our St. John's Wort oil is effectively BIO all but in name. 
 `,
-    sl: "Tako kot vse, kar raste na naši kmetiji, tudi šentjanževka ni podvržena uporabi pesticidov, herbicidov in drugih sintetičnih agrokemičnih sredstev, svetovi pa so namočeni v ekološko pridelanen deviškem oljčnem olju. Čeprav trenutno nimamo uradnega ekološkega certifikata, je naše šentjanževo olje dejansko »bio« oziroma »eko«.",
+    sl: "Tako kot vse, kar raste na naši kmetiji, tudi šentjanževka ni podvržena uporabi pesticidov, herbicidov in drugih sintetičnih agrokemičnih sredstev, cvetovi pa so namočeni v ekološko pridelanen ekstra deviškem oljčnem olju. Čeprav trenutno nimamo uradnega ekološkega certifikata, je naše šentjanževo olje dejansko »bio« oziroma »eko«.",
   },
   production: [
     {
