@@ -7,9 +7,9 @@ const { t, locale } = useI18n()
 </script>
 
 <template>
-  <div class="max-w-2xl">
+  <div class="max-w-2xl overflow-auto">
     <p class="font-bold">{{$t('partials.priceList.heading')}}</p>
-    <div class="mt-3">
+    <div class="mt-3 min-w-[420px]">
       <div class="grid grid-cols-12">
         <p class="col-span-7 px-3 py-2 bg-orange-100">{{$t('partials.priceList.product')}}</p>
         <p class="col-span-5 px-3 py-2 bg-orange-200">{{$t('partials.priceList.price')}}</p>
