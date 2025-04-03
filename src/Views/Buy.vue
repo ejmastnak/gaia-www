@@ -44,13 +44,6 @@ const products = inject('products')
           </div>
         </div>
 
-        <!-- Price list -->
-        <div class="mt-10">
-          <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('buy.priceList')}}</h2>
-          <PriceList class="mt-4" :products="products" />
-          <p class="mt-5">{{$t('buy.bottleToOrder[0]')}} {{$t('buy.bottleToOrder[1]')}} {{$t('buy.bottleToOrder[2]')}}</p>
-        </div>
-
       </div>
 
       <img 
@@ -61,12 +54,18 @@ const products = inject('products')
 
     </div>
 
+    <!-- Price list -->
+    <div class="mt-10">
+      <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('buy.priceList')}}</h2>
+      <PriceList class="mt-4" :products="products" />
+      <p class="mt-5 max-w-2xl">{{$t('partials.priceList.bottleToOrder[0]')}} {{$t('partials.priceList.bottleToOrder[1]')}} {{$t('partials.priceList.bottleToOrder[2]')}}</p>
+    </div>
+
     <!-- Delivery -->
     <div class="mt-8 max-w-2xl">
       <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('buy.delivery.heading')}}</h2>
       <p class="mt-1">{{$t('buy.delivery.body')}}</p>
     </div>
-
 
   </PageWrapper>
 
