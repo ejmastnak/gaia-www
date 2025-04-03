@@ -23,17 +23,20 @@ const products = inject('products')
       </PrimaryLink>
     </div>
 
-    <div class="mt-10">
-      <p class="max-w-2xl">
+    <div class="mt-8">
+
+      <p class="italic max-w-2xl">{{$t('partials.priceList.bottleToOrder[0]')}} {{$t('partials.priceList.bottleToOrder[1]')}} {{$t('partials.priceList.bottleToOrder[2]')}}</p>
+
+      <PriceList class="mt-5" :products="products" />
+
+
+      <p class="mt-2 max-w-2xl">
         <span>{{$t('prices.descriptions[0]')}}</span>
         <I18nRouterLink routeBasename="products" class="text-blue-600 hover:text-blue-700">
 {{$t('prices.descriptions[1]')}}</I18nRouterLink>
         <span>{{$t('prices.descriptions[2]')}}</span>
       </p>
 
-      <PriceList class="mt-5" :products="products" />
-
-      <p class="italic mt-5 max-w-2xl">{{$t('partials.priceList.bottleToOrder[0]')}} {{$t('partials.priceList.bottleToOrder[1]')}} {{$t('partials.priceList.bottleToOrder[2]')}}</p>
     </div>
 
   </PageWrapper>
