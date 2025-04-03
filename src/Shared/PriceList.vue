@@ -16,9 +16,9 @@ const { t, locale } = useI18n()
     <div class="grid grid-cols-12 py-1 !text-left text-nowrap" >
       <template v-for="product in products" :key="product.name">
         <div class="col-span-2 py-1 border-b border-gray-200">
-          <img :src="`/src/assets/img/products/${product.code}.jpg`" :alt="product.name[locale]" class="size-28 rounded-md object-cover " />
+          <img :src="`/src/assets/img/products/${product.code}.jpg`" :alt="product.name[locale]" class="size-20 sm:size-28 rounded-md object-cover " />
         </div>
-        <div class="col-span-6 text-xl px-3 pt-2 border-b border-gray-200">
+        <div class="col-span-6 sm:text-xl px-3 pt-2 border-b border-gray-200">
           {{product.name[locale]}}
         </div>
         <span class="col-span-4 px-3 pt-2 border-b border-gray-200">{{(product.eur_cents/100).toFixed(2)}} € / {{product.unit[locale]}}</span>

@@ -18,6 +18,10 @@ module.exports = {
     en: "Bio",
     sl: "Bio",
   },
+  prices: {
+    en: "Prices",
+    sl: "Cenik",
+  },
   buy: {
     en: "How to buy",
     sl: "Nakup izdelkov",

@@ -4,6 +4,7 @@ import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import Bio from '@/Views/Bio.vue'
 import Buy from '@/Views/Buy.vue'
+import Prices from '@/Views/Prices.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
 import JabSok from '@/Views/Products/JabSok.vue'
@@ -101,6 +102,30 @@ const routes = [
     path: '/sl/kje-kupiti',
     name: 'buy.sl',
     component: Buy,
+  },
+
+  // --------------------------------------------------------------- //
+  // Prices
+  // --------------------------------------------------------------- //
+  { 
+    path: '/prices',
+    name: 'prices.EN',
+    component: Prices,
+  },
+  {
+    path: '/en/prices',
+    name: 'prices.en',
+    component: Prices,
+  },
+  {
+    path: '/cenik',
+    name: 'prices.SL',
+    component: Prices,
+  },
+  {
+    path: '/sl/cenik',
+    name: 'prices.sl',
+    component: Prices,
   },
 
   // --------------------------------------------------------------- //
