@@ -12,7 +12,7 @@ module.exports = {
     sl: "Izdelki",
   },
   buy: {
-    en: "Where to buy",
+    en: "How to buy",
     sl: "Nakup izdelkov",
   },
   contact: {
