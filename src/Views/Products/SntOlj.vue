@@ -78,7 +78,11 @@ const products = inject('products')
       {{$t('sntolj.contraindications[1]')}}
     </p>
 
-    <PriceList class="mt-8" :products="products.filter((p) => p.code.startsWith('sntolj'))" />
+    <!-- Price list -->
+    <div class="mt-10">
+      <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('sntolj.priceList')}}</h2>
+      <PriceList class="mt-4" :products="products.filter((p) => p.code.startsWith('sntolj'))" />
+    </div>
 
   </PageWrapper>
 

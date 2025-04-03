@@ -73,4 +73,8 @@ Next, the pressed juice is aged overnight at low temperature to mellow and devel
       sl: "odvisno od količine in embalaže.",
     },
   ],
+  priceList: {
+    en: "Prices",
+    sl: "Cenik",
+  },
 };

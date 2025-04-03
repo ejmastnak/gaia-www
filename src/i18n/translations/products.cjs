@@ -22,4 +22,8 @@ module.exports = {
     sl: "Na kmetiji ne uporabljamo nobenih herbicidov, pesticidov ali drugih sintetičnih agrokemičnih in fitofarmacevtskih sredstev, niti jih ni uporabljal prejšnji lastnik. Čeprav trenutno nimamo ekološkega certifikata, so vsi naši pridelki in izdelki dejansko »bio« oziroma »eko«.",
     // Vsi naši izdelki so narejeni v omejenih, majhnih količinah.
   },
+  priceList: {
+    en: "Prices",
+    sl: "Cenik izdelkov",
+  },
 };

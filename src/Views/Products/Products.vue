@@ -68,9 +68,10 @@ const products = inject('products')
         {{$t("sntolj.summary")}}
       </ImagePanel>
 
-      <PriceList class="mt-5" :products="products" />
-
     </div>
+
+    <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('products.priceList')}}</h2>
+    <PriceList class="mt-4" :products="products" />
 
   </PageWrapper>
 

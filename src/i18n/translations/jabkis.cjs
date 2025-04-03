@@ -92,4 +92,8 @@ The result is a gentle vinegar with superb flavor, free of the harshness of fast
       sl: "odvisno od količine in embalaže.",
     },
   ],
+  priceList: {
+    en: "Prices",
+    sl: "Cenik",
+  },
 };

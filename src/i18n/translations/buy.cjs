@@ -47,14 +47,18 @@ module.exports = {
       sl: "v vašo lastno embalažo po ustrezno nižji ceni.",
     },
   ],
-  delivery: [
-    {
-      en: "Delivery:",
-      sl: "Dostava:",
+  priceList: {
+    en: "Prices",
+    sl: "Cenik izdelkov",
+  },
+  delivery: {
+    heading: {
+      en: "Delivery",
+      sl: "Dostava",
     },
-    {
+    body: {
       en: "We deliver to Ljubljana and locally to the greater Mislinja region. If you are located elsewhere in Slovenia and are interested in our products, we are happy to discuss delivery on a case-by-case basis. Please contact us to arrange details.",
       sl: "Dostavljamo v Ljubljani ter lokalno v širši mislinjski regiji. Pri večjih naročilih se lahko tudi dogovorimo za dostavo kjerkoli v Sloveniji. Kontaktirajte nas, da dorečemo praktične detalje.",
     },
-  ],
+  },
 }

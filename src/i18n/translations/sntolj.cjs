@@ -100,4 +100,8 @@ When massaged into the skin surface, its purported—and in many cases scientifi
       sl: "odvisno od količine in embalaže.",
     },
   ],
+  priceList: {
+    en: "Prices",
+    sl: "Cenik",
+  },
 };

@@ -85,7 +85,11 @@ const products = inject('products')
       <p>{{$t('jabkis.production[3]')}}</p>
     </SimpleImagePanel>
 
-    <PriceList class="mt-8" :products="products.filter((p) => p.code.startsWith('jabkis'))" />
+    <!-- Price list -->
+    <div class="mt-10">
+      <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('jabkis.priceList')}}</h2>
+    <PriceList class="mt-4" :products="products.filter((p) => p.code.startsWith('jabkis'))" />
+    </div>
 
   </PageWrapper>
 
