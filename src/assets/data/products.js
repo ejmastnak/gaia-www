@@ -1,3 +1,9 @@
+import jabsok330 from '@/assets/img/products/jabsok330.jpg?w=400'
+import jabsok750 from '@/assets/img/products/jabsok750.jpg?w=400'
+import jabkis500 from '@/assets/img/products/jabkis500.jpg?w=400'
+import jabkis1000 from '@/assets/img/products/jabkis1000.jpg?w=400'
+import sntolj100 from '@/assets/img/products/sntolj100.jpg?w=400'
+
 export default [
   {
     code: "jabsok330",
@@ -9,6 +15,7 @@ export default [
       en: "bottle",
       sl: "kos",
     },
+    img: jabsok330,
     eur_cents: 150,
   },
   {
@@ -21,6 +28,7 @@ export default [
       en: "bottle",
       sl: "kos",
     },
+    img: jabsok750,
     eur_cents: 200,
   },
   {
@@ -33,6 +41,7 @@ export default [
       en: "bottle",
       sl: "kos",
     },
+    img: jabkis500,
     eur_cents: 150,
   },
   {
@@ -45,6 +54,7 @@ export default [
       en: "bottle",
       sl: "kos",
     },
+    img: jabkis1000,
     eur_cents: 250,
   },
   {
@@ -57,6 +67,7 @@ export default [
       en: "bottle",
       sl: "kos",
     },
+    img: sntolj100,
     eur_cents: 600,
   },
 ]
