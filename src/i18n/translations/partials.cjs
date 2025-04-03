@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         en: "in custom quantities. Just let us know when ordering and we'll take care of the details.",
-        sl: "v plastično embalažo ali v vašo lastno embalažo ter prodamo po ustrezno nižji ceni.",
+        sl: "v plastično embalažo ali v vašo lastno embalažo ter prodamo po ustrezno nižji ceni (cca 1.50 €/liter za kis, cca 5.00 €/100 ml za šentjanževo olje).",
       },
     ],
   }
