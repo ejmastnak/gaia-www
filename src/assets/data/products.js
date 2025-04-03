@@ -8,8 +8,12 @@ export default [
   {
     code: "jabsok330",
     name: {
-      en: "Apple juice (330 ml)",
-      sl: "Jabolčni sok (330 ml)",
+      en: "Apple juice",
+      sl: "Jabolčni sok",
+    },
+    qty: {
+      en: "(330 ml)",
+      sl: "(330 ml)",
     },
     unit: {
       en: "bottle",
@@ -21,8 +25,12 @@ export default [
   {
     code: "jabsok750",
     name: {
-      en: "Apple juice (750 ml)",
-      sl: "Jabolčni sok (750 ml)",
+      en: "Apple juice",
+      sl: "Jabolčni sok",
+    },
+    qty: {
+      en: "(750 ml)",
+      sl: "(750 ml)",
     },
     unit: {
       en: "bottle",
@@ -34,8 +42,12 @@ export default [
   {
     code: "jabkis500",
     name: {
-      en: "Apple cider vinegar (500 ml)",
-      sl: "Jabolčni kis (500 ml)",
+      en: "Apple cider vinegar",
+      sl: "Jabolčni kis",
+    },
+    qty: {
+      en: "(500 ml)",
+      sl: "(500 ml)",
     },
     unit: {
       en: "bottle",
@@ -47,8 +59,12 @@ export default [
   {
     code: "jabkis1000",
     name: {
-      en: "Apple cider vinegar (1000 ml)",
-      sl: "Jabolčni kis (1000 ml)",
+      en: "Apple cider vinegar",
+      sl: "Jabolčni kis",
+    },
+    qty: {
+      en: "(1000 ml)",
+      sl: "(1000 ml)",
     },
     unit: {
       en: "bottle",
@@ -60,8 +76,12 @@ export default [
   {
     code: "sntolj100",
     name: {
-      en: "St. John's Wort oil (100 ml)",
-      sl: "Šentjanževo olje (100 ml)",
+      en: "St. John's Wort oil",
+      sl: "Šentjanževo olje",
+    },
+    qty: {
+      en: "(100 ml)",
+      sl: "(100 ml)",
     },
     unit: {
       en: "bottle",
