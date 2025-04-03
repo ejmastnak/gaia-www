@@ -15,6 +15,7 @@ const products = inject('products')
 <template>
 
   <PageWrapper>
+
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('buy.h1')}}</h1>
 
     <!-- -mr moves image rightward -->

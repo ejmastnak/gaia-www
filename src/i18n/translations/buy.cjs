@@ -36,15 +36,15 @@ module.exports = {
   bottleToOrder: [
     {
       en: "We are also happy to bottle apple cider vinegar and St. John's Wort oil",
-      sl: "Kis in šentjanževo olje vam lahko tudi",
+      sl: "Kis in šentjanževo olje vam z veseljem",
     },
     {
       en: "directly to order",
-      sl: "natočimo po dogovoru",
+      sl: "natočimo",
     },
     {
       en: "in custom quantities. Just let us know when ordering and we'll take care of the details.",
-      sl: "v vašo lastno embalažo po ustrezno nižji ceni.",
+      sl: "v vašo lastno embalažo ter prodamo po ustrezno nižji ceni.",
     },
   ],
   priceList: {

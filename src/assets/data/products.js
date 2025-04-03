@@ -5,6 +5,10 @@ export default [
       en: "Apple juice (330 ml)",
       sl: "Jabolčni sok (330 ml)",
     },
+    unit: {
+      en: "bottle",
+      sl: "kos",
+    },
     eur_cents: 150,
   },
   {
@@ -12,6 +16,10 @@ export default [
     name: {
       en: "Apple juice (750 ml)",
       sl: "Jabolčni sok (750 ml)",
+    },
+    unit: {
+      en: "bottle",
+      sl: "kos",
     },
     eur_cents: 200,
   },
@@ -21,6 +29,10 @@ export default [
       en: "Apple cider vinegar (500 ml)",
       sl: "Jabolčni kis (500 ml)",
     },
+    unit: {
+      en: "bottle",
+      sl: "kos",
+    },
     eur_cents: 150,
   },
   {
@@ -29,6 +41,10 @@ export default [
       en: "Apple cider vinegar (1000 ml)",
       sl: "Jabolčni kis (1000 ml)",
     },
+    unit: {
+      en: "bottle",
+      sl: "kos",
+    },
     eur_cents: 250,
   },
   {
@@ -36,6 +52,10 @@ export default [
     name: {
       en: "St. John's Wort oil (100 ml)",
       sl: "Šentjanževo olje (100 ml)",
+    },
+    unit: {
+      en: "bottle",
+      sl: "kos",
     },
     eur_cents: 600,
   },
