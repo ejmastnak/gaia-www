@@ -5,6 +5,7 @@ import About from '@/Views/About/About.vue'
 import Bio from '@/Views/Bio.vue'
 import Buy from '@/Views/Buy.vue'
 import Orchard from '@/Views/Orchard.vue'
+import Apples from '@/Views/Apples.vue'
 import Prices from '@/Views/Prices.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
@@ -103,6 +104,30 @@ const routes = [
     path: '/sl/travniski-sadovnjak',
     name: 'orchard.sl',
     component: Orchard,
+  },
+
+  // --------------------------------------------------------------- //
+  // Apples
+  // --------------------------------------------------------------- //
+  { 
+    path: '/apple-varieties',
+    name: 'apples.EN',
+    component: Apples,
+  },
+  {
+    path: '/en/apple-varieties',
+    name: 'apples.en',
+    component: Apples,
+  },
+  { 
+    path: '/sorte-jabolk',
+    name: 'apples.SL',
+    component: Apples,
+  },
+  {
+    path: '/sl/sorte-jabolk',
+    name: 'apples.sl',
+    component: Apples,
   },
 
   // --------------------------------------------------------------- //

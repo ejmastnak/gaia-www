@@ -22,6 +22,10 @@ module.exports = {
     en: "Meadow orchard",
     sl: "Travniški sadovnjak",
   },
+  apples: {
+    en: "Apples varieties on the farm",
+    sl: "Sorte jabolk na kmetiji",
+  },
   prices: {
     en: "Prices",
     sl: "Cenik",
