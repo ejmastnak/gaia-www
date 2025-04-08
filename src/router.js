@@ -4,6 +4,7 @@ import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import Bio from '@/Views/Bio.vue'
 import Buy from '@/Views/Buy.vue'
+import Orchard from '@/Views/Orchard.vue'
 import Prices from '@/Views/Prices.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
@@ -78,6 +79,30 @@ const routes = [
     path: '/sl/bio',
     name: 'bio.sl',
     component: Bio,
+  },
+
+  // --------------------------------------------------------------- //
+  // Orchard
+  // --------------------------------------------------------------- //
+  { 
+    path: '/meadow-orchard',
+    name: 'orchard.EN',
+    component: Orchard,
+  },
+  {
+    path: '/en/meadow-orchard',
+    name: 'orchard.en',
+    component: Orchard,
+  },
+  { 
+    path: '/travniski-sadovnjak',
+    name: 'orchard.SL',
+    component: Orchard,
+  },
+  {
+    path: '/sl/travniski-sadovnjak',
+    name: 'orchard.sl',
+    component: Orchard,
   },
 
   // --------------------------------------------------------------- //

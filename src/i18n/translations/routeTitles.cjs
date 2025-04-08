@@ -18,6 +18,10 @@ module.exports = {
     en: "Bio",
     sl: "Bio",
   },
+  orchard: {
+    en: "Meadow orchard",
+    sl: "Travniški sadovnjak",
+  },
   prices: {
     en: "Prices",
     sl: "Cenik",
