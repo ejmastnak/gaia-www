@@ -47,4 +47,8 @@ module.exports = {
       sl: "Dostavljamo v Ljubljani ter lokalno v širši mislinjski regiji. Pri večjih naročilih se lahko tudi dogovorimo za dostavo kjerkoli v Sloveniji. Kontaktirajte nas, da dorečemo praktične detalje.",
     },
   },
+  ddv: {
+    en: "Prices include VAT",
+    sl: "Cene vklučujejo DDV",
+  },
 }

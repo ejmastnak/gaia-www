@@ -70,8 +70,17 @@ const products = inject('products')
 
     </div>
 
-    <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('products.priceList')}}</h2>
-    <PriceList class="mt-4" :products="products" />
+    <!-- Price list -->
+    <div class="mt-8">
+      <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('buy.priceList')}}</h2>
+      <p class="text-gray-500 text-base">{{$t('buy.ddv')}}</p>
+      <PriceList class="mt-3" :products="products" />
+      <p class="mt-5 max-w-2xl">
+        <span class="font-bold">{{$t('shared.bottleToOrderHeading')}}</span>
+        {{$t('shared.bottleToOrder')}}
+      </p>
+    </div>
+
 
   </PageWrapper>
 

@@ -40,23 +40,6 @@ export default [
     eur_cents: 200,
   },
   {
-    code: "jabkis500",
-    name: {
-      en: "Apple cider vinegar",
-      sl: "Jabolčni kis",
-    },
-    qty: {
-      en: "(500 ml)",
-      sl: "(500 ml)",
-    },
-    unit: {
-      en: "bottle",
-      sl: "kos",
-    },
-    img: jabkis500,
-    eur_cents: 150,
-  },
-  {
     code: "jabkis1000",
     name: {
       en: "Apple cider vinegar",
@@ -72,6 +55,23 @@ export default [
     },
     img: jabkis1000,
     eur_cents: 250,
+  },
+  {
+    code: "jabkis500",
+    name: {
+      en: "Apple cider vinegar",
+      sl: "Jabolčni kis",
+    },
+    qty: {
+      en: "(500 ml)",
+      sl: "(500 ml)",
+    },
+    unit: {
+      en: "bottle",
+      sl: "kos",
+    },
+    img: jabkis500,
+    eur_cents: 150,
   },
   {
     code: "sntolj100",

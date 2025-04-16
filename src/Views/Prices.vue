@@ -23,13 +23,9 @@ const products = inject('products')
       </PrimaryLink>
     </div>
 
-    <div class="mt-8">
-
-      <p class="italic max-w-2xl">{{$t('partials.priceList.bottleToOrder[0]')}} {{$t('partials.priceList.bottleToOrder[1]')}} {{$t('partials.priceList.bottleToOrder[2]')}}</p>
-
+    <div class="mt-6">
+      <p class="italic max-w-2xl">{{$t('shared.bottleToOrder')}}</p>
       <PriceList class="mt-5" :products="products" />
-
-
       <p class="mt-2 max-w-2xl">
         <span>{{$t('prices.descriptions[0]')}}</span>
         <I18nRouterLink routeBasename="products" class="text-blue-600 hover:text-blue-700">
