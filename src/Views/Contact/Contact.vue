@@ -27,7 +27,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms-2.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                <span class="font-bold">{{$t('contact.waysToContact.phone.summary')}}</span>
+                <span>{{$t('contact.waysToContact.phone.summary')}}</span>
               </template>
               <template #details>
                 {{$t('contact.waysToContact.phone.details[0]')}}
@@ -38,7 +38,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms-2.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                <span class="font-bold">{{$t('contact.waysToContact.email.summary')}}</span>
+                <span>{{$t('contact.waysToContact.email.summary')}}</span>
               </template>
               <template #details>
                 {{$t('contact.waysToContact.email.details[0]')}}
@@ -49,7 +49,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms-2.jpg?w=600'
           <li>
             <Disclosure>
               <template #summary>
-                <span class="font-bold">{{$t('contact.waysToContact.whatsapp.summary')}}</span>
+                <span>{{$t('contact.waysToContact.whatsapp.summary')}}</span>
               </template>
               <template #details>
                 {{$t('contact.waysToContact.whatsapp.details[0]')}}
