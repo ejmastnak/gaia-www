@@ -1,6 +1,7 @@
 <script setup>
 import { inject } from 'vue'
 import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import Bio from '@/Shared/Bio.vue'
 import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
@@ -43,10 +44,7 @@ const products = inject('products')
       :imgAlt="$t('imgAlts.jabkisProp')"
     >
       <p>{{$t('jabkis.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
-        {{$t('jabkis.bio')}}
-        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('jabkis.bioButton')}} &rarr;</I18nRouterLink>
-      </p>
+      <Bio class="mt-4" />
     </SimpleImagePanel>
 
     <!-- Production 1 -->

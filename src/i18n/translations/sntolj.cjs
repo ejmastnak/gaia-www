@@ -3,10 +3,6 @@ module.exports = {
     en: "Saint John's Wort Oil",
     sl: "Šentjanževo olje",
   },
-  bioButton: {
-    en: "More",
-    sl: "Več",
-  },
   order: [
     {
       en: "Order",
@@ -22,13 +18,6 @@ module.exports = {
 Saint John's Wort oil is an herbal product made by infusing the flowers of the Saint John's Wort plant in a carrier oil. It is traditionally used in Slovenia to soothe and heal damaged skin after minor burns and scrapes, to soothe aching joints, to relieve nerve pain, and as a luxurious massage oil.
 `,
     sl: "Šentjanževo olje je zeliščni izdelek, narejen z namakanjem cvetov šentjanževke v olju. V Sloveniji in bližnji soseščini ga tradicionalno uporabljajo za lajšanje bolečin in celjenje kože pri lažjih opeklinah in odrgninah, za blažitev bolečin v sklepih, za pomiritev živčnih bolečin in tudi kot dragoceno masažno olje.",
-  },
-  bio: {
-    en: `
-Our farm and St. John's Wort are completely free of pesticides, herbicides, and all other synthetic agrochemicals, and the flowers are then steeped in organic extra virgin olive oil.
-So although we don't yet have an official certification, our St. John's Wort oil is effectively BIO all but in name. 
-`,
-    sl: "Tako kot vse, kar raste na naši kmetiji, tudi šentjanževka ni podvržena uporabi pesticidov, herbicidov in drugih sintetičnih agrokemičnih sredstev, cvetovi pa so namočeni v ekološko pridelanen ekstra deviškem oljčnem olju. Čeprav trenutno nimamo uradnega ekološkega certifikata, je naše šentjanževo olje dejansko »bio« oziroma »eko«.",
   },
   production: [
     {

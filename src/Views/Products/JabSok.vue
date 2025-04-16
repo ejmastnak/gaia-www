@@ -1,6 +1,7 @@
 <script setup>
 import { inject } from 'vue'
 import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import Bio from '@/Shared/Bio.vue'
 import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
@@ -40,10 +41,7 @@ const products = inject('products')
       :imgAlt="$t('imgAlts.jabsokProp')"
     >
       <p>{{$t('jabsok.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
-        {{$t('jabsok.bio')}}
-        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('jabsok.bioButton')}} &rarr;</I18nRouterLink>
-      </p>
+      <Bio class="mt-4" />
     </SimpleImagePanel>
 
     <!-- Production -->
@@ -65,7 +63,7 @@ const products = inject('products')
     <!-- Price list -->
     <div class="mt-10">
       <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('jabsok.priceList')}}</h2>
-    <PriceList class="mt-4" :products="products.filter((p) => p.code.startsWith('jabsok'))" />
+      <PriceList class="mt-4" :products="products.filter((p) => p.code.startsWith('jabsok'))" />
     </div>
 
   </PageWrapper>

@@ -3,10 +3,6 @@ module.exports = {
     en: "Apple Juice",
     sl: "Jabolčni sok",
   },
-  bioButton: {
-    en: "More",
-    sl: "Več",
-  },
   order: [
     {
       en: "Order",
@@ -24,12 +20,6 @@ The juice is minimally processed to preserve its flavor and nutritional content,
 `,
     sl: `Jabolčni sok stiskamo vsako jesen, ko obrodijo jablane v našem visokodebelnem travniškem sadovnjaku.
     Jabolka stiskamo v stari preši in minimalno procesiramo, da sok obdrži bogat, poln okus, ki ga dajejo stare sorte jabolk.`,
-  },
-  bio: {
-    en: `
-Our farm, apples, and juice are completely free of pesticides, herbicides, and all other synthetic agrochemicals. Although we don't yet have an official certification, our juice is effectively BIO all but in name.
-`,
-    sl: "Naše jablane niso škropljene z nobenimi pesticidi, herbicidi ali drugimi fitofarmacevtskimi sredstvi. Čeprav trenutno nimamo ekološkega certifikata, je naš jabolčni sok dejansko »bio« oziroma »eko«.",
   },
   appleVarieties: [
     {

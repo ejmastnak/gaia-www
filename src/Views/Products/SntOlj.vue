@@ -1,6 +1,7 @@
 <script setup>
 import { inject } from 'vue'
 import PriceList from '@/Shared/PriceList.vue'
+import Bio from '@/Shared/Bio.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
@@ -39,10 +40,7 @@ const products = inject('products')
       :imgAlt="$t('imgAlts.sntolj')"
     >
       <p>{{$t('sntolj.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">
-        {{$t('sntolj.bio')}}
-        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('sntolj.bioButton')}} &rarr;</I18nRouterLink>
-      </p>
+      <Bio class="mt-4" />
     </SimpleImagePanel>
 
     <!-- Production -->

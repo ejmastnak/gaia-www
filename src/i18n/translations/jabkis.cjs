@@ -3,10 +3,6 @@ module.exports = {
     en: "Apple Cider Vinegar",
     sl: "Jabolčni kis",
   },
-  bioButton: {
-    en: "More",
-    sl: "Več",
-  },
   order: [
     {
       en: "Order",
@@ -24,12 +20,6 @@ Our vinegar is special in that we use apple pulp as a primary raw ingredient (mo
 Together with the heirloom varieties' vibrant flavor and a slow fermentation all winter long, this gives our vinegar a smoothness, gentleness, and complexity not found in conventional vinegar made only from fermented apple juice. 
 `,
     sl: "Proizvodnja našega jabolčnega kisa začne hkrati s stiskanjem jabolk za sok. Kis delamo iz tropine in soka, ki ostaneta po stiskanju jabolk. Uporaba tropine kot osnovne surovine, stare sorte jabolk in počasen proces fermentacije, ki traja vso zimo, dajo kisu značilno mehkobo, nežnost in kopleksnost, ki je ne najdemo pri običajnem kisu, narejen iz fermentiranega jabolčnega soka. Ker kisa ne pasteriziramo, ohranimo pri življenju kvasovke, »živi« kis pa ugodno vpliva na zdravje.",
-  },
-  bio: {
-    en: `
-Our farm, apples, and vinegar are completely free of pesticides, herbicides, and all other synthetic agrochemicals. Although we don't yet have an official certification, our vinegar is effectively BIO all but in name. 
-`,
-    sl: "Naše jablane niso škropljene z nobenimi pesticidi, herbicidi ali drugimi fitofarmacevtskimi sredstvi. Čeprav trenutno nimamo ekološkega certifikata, je naš jabolčni sok dejansko »bio« oziroma »eko«.",
   },
   appleVarieties: [
     {

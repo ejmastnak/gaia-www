@@ -3,6 +3,7 @@ import { inject } from 'vue'
 import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
 import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
+import Bio from '@/Shared/Bio.vue'
 import ImagePanel from '@/Components/ImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
@@ -28,12 +29,10 @@ const products = inject('products')
 
     <div class="mt-10 max-w-xl">
       <p>{{$t('products.summary')}}</p>
-      <p class="mt-2 text-base lg:text-lg italic text-gray-700">{{$t('products.bio')}}
-        <I18nRouterLink routeBasename="bio" class="text-blue-500 hover:text-blue-600 hover:underline">{{$t('products.bioButton')}} &rarr;</I18nRouterLink>
-      </p>
+      <Bio class="mt-4" />
     </div>
 
-    <div class="mt-10 md:mt-16 space-y-10 md:space-y-16">
+    <div class="mt-10 md:mt-14 space-y-10 md:space-y-16">
 
       <ImagePanel
         :reverse="true"
