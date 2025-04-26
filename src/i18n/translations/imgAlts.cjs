@@ -51,4 +51,20 @@ module.exports = {
     en: "Image showing the view along the gravel road leading to our farm.",
     sl: "Slika, ki kaže pogled na dolino iz makademske ceste, ki pelje na našo kmetijo.",
   },
+  dandelions: {
+    en: "Image showing a field of dandelions in focus in the foreground with old-growth apple trees in the background.",
+    sl: "Slika cvetočega regrata z jablanami v ozadju.",
+  },
+  dandelions: {
+    en: "Image showing a field of dandelions in focus in the foreground with old-growth apple trees in the background.",
+    sl: "Slika cvetočega regrata z jablanami v ozadju.",
+  },
+  jablane: {
+    en: "Image showing old-growth apple trees on a sloping hill, with forest in the background.",
+    sl: "Slika starejših jablan z gozdom v ozadju.",
+  },
+  sliveFlowers: {
+    en: "Image showing plum trees in bloom in early spring.",
+    sl: "Slika cvetočih češpelj zgodaj spomladi.",
+  },
 };

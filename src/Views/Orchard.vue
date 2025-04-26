@@ -5,7 +5,9 @@ import PageWrapper from '@/Shared/PageWrapper.vue'
 import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/24/outline'
 
-import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
+import jablaneImage from '@/assets/img/jablane.jpg?w=600'
+import dandelionsImage from '@/assets/img/dandelions.jpg?w=600'
+import sliveFlowersImage from '@/assets/img/slive-flowers.jpg?w=700'
 
 </script>
 
@@ -25,8 +27,8 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
     <SimpleImagePanel 
       class="mt-5 md:mt-16"
       :reverse="false"
-      :imgFile="appleBlossomsImage"
-      :imgAlt="$t('imgAlts.appleBlossoms')"
+      :imgFile="dandelionsImage"
+      :imgAlt="$t('imgAlts.dandelions')"
     >
       <p>{{$t('orchard.definition')}}</p>
       <p class="mt-3">{{$t('orchard.features')}}</p>
@@ -39,7 +41,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
     <SimpleImagePanel 
       class="mt-5 md:mt-16"
       :reverse="true"
-      :imgFile="appleBlossomsImage"
+      :imgFile="jablaneImage"
       :imgAlt="$t('imgAlts.appleBlossoms')"
     >
       <p class="mt-3">
@@ -90,7 +92,11 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 
     </ul>
 
-
+    <img 
+    :src="sliveFlowersImage"
+    :alt="$t('imgAlts.sliveFlowers')"
+    class="mt-8 w-full sm:w-5/6 mx-auto rounded-md"
+  />
 
   </PageWrapper>
 
