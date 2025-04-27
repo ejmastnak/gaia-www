@@ -1,5 +1,8 @@
 module.exports = {
-
+  h1: {
+    en: "Apple varieties on the farm",
+    sl: "Sorte jablan na kmetiji",
+  },
   intro: {
     en: `
 We are proud to grow a number of interesting heirloom varieties not typically found in stores or commercial orchards.

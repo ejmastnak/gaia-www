@@ -13,7 +13,7 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 <template>
 
   <PageWrapper>
-    <h1 class="text-5xl font-['Latin_Modern_Roman']">Sorte jabolk na kmetiji</h1>
+    <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('apples.h1')}}</h1>
 
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
