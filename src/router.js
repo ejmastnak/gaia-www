@@ -4,7 +4,7 @@ import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import Bio from '@/Views/Bio.vue'
 import Buy from '@/Views/Buy.vue'
-import Orchard from '@/Views/Orchard.vue'
+import MeadowOrchard from '@/Views/MeadowOrchard.vue'
 import Apples from '@/Views/Apples/Apples.vue'
 import Prices from '@/Views/Prices.vue'
 import Contact from '@/Views/Contact/Contact.vue'
@@ -83,27 +83,27 @@ const routes = [
   },
 
   // --------------------------------------------------------------- //
-  // Orchard
+  // MeadowOrchard
   // --------------------------------------------------------------- //
   { 
     path: '/meadow-orchard',
     name: 'orchard.EN',
-    component: Orchard,
+    component: MeadowOrchard,
   },
   {
     path: '/en/meadow-orchard',
     name: 'orchard.en',
-    component: Orchard,
+    component: MeadowOrchard,
   },
   { 
     path: '/travniski-sadovnjak',
     name: 'orchard.SL',
-    component: Orchard,
+    component: MeadowOrchard,
   },
   {
     path: '/sl/travniski-sadovnjak',
     name: 'orchard.sl',
-    component: Orchard,
+    component: MeadowOrchard,
   },
 
   // --------------------------------------------------------------- //
