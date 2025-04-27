@@ -20,7 +20,7 @@ Sorte jablan na kmetiji vključujejo jonatan, carjevič, krivopecelj, šampanjsk
     },
     message: {
       en: "you will notice that the fruit pictures all show the same generic crate of assorted apples. This is because our website is newly made in the spring of 2025, when apples are out of season. We have no apples around at the moment (and don't have any stored pictures), so for now we have pictures only of the blooming trees. As soon as the fall 2025 harvest season arrives we will add pictures of each apple.",
-      sl: "opazili boste, da manjkajo slike posameznih jabolk, saj vsakič kažemo isto generično sliko kišta mešanih sort. Razlog je, da smo spletno stran naredili pravkar — v spomladi 2025 — izven sezone jabolk. Jabolka iz prejšnje sezone smo že porabili, shranjenih slik pa nimamo. Takoj ko znova dozorijo jabolka v jeseni 2025 bomo poslikali tudi vsako jabolko.",
+      sl: "opazili boste, da manjkajo slike posameznih jabolk, saj vsakič kažemo isto generično sliko kište mešanih sort. Razlog je, da smo spletno stran naredili pravkar — v spomladi 2025 — izven sezone jabolk. Jabolka iz prejšnje sezone smo že porabili, shranjenih slik pa nimamo. Takoj ko znova dozorijo jabolka v jeseni 2025 bomo poslikali tudi vsako jabolko.",
     },
   },
 
