@@ -17,9 +17,15 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
-      <div>
+
+      <div class="flex flex-col gapy-y-3">
         <p>
-          Sorte jablan na kmetiji vključujejo jonatan, carjevič, krivopecelj, ovčji nos, šampanjska reneta, kanadka, mošancelj, zlata parmena, grafenštajnc, londonski peping in seveda bobovec...
+          {{$t('apples.intro')}}
+        </p>
+
+        <p class="mt-auto text-base text-gray-700">
+          <span class="font-bold">{{$t('apples.imageDisclaimer.heading')}}</span>
+          {{$t('apples.imageDisclaimer.message')}}
         </p>
       </div>
 
@@ -29,7 +35,11 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
       class="hidden lg:block mx-auto !w-96 h-80 object-cover rounded-md"
     />
 
+
     </div>
+
+
+
 
     <ul class="mt-8 space-y-8 sm:space-y-10">
 

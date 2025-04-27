@@ -1,5 +1,26 @@
 module.exports = {
 
+  intro: {
+    en: `
+We are proud to grow a number of interesting heirloom varieties not typically found in stores or commercial orchards.
+Below is a gallery, with images and descriptions, of the varieties on our farm that we have positively identified.
+`,
+    sl: `
+Sorte jablan na kmetiji vključujejo jonatan, carjevič, krivopecelj, šampanjska reneta, kanadka, mošancelj, zlata parmena, grafenštajnc, londonski peping in bobovec. Na tej strani najdete slike in opise vsake sorte.
+`,
+  },
+
+  imageDisclaimer: {
+    heading: {
+      en: "Disclaimer:",
+      sl: "Opomba:",
+    },
+    message: {
+      en: "you will notice that the fruit pictures all show the same generic crate of assorted apples. This is because our website is newly made in the spring of 2025, when apples are out of season. We have no apples around at the moment (and don't have any stored pictures), so for now we have pictures only of the blooming trees. As soon as the fall 2025 harvest season arrives we will add pictures of each apple.",
+      sl: "opazili boste, da manjkajo slike posameznih jabolk, saj vsakič kažemo isto generično sliko kišta mešanih sort. Razlog je, da smo spletno stran naredili pravkar — v spomladi 2025 — izven sezone jabolk. Jabolka iz prejšnje sezone smo že porabili, shranjenih slik pa nimamo. Takoj ko znova dozorijo jabolka v jeseni 2025 bomo poslikali tudi vsako jabolko.",
+    },
+  },
+
   bobovec: {
     name: {
       en: "Bohnapfel (Bobovec)",
@@ -14,7 +35,15 @@ module.exports = {
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Bobovec is of uncertain origin, though horticultural experts believe it most likely comes from the Rhineland in Germany in the 18th century.
+In Slovenia, it has long been naturalized and is considered one of the most characteristic apple varieties in meadow orchards.
+It is a medium-sized apple, although the fruits vary somewhat in size.
+The base color is greenish-yellow, with about half the fruit covered in red patches.
+It ripens in the second half of October.
+The flesh is initially tart and sour, but as it mellows, it becomes juicy and pleasantly delicate in flavor.
+It is most often processed, but if properly stored, it can be enjoyed fresh up until June.
+`,
       sl: `
 Bobovec je negotovega izvora, po mnenju strokovnjakov najverjetneje izvira iz Porenja v Nemčiji v 18. stoletju.
 Pri nas je že dolgo udomačena in spada med najbolj značilne sorte jablan v travniških sadovnjakih.
@@ -41,7 +70,14 @@ Največkrat se predeluje, če ga shranimo pa ga lahko uživamo do junija.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Belle de Boskoop (Boskopski kosmač) originates from the town of Boskoop in the Netherlands, where it was discovered in 1856.
+The fruits are medium to large, round, and slightly flattened, with a rough skin.
+As they ripen, the base greenish color turns to an orange-brown, while the side exposed to the sun becomes reddish.
+It ripens at the end of September.
+The flesh is firm, juicy, sweet, and aromatic.
+It is excellent when eaten fresh and is also highly valued for processing.
+`,
       sl: `
 Boskopski kosmač (tudi lepi boskop) izvira iz mesta Boskoop na Nizozemskem, kjer so go odkrili leta 1856.
 Plodovi so srednje veliko do debeli, okrogli in rahlo ploščati s hrapavo kožo.
@@ -67,7 +103,15 @@ Zelo dobro je sveže, cenjeno je pa tudi za predelavo.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Carjevič is an old indigenous variety from Slovenian Styria, thriving in cold climates and at higher elevations.
+It is a smaller apple, with fruits that are round and slightly flattened, sometimes narrowing a bit toward the calyx.
+The skin is smooth.
+The base color is yellow-green, with the side exposed to the sun developing a characteristic red blush.
+It ripens at the end of September and the beginning of October.
+The flesh is white, very juicy, and sweet-tart in flavor.
+It is best enjoyed fresh, but when properly stored, it can keep until the beginning of spring.
+`,
       sl: `
 Carjevič je stara avtohtona sorte iz slovenske Štajerske, ki uspeva v mrzlem podnebju in višjih legah.
 Je majnše jabolko, plodovi so okrogli in rahlo ploščati, proti muhi pa lahko nekoliko zoženi.
@@ -94,7 +138,14 @@ Najboljše je za svežo porabo, primerno shranjen počaka do začetka pomladi.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Gravenstein (Grafenštajnc) originates from Denmark and was named after Gråsten Castle, where the variety was cultivated as early as the 17th century.
+The fruits are large, irregularly shaped, and somewhat flattened.
+The ripe apple has a greenish-yellow base color with crimson red streaks.
+The flesh is very juicy, pleasant, and aromatic.
+It is an early apple, ripening at the beginning of September.
+The variety is highly valued for fresh consumption but is not suitable for storage, so it is not found in commercial orchards.
+`,
       sl: `
 Grafenštajnc izvirza iz Danske, ime je dobila po gradu Gråsten, kjer so gojili sorto že v 17. stoletju.
 Plodovi so veliki, nepravilne obliko in nekoliko splošcati. Zrelo jabolko ima zelenkasto rumeno osnovno barve s karminasto rdečimi prižami.
@@ -119,7 +170,14 @@ Sorta je cenjena za svežo uživanje in ni primerna za skladiščenje, zato se j
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Jonathan (Jonatan) originates from the United States, where it was developed in New York at the beginning of the 19th century.
+In Slovenia, it has long been a popular apple variety and commonly features in traditional meadow orchards.
+The fruits are medium-sized, fairly uniformly round in shape, and mostly covered with a bright red color.
+The flesh is juicy, whitish, firm, aromatic, and pleasantly sweet-tart in flavor.
+It is best enjoyed fresh, but it can also be processed into juice or dried.
+It ripens from mid- to late September, and can last until sprint when properly stored.
+`,
       sl: `
 Jonatan izvira iz Amerike, kjer so ga vzgojili v New Yorku začetka 19. stoletja.
 Pri nas je že dolgo priljubljena sorta jablane, ki se pogosto najde v travniških sadovnjakih.
@@ -145,7 +203,15 @@ Zori sredi do konca septembra, skladiščeno počaka do spomladi.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Reinette du Canada (Kanadka) has an uncertain origin. According to some horticulture experts, it was developed in Normandy in the 17th century. From there, it is believed to have been taken to Canada and then brought back to Europe.
+The fruits are distinctly large, somewhat flattened, and irregular in shape. They are initially greenish and gradually turn yellow over time.
+The skin is textured and slightly rough towards the stem end.
+It ripens at the beginning of October.
+The flesh is aromatic and juicy, initially firm and tart, but softens and mellows over time.
+Freshly harvested, it is suitable for processing and baking, but when fully ripened, it is excellent eaten raw.
+When stored properly, it can last until spring.
+`,
       sl: `
 Kanadska reneta je negotovega izvora. Po mnenju nekaterih strokovnjakov so jo razvili v Normandiji v 17. stoletju. Od tod naj bi jo prenesli v Kanado, od tam pa nazaj v Evropo.
 Plodovi so izrazito veliki in nekoliko ploščati ter nepravilnih oblik, po barvi so zelenkasti in s časoma porumenijo.
@@ -172,7 +238,15 @@ Skladiščeno počaka do spomladi.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Krivopecelj ("twisted stem", or Rheinischer Krummstiel in German) originates from the Rhineland in Germany, where it was described as early as 1821.
+The fruits are large and medium to thick in size, with a somewhat cylindrical shape and irregularities in size.
+Most of the fruits have the stem positioned sideways, which is where the name comes from.
+It ripens in October.
+The flesh is white, firm, juicy, and has a refreshing taste.
+It stores well — until spring.
+It is excellent both for fresh consumption and for processing.
+`,
       sl: `
 Krivopecelj izvira iz Porenja v Nemčiji, kjer je bila opisana že leta 1821.
 Plodovi so veliki in srednje debeli do debeli, po obliki so nekoliko valjasti ter neizenačeni.
@@ -180,7 +254,7 @@ Večina plodov ima pecelj postrani, od tod tudi ime.
 Dozori oktobra.
 Meso je belo, čvrsto, sočno, osvežujočega okusa.
 Dobro se skladišče — do pomladi.
-Odlično tako za sveže uživanje kot za predelavo
+Jabolki je odlično tako za sveže uživanje kot za predelavo.
 `,
     },
   },
@@ -199,7 +273,14 @@ Odlično tako za sveže uživanje kot za predelavo
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+London Pippin (Londonski peping) is an old variety of English origin, first described in 1580.
+It is a medium to large apple with a yellow color, and part of the fruit often takes on a reddish tone on the side exposed to the sun.
+It ripens at the beginning of October.
+The flesh is first firm and greenish, but turns yellow as the apple ripens, becoming soft and flavorful.
+The fruits are juicy and sweet-tart.
+It is particularly valued for fresh consumption as a dessert apple, but can last until mid-spring when properly stored.
+`,
       sl: `
 Londonski peping je stara sorta angleška izvora, ki je bila opisana že leta 1580.
 Je srednje veliko do večje jabolko rumene barve, del plodu večkrat pordeči na sončni strani.
@@ -226,7 +307,14 @@ Primerno skladiščen počaka do aprila.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Štajerski mošancelj is an indigenous variety that originates from Styria.
+It is a small apple, initially greenish-yellow, which turns golden yellow when fully ripe.
+It ripens in October.
+The flesh is firm, juicy, aromatic, and has a sweet-tart flavor.
+Historically, it was highly valued for its firm fruits, which are resistant to bruising and therefore suitable for transport — records show it was exported as far as India.
+It is used both for fresh consumption and for processing, and Mošancelj’s juice and cider are particularly prized.
+`,
       sl: `
 Štajerski mošancelj je avtohtona sorta, izvira iz Štajerske.
 Je manjše jabolko, zelenkasto rumene barve, v polni zrelosti postane zlato rumena.
@@ -252,7 +340,16 @@ Uporablja se tako za sveže uživanje kot za predelavo, cenjen je Mošanceljov m
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+Reinette de Champagne (Šampanjska reneta) is of French origin, where it was developed in the Champagne region towards the end of the 18th century.
+It is a slightly smaller apple, with fruits that vary in size.
+The apple is yellow-green, with a pinkish hue on the side exposed to the sun.
+The skin is smooth and somewhat waxy to the touch, and the flesh is yellowish-white.
+The fresh apple has a distinctly tart flavor, and an aroma some say is reminiscent of white wine.
+The initial acidity diminishes with storage, and the apple becomes sweeter in taste.
+It is primarily a table apple, but also suitable for processing into must.
+When stored properly, it can last until May.
+`,
       sl: `
 Šampanjska reneta je francoskega izvora, kjer so jo razvili v pokrajini Champagne proti konci 18. stoletja.
 Je nekoliko manjše jabolko, plodovi so neizenačeni po velikosti.
@@ -280,7 +377,14 @@ V skladišču počaka do maja.
       sl: "Jablana",
     },
     description: {
-      en: ``,
+      en: `
+The Golden Pearmain (Zlata parmena) originates from Normandy, France, where it is believed to have been discovered towards the end of the 18th century.
+It is a medium-sized apple, with fruits that vary in shape.
+The fruit has a golden yellow base color with red streaks over much of the surface.
+The flesh is juicy and pleasantly flavored, with an aroma that some say hints of walnuts.
+It ripens at the end of September.
+It is valued as a table apple, but is also suitable for processing. It can be enjoyed until January.
+`,
       sl: `
 Zlata parmena izvira iz Normandije v Franciji, kjer naj bi jo odkrili proti konci 18. stoletja.
 Je srednje veliko jabolko, plodovi so neizenačene oblike.
