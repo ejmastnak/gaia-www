@@ -6,7 +6,7 @@ module.exports = {
   ramsak: {
     en: `Our farm lies on the property of the former Ramšak family, who throughout 1800s and 1900s maintained a thriving homestead, raised livestock, grew grains and produce, and operated a grain mill and sawmill on the unforgiving mountainous terrain. 
 But age and lack of a younger generation to take over began to catch up with the last remaining members, and the farmstead drifted into dormancy in the early 2000s.`,
-    sl: "Ramšakova kmetija je dobila ime po družini, ki je okrog leta 1800 postavila kmečko hišo, ki še vedno stoji, obdelovala polja na strmih prisojnih bregovih, gojila živino in delala v gozdu. Še pred dobrega pol stoletja je bila kmetija samooskrbna, imela žago, mlin in kovačijo, trla lan in kuhala oglje. Oče zadnjega lastnika pred nami je lovil korak z modernizacijo kmetijstva in bil med prvimi v teh krajih, ki so pridelovali mleko za oddajo.",
+    sl: "Kmetija leži na Ramšakovi domačiji, ki je dobila ime po družini, ki je okrog leta 1800 postavila kmečko hišo, ki še vedno stoji, obdelovala polja na strmih prisojnih bregovih, gojila živino in delala v gozdu. Še pred dobrega pol stoletja je bila kmetija samooskrbna, imela žago, mlin in kovačijo, trla lan in kuhala oglje. Oče zadnjega lastnika pred nami je lovil korak z modernizacijo kmetijstva in bil med prvimi v teh krajih, ki so pridelovali mleko za oddajo.",
   },
   previousOwner: {
     en: `The owner before us kept up small-scale farming for as long as he lived on the property. Operating as Center Gaia d.o.o., he produced and sold apple juice, cider vinegar, and herbal products throughout Slovenia, but slowly scaled down production and eventually sold the property in 2023.`,
