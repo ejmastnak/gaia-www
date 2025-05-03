@@ -44,6 +44,13 @@ function carouselPrev() {
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('bio.h1')}}</h1>
 
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-1.5 text-base text-gray-600">
+      <I18nRouterLink routeBasename="about">{{$t('about.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="bio">{{$t('bio.h1')}}</I18nRouterLink>
+    </p>
+
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
       <div>

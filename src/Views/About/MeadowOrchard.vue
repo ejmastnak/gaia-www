@@ -16,6 +16,14 @@ import sliveFlowersImage from '@/assets/img/slive-flowers.jpg?w=700'
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('orchard.h1')}}</h1>
 
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-1.5 text-base text-gray-600">
+      <I18nRouterLink routeBasename="about">{{$t('about.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="orchard">{{$t('orchard.h1')}}</I18nRouterLink>
+    </p>
+
+
     <p class="mt-10 max-w-3xl">
       {{$t('orchard.intro[0]')}}
       <span class="italic">{{$t('orchard.intro[1]')}}</span> 

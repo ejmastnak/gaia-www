@@ -36,7 +36,7 @@ const props = defineProps({
         v-if="imgFile"
         :src="imgFile"
         :alt="imgAlt"
-        class="w-full h-64 mx-auto md:w-96 md:h-96 object-cover rounded-md hover:shadow-lg hover:outline hover:outline-1 hover:outline-orange-300 "
+        class="w-full h-64 mx-auto md:w-96 md:h-96 object-cover rounded-md hover:shadow-lg hover:shadow-gray-400"
       />
         <div v-else class="bg-orange-100 w-full shrink-0 h-56 mx-auto md:w-96 md:h-96 rounded-md"/>
       </I18nRouterLink>

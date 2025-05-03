@@ -6,7 +6,7 @@ module.exports = {
   intro: {
     en: `
 We are proud to grow a number of interesting heirloom varieties not typically found in stores or commercial orchards.
-Below is a gallery, with images and descriptions, of the varieties on our farm that we have positively identified.
+Here is a gallery, with images and descriptions, of the varieties on our farm that we have positively identified.
 `,
     sl: `
 Sorte jablan na kmetiji vključujejo jonatan, carjevič, krivopecelj, šampanjska reneta, kanadka, mošancelj, zlata parmena, grafenštajnc, londonski peping in bobovec. Na tej strani najdete slike in opise vsake sorte.

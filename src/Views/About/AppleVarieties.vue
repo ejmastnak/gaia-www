@@ -15,15 +15,22 @@ import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
   <PageWrapper>
     <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t('apples.h1')}}</h1>
 
+    <!-- Breadcrumb -->
+    <p class="ml-px mt-1.5 text-base text-gray-600">
+      <I18nRouterLink routeBasename="about">{{$t('about.h1')}}</I18nRouterLink>
+      <span> > </span>
+      <I18nRouterLink routeBasename="apples">{{$t('apples.h1')}}</I18nRouterLink>
+    </p>
+
+
     <!-- -mr moves image rightward -->
     <div class="mt-10 lg:flex space-x-16 lg:-mr-12">
 
-      <div class="flex flex-col gapy-y-3">
-        <p>
-          {{$t('apples.intro')}}
-        </p>
+      <div class="flex flex-col gapy-y-3 max-w-2xl">
+        <p>{{$t('apples.intro')}}</p>
 
-        <p class="mt-auto text-base text-gray-700">
+        <!-- Disclaimer -->
+        <p class="mt-3 text-base text-gray-700">
           <span class="font-bold">{{$t('apples.imageDisclaimer.heading')}}</span>
           {{$t('apples.imageDisclaimer.message')}}
         </p>

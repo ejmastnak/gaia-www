@@ -1,11 +1,16 @@
 import { createRouter, createWebHistory, RouterView } from 'vue-router'
 import Translate from "@/i18n/translation"
 import Home from '@/Views/Home/Home.vue'
+
 import About from '@/Views/About/About.vue'
-import Bio from '@/Views/Bio.vue'
+import Story from '@/Views/About/Story.vue'
+import MeadowOrchard from '@/Views/About/MeadowOrchard.vue'
+import History from '@/Views/About/History.vue'
+import Now from '@/Views/About/Now.vue'
+import Bio from '@/Views/About/Bio.vue'
+
+import AppleVarieties from '@/Views/About/AppleVarieties.vue'
 import Buy from '@/Views/Buy.vue'
-import MeadowOrchard from '@/Views/MeadowOrchard.vue'
-import Apples from '@/Views/Apples/Apples.vue'
 import Prices from '@/Views/Prices.vue'
 import Contact from '@/Views/Contact/Contact.vue'
 import Products from '@/Views/Products/Products.vue'
@@ -59,75 +64,100 @@ const routes = [
   },
 
   // --------------------------------------------------------------- //
-  // Bio
+  // About/Story
   // --------------------------------------------------------------- //
   { 
-    path: '/organic',
-    name: 'bio.EN',
-    component: Bio,
+    path: '/about/story',
+    name: 'story.EN',
+    component: Story,
   },
   {
-    path: '/en/organic',
-    name: 'bio.en',
-    component: Bio,
+    path: '/en/about/story',
+    name: 'story.en',
+    component: Story,
   },
   { 
-    path: '/bio',
-    name: 'bio.SL',
-    component: Bio,
+    path: '/o-nas/zgodba',
+    name: 'story.SL',
+    component: Story,
   },
   {
-    path: '/sl/bio',
-    name: 'bio.sl',
-    component: Bio,
+    path: '/sl/o-nas/zgodba',
+    name: 'story.sl',
+    component: Story,
   },
 
+
   // --------------------------------------------------------------- //
-  // MeadowOrchard
+  // About/MeadowOrchard
   // --------------------------------------------------------------- //
   { 
-    path: '/meadow-orchard',
+    path: '/about/meadow-orchard',
     name: 'orchard.EN',
     component: MeadowOrchard,
   },
   {
-    path: '/en/meadow-orchard',
+    path: '/en/about/meadow-orchard',
     name: 'orchard.en',
     component: MeadowOrchard,
   },
   { 
-    path: '/travniski-sadovnjak',
+    path: '/o-nas/travniski-sadovnjak',
     name: 'orchard.SL',
     component: MeadowOrchard,
   },
   {
-    path: '/sl/travniski-sadovnjak',
+    path: '/sl/o-nas/travniski-sadovnjak',
     name: 'orchard.sl',
     component: MeadowOrchard,
   },
 
   // --------------------------------------------------------------- //
-  // Apples
+  // About/Bio
+  // --------------------------------------------------------------- //
+  { 
+    path: '/about/organic',
+    name: 'bio.EN',
+    component: Bio,
+  },
+  {
+    path: '/en/about/organic',
+    name: 'bio.en',
+    component: Bio,
+  },
+  { 
+    path: '/about/bio',
+    name: 'bio.SL',
+    component: Bio,
+  },
+  {
+    path: '/sl/about/bio',
+    name: 'bio.sl',
+    component: Bio,
+  },
+
+  // --------------------------------------------------------------- //
+  // About/AppleVarieties varieties
   // --------------------------------------------------------------- //
   { 
     path: '/apple-varieties',
     name: 'apples.EN',
-    component: Apples,
+    component: AppleVarieties,
   },
   {
     path: '/en/apple-varieties',
     name: 'apples.en',
-    component: Apples,
+    component: AppleVarieties,
   },
   { 
     path: '/sorte-jabolk',
     name: 'apples.SL',
-    component: Apples,
+    component: AppleVarieties,
   },
   {
     path: '/sl/sorte-jabolk',
     name: 'apples.sl',
-    component: Apples,
+    component: AppleVarieties,
   },
 
   // --------------------------------------------------------------- //

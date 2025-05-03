@@ -1,71 +1,76 @@
 <script setup>
-import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import { inject } from 'vue'
+import { ShoppingCartIcon } from '@heroicons/vue/24/solid'
+import PriceList from '@/Shared/PriceList.vue'
 import PageWrapper from '@/Shared/PageWrapper.vue'
-import AboutImagePanel from './Partials/AboutImagePanel.vue'
-import MobileImage from './Partials/MobileImage.vue'
-import AboutDisclosure from './Partials/AboutDisclosure.vue'
-import { ChevronRightIcon } from '@heroicons/vue/24/outline'
+import Bio from '@/Shared/Bio.vue'
+import ImagePanel from '@/Components/ImagePanel.vue'
+import I18nRouterLink from '@/Components/I18nRouterLink.vue'
+import PrimaryLink from '@/Components/PrimaryLink.vue'
+
 import fallLeavesImage from '@/assets/img/fall-leaves.jpg?w=600'
+import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
 import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
+import jablaneImage from '@/assets/img/jablane.jpg?w=600'
+
 </script>
 
 <template>
 
   <PageWrapper>
 
-    <div>
-      <h1 class="text-5xl font-['Latin_Modern_Roman']">{{$t("about.h1")}}</h1>
+    
+    <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('about.h1')}}</h1>
+    <p class="mt-10 max-w-2xl">{{$t('about.summary')}}</p>
 
-      <div class="mt-10 max-w-2xl">
-        <p>{{$t('about.summary')}}</p>
-      </div>
+    <div class="mt-10 md:mt-14 space-y-10 md:space-y-16">
+
+      <!-- Story -->
+      <ImagePanel
+        :reverse="true"
+        :imgFile="fallLeavesImage"
+        :imgAlt="$t('imgAlts.fallLeaves')"
+        :title="$t('story.h1')"
+        routeBasename="story"
+        :headingLink="true"
+      >
+        {{$t('story.ramsak')}}
+      </ImagePanel>
+
+      <!-- Apple varieties -->
+      <ImagePanel
+        :reverse="false"
+        :imgFile="applesCrateImage"
+        :imgAlt="$t('imgAlts.applesCrate')"
+        :title="$t('apples.h1')"
+        routeBasename="apples"
+        :headingLink="true"
+      >
+        {{$t('apples.intro')}}
+      </ImagePanel>
+
+      <!-- Meadow orchard -->
+      <ImagePanel
+        :reverse="true"
+        :imgFile="jablaneImage"
+        :imgAlt="$t('imgAlts.jablane')"
+        :title="$t('orchard.h1')"
+        routeBasename="orchard"
+        :headingLink="true"
+      >
+        <p>
+          {{$t('orchard.intro[0]')}}
+          <span class="italic">{{$t('orchard.intro[1]')}}</span> 
+          {{$t('orchard.intro[2]')}}
+          <span class="italic">{{$t('orchard.intro[3]')}}</span>
+          <span class="">{{$t('orchard.intro[4]')}}</span>
+        </p>
+      </ImagePanel>
+
+
+
+
     </div>
-
-    <!-- Mobile image -->
-    <MobileImage
-      class="sm:hidden mt-8"
-      :imgFile="fallLeavesImage"
-      :imgAlt="$t('imgAlts.fallLeaves')"
-    />
-
-    <!-- Then -->
-    <AboutImagePanel
-      class="mt-8 sm:mt-10 "
-      :title="$t('about.then.title')"
-      :imgFile="fallLeavesImage"
-      :imgAlt="$t('imgAlts.fallLeaves')"
-    >
-      <AboutDisclosure :summary="$t('about.then.text[0]')">
-        <template #details>
-          <p class="mt-4">{{$t('about.then.text[1]')}}</p>
-        </template>
-      </AboutDisclosure>
-
-    </AboutImagePanel>
-
-    <!-- Mobile image -->
-    <MobileImage
-      class="sm:hidden mt-6"
-      :imgFile="appleBlossomsImage"
-      :imgAlt="$t('imgAlts.appleBlossoms')"
-    />
-
-    <!-- Now -->
-    <AboutImagePanel
-      class="mt-8 sm:mt-10 "
-      :title="$t('about.now.title')"
-      :imgFile="appleBlossomsImage"
-      :imgAlt="$t('imgAlts.appleBlossoms')"
-    >
-      <AboutDisclosure :summary="$t('about.now.text[0]')">
-        <template #details>
-          <p class="mt-4">{{$t('about.now.text[1]')}}</p>
-          <p class="mt-4">{{$t('about.now.text[2]')}}</p>
-          <p class="mt-4">{{$t('about.now.text[3]')}}</p>
-        </template>
-      </AboutDisclosure>
-
-    </AboutImagePanel>
 
   </PageWrapper>
 
