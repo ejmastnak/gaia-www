@@ -29,7 +29,7 @@ const mobileMenuShowing = ref(false)
       <div class="flex items-center md:hidden pt-3 pb-5 px-4">
 
         <NavLink routeBasename="home" class="translate-y-1 ml-1 xs:ml-2 font-['Latin_Modern_Roman'] !text-2xl xs:tracking-wide hover:text-blue-800">
-          Center Gaia
+          Kmetija Gaia
         </NavLink>
 
         <LanguageSwitcher class="ml-auto translate-y-1" />
