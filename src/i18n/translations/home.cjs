@@ -1,12 +1,16 @@
 module.exports = {
   hero: {
     subHeading: {
-      en: "on the Ramšak farmstead",
-      sl: "na Kmetiji Ramšak",
+      en: "(Gaia family farm)",
+      sl: "",
     },
     text: {
-      en: "Traditional apple juice, vinegar, and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
-      sl: "Družinska pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem Vrhu pri Mislinji",
+      en: "Organic, traditional apple juice, vinegar, and herbal products from tall-trunk meadow orchards on the hills of Tolsti vrh pri Mislinji, Slovenia",
+      sl: "Ekološka družinska pridelava sadja in zelišč iz visokodebelnjih travniških sadovnjakov na Tolstem Vrhu pri Mislinji",
+    },
+    more: {
+      en: "About us",
+      sl: "Več o nas",
     },
   },
   about: {
