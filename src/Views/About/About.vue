@@ -8,7 +8,7 @@ import ImagePanel from '@/Components/ImagePanel.vue'
 import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 import PrimaryLink from '@/Components/PrimaryLink.vue'
 
-import fallLeavesImage from '@/assets/img/fall-leaves.jpg?w=600'
+import travnikiFallImage from '@/assets/img/travniki-fall.jpg?w=700'
 import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
 import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
 import jablaneImage from '@/assets/img/jablane.jpg?w=600'
@@ -28,8 +28,8 @@ import jablaneImage from '@/assets/img/jablane.jpg?w=600'
       <!-- Story -->
       <ImagePanel
         :reverse="true"
-        :imgFile="fallLeavesImage"
-        :imgAlt="$t('imgAlts.fallLeaves')"
+        :imgFile="travnikiFallImage"
+        :imgAlt="$t('imgAlts.travnikiFall')"
         :title="$t('story.h1')"
         routeBasename="story"
         :headingLink="true"

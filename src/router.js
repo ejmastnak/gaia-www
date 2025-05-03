@@ -5,8 +5,6 @@ import Home from '@/Views/Home/Home.vue'
 import About from '@/Views/About/About.vue'
 import Story from '@/Views/About/Story.vue'
 import MeadowOrchard from '@/Views/About/MeadowOrchard.vue'
-import History from '@/Views/About/History.vue'
-import Now from '@/Views/About/Now.vue'
 import Bio from '@/Views/About/Bio.vue'
 
 import AppleVarieties from '@/Views/About/AppleVarieties.vue'

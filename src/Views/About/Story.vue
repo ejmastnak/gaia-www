@@ -6,8 +6,8 @@ import SimpleImagePanel from '@/Components/SimpleImagePanel.vue'
 import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/24/outline'
 
 import jablaneImage from '@/assets/img/jablane.jpg?w=600'
-import dandelionsImage from '@/assets/img/dandelions.jpg?w=600'
 import sliveFlowersImage from '@/assets/img/slive-flowers.jpg?w=700'
+import travnikiFallImage from '@/assets/img/travniki-fall.jpg?w=700'
 
 </script>
 
@@ -30,24 +30,29 @@ import sliveFlowersImage from '@/assets/img/slive-flowers.jpg?w=700'
     <SimpleImagePanel 
       class="mt-5 md:mt-16"
       :reverse="false"
-      :imgFile="jablaneImage"
-      :imgAlt="$t('imgAlts.appleBlossoms')"
+      :imgFile="travnikiFallImage"
+      :imgAlt="$t('imgAlts.travnikiFall')"
     >
       <p>{{$t('story.previousOwner')}}</p>
       <p class="mt-3">{{$t('story.mastnakPurchase')}}</p>
     </SimpleImagePanel>
 
-    <p class="mt-5 md:mt-12 max-w-3xl">
-      {{$t('story.mastnakTakeover')}}
-    </p>
-
     <SimpleImagePanel 
       class="mt-5 md:mt-16"
       :reverse="true"
+      :imgFile="jablaneImage"
+      :imgAlt="$t('imgAlts.jablane')"
+    >
+      <p>{{$t('story.mastnakTakeover')}}</p>
+      <p class="mt-3">{{$t('story.neighbors')}}</p>
+    </SimpleImagePanel>
+
+    <SimpleImagePanel 
+      class="mt-5 md:mt-16"
+      :reverse="false"
       :imgFile="sliveFlowersImage"
       :imgAlt="$t('imgAlts.sliveFlowers')"
     >
-      <p>{{$t('story.neighbors')}}</p>
       <p class="mt-3">{{$t('story.future')}}</p>
     </SimpleImagePanel>
 
