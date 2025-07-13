@@ -24,7 +24,7 @@ const props = defineProps({
         <img 
         :src="appleImg"
         :alt="appleImgAlt"
-        class="block mx-auto w-96 object-cover rounded-md"
+        class="block mx-auto w-96 h-80 object-cover rounded-md"
       />
         <figcaption>{{fruitCaption}}</figcaption>
       </figure>
@@ -33,7 +33,7 @@ const props = defineProps({
         <img 
         :src="treeImg"
         :alt="treeImgAlt"
-        class="block mx-auto !w-96 object-cover rounded-md"
+        class="block mx-auto !w-96 h-80 object-cover rounded-md"
       />
         <figcaption>{{treeCaption}}</figcaption>
       </figure>
