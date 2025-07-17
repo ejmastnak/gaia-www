@@ -6,7 +6,7 @@ import I18nRouterLink from '@/Components/I18nRouterLink.vue'
 <template>
 
   <!-- Solid black background color until image loads -->
-  <div class="bg-black w-full h-full">
+  <div class="bg-blue-100 w-full h-full">
     <div class="flex flex-col bg-cover bg-center bg-[url('@/assets/img/carjevic-flipped.jpg')] xxs:h-[24rem] xs:h-[24rem] sm:h-[30rem] md:h-[36rem] lg:h-[42rem] 2xl:h-[48rem]">
 
       <div class="w-fit xxs:mt-5 p-4 self-center xxs:self-auto xxs:ml-5 xxs:rounded-md text-white font-['Latin_Modern_Roman'] bg-gray-900/60">
