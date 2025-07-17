@@ -3,6 +3,14 @@ module.exports = {
     en: "Products",
     sl: "Izdelki",
   },
+  our: {
+    en: "Our",
+    sl: "Naši",
+  },
+  products: {
+    en: "Products",
+    sl: "Izdelki",
+  },
   order: {
     en: "Order products",
     sl: "Nakup izdelkov",
