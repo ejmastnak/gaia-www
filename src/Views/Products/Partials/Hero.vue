@@ -13,7 +13,6 @@ import { ShoppingCartIcon } from '@heroicons/vue/24/outline'
       <div class="mt-12 sm:mt-16 md:mt-28 ml-8 xs:ml-16 sm:ml-20 md:ml-24 lg:ml-40 h-full text-white font-['Latin_Modern_Roman']">
         <p class="text-2xl ml-2 font-bold">{{$t('products.our')}}</p>
         <p class="text-6xl xs:text-7xl sm:text-8xl -mt-2 sm:-mt-3 font-bold">{{$t('products.products')}}</p>
-        <p class="text-xl ml-2 font-bold text-white">{{$t('home.hero.subHeading')}}</p>
 
         <p class="mt-5 max-w-xs md:max-w-sm text-gray-50 bg-gray-900/70 rounded-xl px-2 py-1">
           {{$t('products.summary')}}

@@ -22,7 +22,7 @@ const products = inject('products')
 
     <Hero class="w-screen" />
 
-    <div class="max-w-5xl mx-auto relative">
+    <div class="max-w-5xl mx-auto relative px-2">
 
       <div class="xs:mt-10 md:mt-4 px-2 mx-auto">
         <Bio class="max-w-4xl mx-auto" />
@@ -66,7 +66,7 @@ const products = inject('products')
       </div>
 
       <!-- Price list -->
-      <div class="mt-8">
+      <div class="mt-8 px-2">
         <h2 class="text-2xl font-['Latin_Modern_Roman']">{{$t('buy.priceList')}}</h2>
         <p class="text-gray-500 text-base">{{$t('buy.ddv')}}</p>
         <PriceList class="mt-3" :products="products" />
