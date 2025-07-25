@@ -14,7 +14,7 @@ import FooterSvg from './Partials/FooterSvg.vue'
 
         <!-- Gaia d.o.o. info -->
         <div class="ml-4">
-          <p class="text-5xl font-['Latin_Modern_Roman']">Center Gaia</p>
+          <p class="text-5xl font-['Latin_Modern_Roman']">Kmetija Gaia</p>
           <div class="mt-8">
             <p>Center Gaia d.o.o.</p>
             <p>Tolsti Vrh pri Mislinji 47</p>
