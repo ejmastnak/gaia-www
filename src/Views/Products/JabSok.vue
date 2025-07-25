@@ -18,7 +18,7 @@ const products = inject('products')
   <PageWrapper>
 
     <div class="w-full flex items-center pr-2">
-      <h1 class="text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('jabsok.title')}}</h1>
+      <h1 class="text-4xl xs:text-5xl font-['Latin_Modern_Roman'] mr-2">{{$t('jabsok.title')}}</h1>
       <PrimaryLink routeBasename="buy" class="ml-auto inline-flex items-center gap-x-2">
         <ShoppingCartIcon class="-ml-1 text-white-600 h-6 w-6" />
         <p class="whitespace-nowrap">

@@ -24,7 +24,7 @@ const products = inject('products')
 
     <div class="max-w-5xl mx-auto relative px-2">
 
-      <div class="xs:mt-10 md:mt-4 px-2 mx-auto">
+      <div class="hidden xs:block xs:mt-10 md:mt-4 px-2 mx-auto">
         <Bio class="max-w-4xl mx-auto" />
       </div>
 
