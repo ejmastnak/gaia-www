@@ -6,18 +6,22 @@ import { ChevronRightIcon, ChevronLeftIcon } from '@heroicons/vue/24/outline'
 import ApplePanel from './Partials/ApplePanel.vue'
 
 import applesCrateImage from '@/assets/img/apples-crate.jpg?w=700'
-import appleBlossomsImage from '@/assets/img/apple-blossoms.jpg?w=600'
-import bobovecImage from '@/assets/img/apple-trees/bobovec.jpg?w=700'
-import boskopImage from '@/assets/img/apple-trees/boskop.jpg?w=700'
-import carjevicImage from '@/assets/img/apple-trees/carjevic.jpg?w=700'
-import grafenstajncImage from '@/assets/img/apple-trees/grafenstajnc.jpg?w=700'
-import jonatanImage from '@/assets/img/apple-trees/jonatan.jpg?w=700'
-import kanadkaImage from '@/assets/img/apple-trees/kanadka.jpg?w=700'
-import krivopeceljImage from '@/assets/img/apple-trees/krivopecelj.jpg?w=700'
-import londonskiPepingImage from '@/assets/img/apple-trees/londonski-peping.jpg?w=700'
-import mosanceljImage from '@/assets/img/apple-trees/mosancelj.jpg?w=700'
-import sampanjskaRenetaImage from '@/assets/img/apple-trees/sampanjska-reneta.jpg?w=700'
-import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
+
+import bobovecTreeImage from '@/assets/img/apple-trees/bobovec.jpg?w=700'
+import boskopTreeImage from '@/assets/img/apple-trees/boskop.jpg?w=700'
+import carjevicTreeImage from '@/assets/img/apple-trees/carjevic.jpg?w=700'
+import grafenstajncTreeImage from '@/assets/img/apple-trees/grafenstajnc.jpg?w=700'
+import jonatanTreeImage from '@/assets/img/apple-trees/jonatan.jpg?w=700'
+import kanadkaTreeImage from '@/assets/img/apple-trees/kanadka.jpg?w=700'
+import krivopeceljTreeImage from '@/assets/img/apple-trees/krivopecelj.jpg?w=700'
+import londonskiPepingTreeImage from '@/assets/img/apple-trees/londonski-peping.jpg?w=700'
+import mosanceljTreeImage from '@/assets/img/apple-trees/mosancelj.jpg?w=700'
+import sampanjskaRenetaTreeImage from '@/assets/img/apple-trees/sampanjska-reneta.jpg?w=700'
+import sentjakobkaTreeImage from '@/assets/img/apple-trees/sentjakobka.jpg?w=700'
+import zlataParmenaTreeImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
+
+import sentjakobkaFruitImage from '@/assets/img/apple-fruit/sentjakobka.jpg?w=700'
+import grafenstajncFruitImage from '@/assets/img/apple-fruit/grafenstajnc.jpg?w=700'
 
 </script>
 
@@ -67,7 +71,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.bobovec.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="bobovecImage"
+          :treeImg="bobovecTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.bobovec.fruitCaption')"
           :treeCaption="$t('apples.bobovec.treeCaption')"
@@ -82,7 +86,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.boskopskiKosmac.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="boskopImage"
+          :treeImg="boskopTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.boskopskiKosmac.fruitCaption')"
           :treeCaption="$t('apples.boskopskiKosmac.treeCaption')"
@@ -97,7 +101,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.carjevic.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="carjevicImage"
+          :treeImg="carjevicTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.carjevic.fruitCaption')"
           :treeCaption="$t('apples.carjevic.treeCaption')"
@@ -110,9 +114,9 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
       <li>
         <ApplePanel 
           :title="$t('apples.grafenstajnc.name')"
-          :appleImg="applesCrateImage"
+          :appleImg="grafenstajncFruitImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="grafenstajncImage"
+          :treeImg="grafenstajncTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.grafenstajnc.fruitCaption')"
           :treeCaption="$t('apples.grafenstajnc.treeCaption')"
@@ -127,7 +131,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.jonatan.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="jonatanImage"
+          :treeImg="jonatanTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.jonatan.fruitCaption')"
           :treeCaption="$t('apples.jonatan.treeCaption')"
@@ -142,7 +146,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.kanadka.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="kanadkaImage"
+          :treeImg="kanadkaTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.kanadka.fruitCaption')"
           :treeCaption="$t('apples.kanadka.treeCaption')"
@@ -157,7 +161,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.krivopecelj.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="krivopeceljImage"
+          :treeImg="krivopeceljTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.krivopecelj.fruitCaption')"
           :treeCaption="$t('apples.krivopecelj.treeCaption')"
@@ -172,7 +176,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.londonskiPeping.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="londonskiPepingImage"
+          :treeImg="londonskiPepingTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.londonskiPeping.fruitCaption')"
           :treeCaption="$t('apples.londonskiPeping.treeCaption')"
@@ -187,7 +191,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.mošancelj.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="mosanceljImage"
+          :treeImg="mosanceljTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.mošancelj.fruitCaption')"
           :treeCaption="$t('apples.mošancelj.treeCaption')"
@@ -202,12 +206,27 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.sampanjskaReneta.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="sampanjskaRenetaImage"
+          :treeImg="sampanjskaRenetaTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.sampanjskaReneta.fruitCaption')"
           :treeCaption="$t('apples.sampanjskaReneta.treeCaption')"
         >
           {{$t('apples.sampanjskaReneta.description')}}
+        </ApplePanel>
+      </li>
+
+      <!-- Šentjakobka -->
+      <li>
+        <ApplePanel 
+          :title="$t('apples.sentjakobka.name')"
+          :appleImg="sentjakobkaFruitImage"
+          :appleImgAlt="$t('imgAlts.applesCrate')"
+          :treeImg="sentjakobkaTreeImage"
+          :treeImgAlt="$t('imgAlts.appleBlossoms')"
+          :fruitCaption="$t('apples.sentjakobka.fruitCaption')"
+          :treeCaption="$t('apples.sentjakobka.treeCaption')"
+        >
+          {{$t('apples.sentjakobka.description')}}
         </ApplePanel>
       </li>
 
@@ -217,7 +236,7 @@ import zlataParmenaImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
           :title="$t('apples.zlataParmena.name')"
           :appleImg="applesCrateImage"
           :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="zlataParmenaImage"
+          :treeImg="zlataParmenaTreeImage"
           :treeImgAlt="$t('imgAlts.appleBlossoms')"
           :fruitCaption="$t('apples.zlataParmena.fruitCaption')"
           :treeCaption="$t('apples.zlataParmena.treeCaption')"

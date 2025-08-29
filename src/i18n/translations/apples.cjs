@@ -242,7 +242,7 @@ Skladiščeno počaka do spomladi.
     },
     description: {
       en: `
-Krivopecelj ("twisted stem", or Rheinischer Krummstiel in German) originates from the Rhineland in Germany, where it was described as early as 1821.
+Krivopecelj ("twisted stem" in Slovene, or Rheinischer Krummstiel in German) originates from the Rhineland in Germany, where it was described as early as 1821.
 The fruits are large and medium to thick in size, with a somewhat cylindrical shape and irregularities in size.
 Most of the fruits have the stem positioned sideways, which is where the name comes from.
 It ripens in October.
@@ -362,6 +362,43 @@ Sveže jabolko je kiselkasto, aroma pa naj bi spominjala na belo vino.
 Kislina se s skladiščenjem deloma izgubi in jabolko postane bolj sladkega okusa.
 Je namizno jabolko in tudi primerno za predelavo v mošt.
 V skladišču počaka do maja.
+`,
+    },
+  },
+
+  sentjakobka: {
+    name: {
+      en: "Šentjakobka",
+      sl: "Šentjakobka",
+    },
+    fruitCaption: {
+      en: "Fruit",
+      sl: "Jabolko",
+    },
+    treeCaption: {
+      en: "Tree",
+      sl: "Jablana",
+    },
+    description: {
+      en: `
+Šentjakobka is (to the best of our knowledge) a regional variety of unknown origin supposedly belonging to the rennet family.
+It is poorly described — it is familiar to locals in the Mislinja valley but hardly known even in wider Slovenia.
+It is an early apple with small fruits that ripen in late summer and early fall.
+The apple's base color is yellow-green, with pinkish-red streaks appearing as the fruit ripens.
+The skin is smooth and somewhat thick; the flesh is yellowish-white, flavorful, and slightly mealy in texture; the stem is thick, and the skin around the base of stem is often slightly rust-colored.
+The fresh apple has a pleasant, gentle sweet flavor, and is not particularly acidic when ripe.
+The apple bruises easily and stores poorly, so is best consumed fresh—it was purportedly a traditional local snack eaten by kids during the first few weeks of school in September.
+`,
+      sl: `
+Šentjakobka je lokalna sorta v Mislinjski dolini in je slabo poznana drugje po Sloveniji.
+Točnega izvora ne poznamo, vemo pa, da naj bi spadala med renete.
+Šentjakobka je zgodnje jabolko, zori avgusta in začetka septembra.
+Osnovna barva je zelenkasto-rumena, priže so roza-rdeče barve in se pokažejo, ko jabolko dozori.
+Koža je gladka in debela, steblo je prav tako debelo, pecljeva jamica pa pogosto rjasta.
+Meso je belo-rumene barve, mehko, in ima prijeten, nežen, sladek okus.
+Jabolko je občutljivo na udarce in dokaj hitro postane prhko, zato je najbolj primerno za sveže uživanje ali takojšno predelavo.
+Domačini jo cenijo med drugim tudi za štrudelj.
+Ni primerna za skladiščenje.
 `,
     },
   },
