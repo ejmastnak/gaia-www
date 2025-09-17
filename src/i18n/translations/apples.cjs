@@ -398,7 +398,7 @@ Koža je gladka in debela, steblo je prav tako debelo, pecljeva jamica pa pogost
 Meso je belo-rumene barve, mehko, in ima prijeten, nežen, sladek okus.
 Jabolko je občutljivo na udarce in dokaj hitro postane prhko, zato je najbolj primerno za sveže uživanje ali takojšno predelavo.
 Domačini jo cenijo med drugim tudi za štrudelj.
-Ni primerna za skladiščenje.
+Ni primerno za skladiščenje.
 `,
     },
   },
