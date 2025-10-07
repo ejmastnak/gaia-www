@@ -13,10 +13,10 @@ import carjevicTreeImage from '@/assets/img/apple-trees/carjevic.jpg?w=700'
 import grafenstajncTreeImage from '@/assets/img/apple-trees/grafenstajnc.jpg?w=700'
 import jonatanTreeImage from '@/assets/img/apple-trees/jonatan.jpg?w=700'
 import kanadkaTreeImage from '@/assets/img/apple-trees/kanadka.jpg?w=700'
+import koksovaRenetaTreeImage from '@/assets/img/apple-trees/koksova-reneta.jpg?w=700'
 import krivopeceljTreeImage from '@/assets/img/apple-trees/krivopecelj.jpg?w=700'
 import londonskiPepingTreeImage from '@/assets/img/apple-trees/londonski-peping.jpg?w=700'
 import mosanceljTreeImage from '@/assets/img/apple-trees/mosancelj.jpg?w=700'
-import sampanjskaRenetaTreeImage from '@/assets/img/apple-trees/sampanjska-reneta.jpg?w=700'
 import sentjakobkaTreeImage from '@/assets/img/apple-trees/sentjakobka.jpg?w=700'
 import zlataParmenaTreeImage from '@/assets/img/apple-trees/zlata-parmena.jpg?w=700'
 
@@ -28,10 +28,10 @@ import boskopFruitImage from '@/assets/img/apple-fruit/boskop.jpg?w=700'
 import carjevicFruitImage from '@/assets/img/apple-fruit/carjevic.jpg?w=700'
 import jonatanFruitImage from '@/assets/img/apple-fruit/jonatan.jpg?w=700'
 import kanadkaFruitImage from '@/assets/img/apple-fruit/kanadka.jpg?w=700'
+import koksovaRenetaFruitImage from '@/assets/img/apple-fruit/koksova-reneta.jpg?w=700'
 import krivopeceljFruitImage from '@/assets/img/apple-fruit/krivopecelj.jpg?w=700'
 import londonskiPepingFruitImage from '@/assets/img/apple-fruit/londonski-peping.jpg?w=700'
 import mosanceljFruitImage from '@/assets/img/apple-fruit/mosancelj.jpg?w=700'
-import sampanjskaRenetaFruitImage from '@/assets/img/apple-fruit/sampanjska-reneta.jpg?w=700'
 import zlataParmenaFruitImage from '@/assets/img/apple-fruit/zlata-parmena.jpg?w=700'
 
 </script>
@@ -54,12 +54,6 @@ import zlataParmenaFruitImage from '@/assets/img/apple-fruit/zlata-parmena.jpg?w
 
       <div class="flex flex-col gapy-y-3 max-w-2xl">
         <p>{{$t('apples.intro')}}</p>
-
-        <!-- Disclaimer -->
-        <p class="mt-3 text-base text-gray-700">
-          <span class="font-bold">{{$t('apples.imageDisclaimer.heading')}}</span>
-          {{$t('apples.imageDisclaimer.message')}}
-        </p>
       </div>
 
       <img 
@@ -166,6 +160,21 @@ import zlataParmenaFruitImage from '@/assets/img/apple-fruit/zlata-parmena.jpg?w
         </ApplePanel>
       </li>
 
+      <!-- Koksova reneta -->
+      <li>
+        <ApplePanel 
+          :title="$t('apples.koksovaReneta.name')"
+          :appleImg="koksovaRenetaFruitImage"
+          :appleImgAlt="$t('imgAlts.applesCrate')"
+          :treeImg="koksovaRenetaTreeImage"
+          :treeImgAlt="$t('imgAlts.appleBlossoms')"
+          :fruitCaption="$t('apples.koksovaReneta.fruitCaption')"
+          :treeCaption="$t('apples.koksovaReneta.treeCaption')"
+        >
+          {{$t('apples.koksovaReneta.description')}}
+        </ApplePanel>
+      </li>
+
       <!-- Krivopecelj -->
       <li>
         <ApplePanel 
@@ -208,21 +217,6 @@ import zlataParmenaFruitImage from '@/assets/img/apple-fruit/zlata-parmena.jpg?w
           :treeCaption="$t('apples.mošancelj.treeCaption')"
         >
           {{$t('apples.mošancelj.description')}}
-        </ApplePanel>
-      </li>
-
-      <!-- Šampanjska reneta -->
-      <li>
-        <ApplePanel 
-          :title="$t('apples.sampanjskaReneta.name')"
-          :appleImg="sampanjskaRenetaFruitImage"
-          :appleImgAlt="$t('imgAlts.applesCrate')"
-          :treeImg="sampanjskaRenetaTreeImage"
-          :treeImgAlt="$t('imgAlts.appleBlossoms')"
-          :fruitCaption="$t('apples.sampanjskaReneta.fruitCaption')"
-          :treeCaption="$t('apples.sampanjskaReneta.treeCaption')"
-        >
-          {{$t('apples.sampanjskaReneta.description')}}
         </ApplePanel>
       </li>
 

@@ -227,6 +227,29 @@ Skladiščeno počaka do spomladi.
     },
   },
 
+  koksovaReneta: {
+    name: {
+      en: "Cox's Orange Pippin (Koksova oranžna reneta)",
+      sl: "Koksova oranžna reneta",
+    },
+    fruitCaption: {
+      en: "Fruit",
+      sl: "Jabolko",
+    },
+    treeCaption: {
+      en: "Tree",
+      sl: "Jablana",
+    },
+    description: {
+      en: `
+Cox’s Orange Pippin originates from England, where it was first grown by Richard Cox in Buckinghamshire around 1825. It is one of the most renowned English dessert apples. The fruits are medium-sized and round, often slightly flattened. The base color is yellow or greenish-yellow, overlaid with orange-red and crimson striping, giving the apple a characteristic warm hue. It ripens from late September to early October. The flesh is fine-textured, creamy-yellow, crisp, and very juicy. The flavor is rich, aromatic, and complex — balancing sweetness and acidity with notes of pear, melon, and spice. It is best enjoyed fresh, though it can also be used for juice and desserts. It typically keeps until December under proper conditions, but does not store well for longer periods.
+`,
+      sl: `
+Koksova oranžna reneta izvira iz Anglije, kjer jo je okoli leta 1825 vzgojil Richard Cox v grofiji Buckinghamshire. Spada med najbolj znane angleške namizne sorte. Plodovi so srednje veliki, okrogli in rahlo sploščeni. Osnovna barva je rumena ali rumenkasto zelena, večji del plodu pa prekrivajo oranžno-rdeče in škrlatne priže. Dozori konec septembra oziroma v začetku oktobra. Meso je drobnozrnato, kremasto rumene barve, hrustljavo in sočno. Okus je bogat in aromatičen, uravnotežen med sladkostjo in kislostjo. Najbolj cenjena je za svežo porabo, primerna pa je tudi za sokove in sladice. Ob ustreznih pogojih jo lahko hranimo do decembra; za daljše skladiščenje ni obstojna.
+`,
+    },
+  },
+
   krivopecelj: {
     name: {
       en: "Rheinischer Krummstiel (Krivopecelj)",
